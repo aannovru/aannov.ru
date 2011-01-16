@@ -1,0 +1,284 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: white;
+  font: 13.34px helvetica, arial, clean, sans-serif;
+  *font-size: small;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+}
+
+/*h1 {
+  margin-bottom: 1em;
+}*/
+
+p {
+  margin: 1em 0;
+}
+
+a {
+  color: #00a;
+}
+
+a:hover {
+  color: black;
+}
+
+a:visited {
+  color: #a0a;
+}
+
+table {
+  font-size: inherit;
+  font: 100%;
+}
+
+/*****************************************************************************/
+/*
+/* Home
+/*
+/*****************************************************************************/
+
+ul.posts {
+  list-style-type: none;
+  margin-bottom: 1em;
+  text-align: left;
+}
+
+  ul.posts li {
+    line-height: 1.75em;
+  }
+
+  ul.posts span {
+    color: #aaa;
+    font-family: Monaco, "Courier New", monospace;
+    font-size: 80%;
+  }
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+
+.site {
+  font-size: 110%;
+  text-align: justify;
+  width: 40em;
+  margin: 1em auto 2em auto;
+  /*margin-top: 1em;*/
+  line-height: 1.5em;
+}
+
+.site .header {
+  color: #369;
+  font-weight: bold;
+  /*margin-bottom: 2em;*/
+  font-size: 150%;
+  /*text-align: center;*/
+}
+
+  #aa_motto_parent_div {
+    margin-bottom: 2em;
+  }  
+  
+  #aa_motto_img_div {
+      float: left;
+  }    
+
+  #aa_motto_img {
+    width: 80;
+    height: 79;
+    border: 0;
+    vertical-align: middle;
+  }
+
+  #aa_motto_child_div {
+    font-size: 100%;
+    color: #369;
+    text-align: left;
+    vertical-align: middle;
+    float: left;
+    margin-left: 2em;
+  }
+
+  #aa_motto_link_no_underline {
+    color: #369;
+    text-decoration: none;
+  }
+
+  .aa_motto_link_no_underline a {
+    color: #369;
+    text-decoration: none;
+  }
+
+  #aa_menu_div {
+    border-top: 4px solid #eee;
+    border-bottom: 4px solid #eee;
+  }
+
+  .site #home {
+    margin-left: 1em;    
+    margin-right: 1em;
+  }
+
+  .site #post {
+    margin-left: 1em;    
+    margin-right: 1em;
+  }
+
+  .site .header a {
+    color: #369;
+    text-decoration: none;
+  }
+
+.title {
+  color: #a00;
+  font-weight: bold;
+  margin-bottom: 1em;
+  /* FIXME */
+  clear: both;
+}
+
+  .site .title a {
+    color: #a00;
+    text-decoration: none;
+  }
+
+  /* FIXME: Why the style isn't get applied? */
+  .site .title div {
+    clear: both;
+  }
+  
+  .site .title a:hover {
+    color: black;
+  }
+
+  .site .title a.extra {
+    /*color: #aaa;*/
+    /*color: black;*/
+    /*color: #306;*/
+    color: #369;  
+    text-decoration: none;
+    /*text-decoration: underline;*/
+    margin-left: 1em;
+  }
+
+  .site .title a.extra:hover {
+    color: #accde8;
+    /*color: #aaa;*/
+    text-decoration: underline;
+    margin-left: 1em;
+  }
+
+  .site .meta {
+    color: #aaa;
+  }
+
+  .site .footer {
+    font-size: 80%;
+    color: #666;
+    border-top: 4px solid #eee;
+    margin-top: 2em;
+    overflow: hidden;
+  }
+
+    .site .footer .contact {
+      float: left;
+      margin-right: 3em;
+    }
+
+      .site .footer .contact a {
+        color: #8085C1;
+      }
+
+    .site .footer .rss {
+      margin-top: 1.1em;
+      margin-right: -.2em;
+      float: right;
+    }
+
+      .site .footer .rss img {
+        border: 0;
+      }
+
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+
+#post {
+
+}
+
+  /* standard */
+  .post_tags {
+    color: #aaa;
+  }
+
+  .post_tags_underline {
+    color: #aaa;
+    text-decoration: underline;
+  }
+
+  #post pre {
+    border: 1px solid #ddd;
+    background-color: #eef;
+    padding: 0 .4em;
+  }
+
+  #post ul,
+  #post ol {
+    margin-left: 1.35em;
+  }
+
+  #post code {
+    border: 1px solid #ddd;
+    background-color: #eef;
+    font-size: 85%;
+    padding: 0 .2em;
+  }
+
+    #post pre code {
+      border: none;
+    }
+
+  /* terminal */
+
+  #post pre.terminal {
+    border: 1px solid black;
+    background-color: #333;
+    color: white;
+  }
+
+  #post pre.terminal code {
+    background-color: #333;
+  }
+
+#related {
+  margin-top: 2em;
+}
+
+  #related h2 {
+    margin-bottom: 1em;
+  }
+/* vim: set sts=2 sw=2 et: */

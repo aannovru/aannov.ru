@@ -1,0 +1,72 @@
+---
+layout: default
+#title: Анонимные Алкоголики Нижний Новгород
+aa_ru: Анонимные Алкоголики
+aa_nn_ru: Анонимные Алкоголики Нижний Новгород
+aa_nn_email_ru: aannovru@gmail.com
+aa_nn_phone_ru: "+79601979248"
+aa_motto_ru: Выздоровление Единство Служение
+aa_12_steps_ru: 12 Шагов
+menu_home_ru: Главная
+menu_solution_ru: 12 Шагов
+menu_community_ru: Как нас найти
+menu_stories_ru: Наши истории
+menu_links_ru: Ссылки
+menu_news_ru: Новости
+private:
+post_link_ru: ссылка
+---
+
+{% case page.category %} 
+  {% when 'news' %} 
+    {% assign category_ru = page.menu_news_ru %}
+  {% when 'solution' %} 
+    {% assign category_ru = page.menu_solution_ru %}
+  {% when 'links' %} 
+    {% assign category_ru = page.menu_links_ru %}
+  {% when 'community' %} 
+    {% assign category_ru = page.menu_community_ru %}
+  {% when 'stories' %} 
+    {% assign category_ru = page.menu_stories_ru %}
+  {% else %} 
+    {% assign category_ru = 'nil' %}  
+{% endcase %} 
+
+
+<div id="post">
+  {% if category_ru and category_ru != 'nil' %}
+    <p>
+        <a href="/{{ page.category}}">→{{ category_ru}}</a>
+    
+        {% if page.tags.size > 0 %}
+          <br />
+          <span class="post_tags">Метки:&nbsp;</span>
+          {% for tag in page.tags %}
+            <a class="post_tags_underline" href="/{{page.category}}/index.html#{{tag}}">
+              <u>{{ tag }}</u>
+            </a>
+            &nbsp;&nbsp;
+          {% endfor %}      
+        {% endif %}
+    </p>    
+  {% endif %}
+
+    
+  <h1>{{ page.title }}</h1>
+  <p class="meta">
+    {{ page.date | date:"%d.%m.%Y" }}
+    <a href="{{ post.url }}">(ссылка)</a>   
+  </p>
+
+  {{ content }}
+</div>
+
+<!--<div id="related">
+  <h2>Related Posts</h2>
+  <ul class="posts">
+    {% for post in site.related_posts limit:3 %}
+      <li><span>{{ post.date | date:"%d.%m.%Y" }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>-->
+<!-- vim: set sts=2 sw=2 et: --> 

@@ -1,0 +1,52 @@
+---
+layout: default
+#title: Анонимные Алкоголики Нижний Новгород
+aa_ru: Анонимные Алкоголики
+aa_nn_ru: Анонимные Алкоголики Нижний Новгород
+aa_nn_email_ru: aannovru@gmail.com
+aa_nn_phone_ru: "+79601979248"
+aa_motto_ru: Выздоровление Единство Служение
+aa_12_steps_ru: 12 Шагов
+menu_home_ru: Главная
+menu_solution_ru: 12 Шагов
+menu_community_ru: Как нас найти
+menu_stories_ru: Наши истории
+menu_links_ru: Ссылки
+menu_news_ru: Новости
+private:
+---
+
+<div id="home">
+  <strong>Алкоголизм - </strong><a href="/solution">Выход есть!</a>
+  <p>
+    Анонимные Алкоголики (АА) - это Всемирное
+    <a href="/community">Содружество</a>,
+    объединяющее мужчин и женщин, которые делятся друг с другом своим
+    опытом, силами и надеждами, чтобы решить свою общую проблему и помочь
+    другим <a href="/solution">избавиться от алкоголизма.</a> 
+  </p>
+  {% assign tag = 'абв' %}
+  {% assign category = 'news' %}
+  <!--
+  {% comment %}
+  {% assign show_author = 'true' %}
+  {% assign truncatewords = 'true' %}
+  {% endcomment %}
+  -->
+  {% include find_by_news_category.html %}
+
+  {% if site.categories.news.size > 3 %}
+    <a href="/news">→ Все новости</a>
+  {% endif %}         
+                    
+  <!--
+  {% comment %}
+  {% assign category = 'новичку' %}
+  {% assign tag = 'абв' %}
+  {% assign show_author = 'true' %}
+  {% assign truncatewords = 'true' %}
+  {% include find_by_category_and_tag.html %}
+  {% endcomment %}
+  -->
+</div>
+<!-- vim: set sts=2 sw=2 et: --> 

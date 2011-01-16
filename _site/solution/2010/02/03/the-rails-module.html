@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<!-- <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us"> -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru-ru" lang="ru-ru"> 
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <title>Анонимные Алкоголики Нижний Новгород</title>
+   <meta name="author" content="Tom Preston-Werner" />
+   <link href="http://feeds.feedburner.com/tom-preston-werner" rel="alternate" title="Tom Preston-Werner" type="application/atom+xml" />
+   <link rel="shortcut icon" href="/favicon.ico" />
+
+
+   <!-- syntax highlighting CSS -->
+   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+
+   <!-- Homepage CSS -->
+   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+
+   <!-- Typekit -->
+   <!--<script type="text/javascript" src="http://use.typekit.com/jpd0pfm.js"></script>
+   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>-->
+</head>
+<body>
+
+<!-- ClickTale Top part -->
+<script type="text/javascript">
+  var WRInitTime=(new Date()).getTime();
+</script>
+<!-- ClickTale end of Top part -->
+
+<div class="site">
+  <h1 class="header"><a href="/">Анонимные Алкоголики Нижний Новгород</a></h1>
+  <div id="aa_motto_parent_div">      
+    <div id="aa_motto_img_div">  
+      <a href="/"><img id="aa_motto_img" src="/images/aa-logo-en.gif"
+          alt="Выздоровление Единство Служение" />
+      </a>    
+    </div>    
+    <div id="aa_motto_child_div" >
+      <p>
+        <a id="aa_motto_link_no_underline" class="aa_motto_link_no_underline" href="/solution">    
+          Выздоровление Единство Служение
+        </a>
+        ♦ 
+        <a id="aa_motto_link_no_underline" class="aa_motto_link_no_underline" href="/solution">    
+          12 Шагов
+        </a>
+        <br />
+        +79601979248 <br />
+        <a href="mailto:aannovru@gmail.com">aannovru@gmail.com</a>        
+      </p>
+    </div>
+  </div>
+
+  <div class="title" id="aa_menu_div">
+    <!--<a href="/">Анонимные Алкоголики</a>-->
+    <a class="extra" href="/">Главная</a>
+    <a class="extra" href="/solution">12 Шагов</a>
+    <a class="extra" href="/community">Как нас найти</a>
+    <a class="extra" href="/stories">Наши истории</a>
+    <a class="extra" href="/links">Ссылки</a>
+  </div>
+
+  
+    
+   
+
+
+<div id="post">
+  
+    <p>
+        <a href="/solution">→12 Шагов</a>
+    
+        
+          <br />
+          <span class="post_tags">Метки:&nbsp;</span>
+          
+            <a class="post_tags_underline" href="/solution/index.html#метка1">
+              <u>метка1</u>
+            </a>
+            &nbsp;&nbsp;
+          
+            <a class="post_tags_underline" href="/solution/index.html#метка2">
+              <u>метка2</u>
+            </a>
+            &nbsp;&nbsp;
+                
+        
+    </p>    
+  
+
+    
+  <h1>The Rails Module (in Rails 3)</h1>
+  <p class="meta">
+    03.02.2010
+    <a href="">(ссылка)</a>   
+  </p>
+
+  <p>So, you may have noticed this in the <a href="http://guides.rails.info/3_0_release_notes.html">Rails 3 Changelog</a>&#8230;</p>
+<blockquote>
+<p>Railties now deprecates:</p>
+<p><code>RAILS_ROOT</code> in favour of <code>Rails.root</code>,<br />
+<code>RAILS_ENV</code> in favour of <code>Rails.env</code>, and<br />
+<code>RAILS_DEFAULT_LOGGER</code> in favour of <code>Rails.logger</code>.</p>
+</blockquote>
+<p>Great&#8230;but why? Better alternatives have existed for a while in Rails core (some since 2.1.0), and it&#8217;s about damn time you start using them properly. There&#8217;s also some other helpful methods on the <code>Rails</code> module we&#8217;ll explore in this post.</p>
+<h2>Rails.root</h2>
+<p>This is a big one. Every Rails developer has done <code>File.join(RAILS_ROOT, "path", "to", "something")</code> before. Stop that. And don&#8217;t just replace <code>RAILS_ROOT</code> with <code>Rails.root</code> either. <code>Rails.root</code> is a <a href="http://ruby-doc.org/stdlib/libdoc/pathname/rdoc/index.html">Pathname</a>, which means you can do cool stuff like this:</p>
+<pre><code>$ rails console
+&gt;&gt; Rails.root
+=&gt; #&lt;Pathname:/Users/qrush/Dev/ruby/new_app&gt;
+
+&gt;&gt; Rails.root.join("config", "database.yml")
+=&gt; #&lt;Pathname:/Users/qrush/Dev/ruby/new_app/config/database.yml&gt;
+
+&gt;&gt; _.read
+=&gt; "development:\n ...
+</pre><p></code></p>
+<h2>Rails.env</h2>
+<p>Same deal, you&#8217;ve probably done something like <code>if RAILS_ENV == "production"</code> in your Rails apps. Stop that too. Oh, you thought this would just be a <code>String</code>?</p>
+<pre><code>$ rails console
+&gt;&gt; Rails.env
+=&gt; "development"
+
+&gt;&gt; Rails.env.class
+=&gt; ActiveSupport::StringInquirer
+</code></pre>
+<p><a href="http://www.hulu.com/watch/124915/family-guy-back-to-jail#s-p1-sr-i1">Whaaaat?</a> Actually, this is a really neat utility. From <code>activesupport/lib/active_support/string_inquirer.rb</code>:</p>
+<p>Liquid error: No such file or directory &#8211; pygmentize -l ruby -f html -O encoding=utf-8</p>
+<p>Awesome. This lets us do stuff like this in <a href="http://github.com/qrush/gemcutter">Gemcutter</a>:</p>
+<p>Liquid error: No such file or directory &#8211; pygmentize -l ruby -f html -O encoding=utf-8</p>
+<h2>Rails.logger</h2>
+<p>This is your favorite <code>Logger</code> class, just now without an annoying constant name of <code>RAILS_DEFAULT_LOGGER</code>. Much easier to remember.</p>
+<pre><code>$ rails console
+&gt;&gt; Rails.logger
+=&gt; #&lt;ActiveSupport::BufferedLogger:0x21de384 ...
+
+&gt;&gt; Rails.logger.info "zomg!"
+=&gt; "zomg!\n"
+
+&gt;&gt; File.read("log/development.log")
+=&gt; "zomg!\n"
+</code></pre>
+<h2>Rails.public_path</h2>
+<p>A helpful shortcut to what your <code>public</code> assets directory is called, probably to use with <code>Rails.root</code>. (Why this isn&#8217;t a <code>Pathname</code> is beyond me, sounds like a good patch to whip up!)</p>
+<pre><code>$ rails console
+&gt;&gt; Rails.public_path
+=&gt; "public"
+</code></pre>
+<h2>Rails.cache</h2>
+<p>Now the rabbit hole goes deeper. This is a unified interface to memory/file/you name it caching stores that can be used with Rails. If you&#8217;ve ever made some sort of caching global variable, like <code>$memcache</code> or <code>CACHE</code>, you should <a href="http://guides.rubyonrails.org/caching_with_rails.html">read up here.</a></p>
+<pre><code>$ rails console
+&gt;&gt; Rails.cache
+=&gt; #&lt;ActiveSupport::Cache::MemoryStore:0x21e04b8 @data={}&gt;
+
+&gt;&gt; Rails.cache.write("rush", "limelight")
+=&gt; "limelight"
+
+&gt;&gt; Rails.cache.read("rush")
+=&gt; "limelight"
+
+&gt;&gt; Rails.cache
+=&gt; #&lt;ActiveSupport::Cache::MemoryStore:0x21e04b8
+     @data={"rush"=&gt;"limelight"}&gt;
+</code></pre>
+<h2>Rails.application</h2>
+<p>The new <code>Rails::Application</code> class encapsulates <strong>a lot</strong> of what was thrown around in Railties in previous releases of Rails, and really represents the ultimate embracing of Rack&#8217;s modularity. <a href="http://www.engineyard.com/blog/2010/rails-and-merb-merge-rails-core-part-4-of-6/">Yehuda&#8217;s post</a> can explain it further, but the important thing is now you can run multiple <code>Rails::Application</code>s in the same process if you need to, and it&#8217;s promoting decoupling even further by starting from the inside of the framework. Awesome.</p>
+<pre><code>$ rails console
+&gt;&gt; Rails.application
+=&gt; #&lt;NewApp::Application:0x13896b0 ...
+
+&gt;&gt; Rails.application.routes
+=&gt; #&lt;ActionDispatch::Routing::RouteSet:0x162877c ...
+
+&gt;&gt; Rails.application.routes.recognize_path("rails/info/properties")
+=&gt; {:controller=&gt;"rails/info", :action=&gt;"properties"}
+</code></pre>
+<h2>Rails.configuration</h2>
+<p>This gives you global access to all of the configuration data set up in your <code>config/application.rb</code> and various <code>config/environments/#{Rails.env}.rb</code> files, if you should ever need it.</p>
+<pre><code>$ rails console
+&gt;&gt; Rails.configuration
+=&gt; #&lt;Rails::Application::Configuration:0x7e1ab0 ...
+
+&gt;&gt; pp Rails.configuration.middleware
+[ActionDispatch::Static,
+ Rack::Lock,
+ Rack::Runtime,
+ Rails::Rack::Logger,
+ ActionDispatch::ShowExceptions,
+ ActionDispatch::Callbacks,
+ ActionDispatch::Cookies,
+ ActionDispatch::Session::CookieStore,
+ ActionDispatch::Flash,
+ ActionDispatch::Cascade,
+ ActionDispatch::ParamsParser,
+ Rack::MethodOverride,
+ ActionDispatch::Head,
+ ActiveRecord::ConnectionAdapters::ConnectionManagement,
+ ActiveRecord::QueryCache]
+=&gt; nil
+</code></pre>
+<h2>Wrapup</h2>
+<p>I&#8217;m sure some are missing here (like <code>Rails.version</code>), but these are the ones that I think matter most to Rails developers. If something else should be covered here, let me know!</p>
+</div>
+
+<!--<div id="related">
+  <h2>Related Posts</h2>
+  <ul class="posts">
+    
+      <li><span>16.01.2011</span> &raquo; <a href="/news/2011/01/16/id-00005.html">I've just written a helper new_post.rb</a></li>
+    
+      <li><span>16.01.2011</span> &raquo; <a href="/solution/2011/01/16/id-00004.html">Молитва Нашей Шаговой Группы</a></li>
+    
+      <li><span>16.01.2011</span> &raquo; <a href="/news/2011/01/16/id-00003.html">Switching to Rails. This an Example of a Post. (markdown)</a></li>
+    
+  </ul>
+</div>-->
+<!-- vim: set sts=2 sw=2 et: --> 
+
+  
+  <div class="footer">
+    <div class="contact">
+      <p>
+        Анонимные Алкоголики Нижний Новгород<br />
+        +79601979248<br />
+        <a href="mailto:aannovru@gmail.com">aannovru@gmail.com</a>        
+      </p>
+    </div>
+    <!--<div class="contact">
+      <p>
+        <br />
+        <a href="http://twitter.com/mojombo/">twitter.com/mojombo</a><br />
+        <a href="http://flickr.com/photos/mojombo/">flickr.com/photos/mojombo</a>
+      </p>
+    </div>-->
+    <div class="rss">
+      <a href="http://feeds.feedburner.com/tom-preston-werner">
+        <img src="/images/rss.png" alt="Subscribe to RSS Feed" />
+      </a>
+    </div>
+  </div>
+</div>
+
+<!--<a href="http://github.com/mojombo"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>-->
+
+<!-- ClickTale Bottom part -->
+<!--<div id="ClickTaleDiv" style="display: none;"></div>
+<script type="text/javascript">
+if(document.location.protocol!='https:')
+  document.write(unescape("%3Cscript%20src='http://s.clicktale.net/WRb.js'%20type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+if(typeof ClickTale=='function') ClickTale(206,0.3,"www03");
+</script>-->
+<!-- ClickTale end of Bottom part -->
+
+<!-- Google Analytics -->
+<!--<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-6016902-1");
+pageTracker._trackPageview();
+</script>-->
+<!-- Google Analytics end -->
+
+</body>
+</html>
+<!-- vim: set sts=2 sw=2 et: --> 

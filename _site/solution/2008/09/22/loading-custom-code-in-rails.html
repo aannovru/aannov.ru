@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<!-- <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us"> -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru-ru" lang="ru-ru"> 
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <title>Анонимные Алкоголики Нижний Новгород</title>
+   <meta name="author" content="Tom Preston-Werner" />
+   <link href="http://feeds.feedburner.com/tom-preston-werner" rel="alternate" title="Tom Preston-Werner" type="application/atom+xml" />
+   <link rel="shortcut icon" href="/favicon.ico" />
+
+
+   <!-- syntax highlighting CSS -->
+   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+
+   <!-- Homepage CSS -->
+   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+
+   <!-- Typekit -->
+   <!--<script type="text/javascript" src="http://use.typekit.com/jpd0pfm.js"></script>
+   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>-->
+</head>
+<body>
+
+<!-- ClickTale Top part -->
+<script type="text/javascript">
+  var WRInitTime=(new Date()).getTime();
+</script>
+<!-- ClickTale end of Top part -->
+
+<div class="site">
+  <h1 class="header"><a href="/">Анонимные Алкоголики Нижний Новгород</a></h1>
+  <div id="aa_motto_parent_div">      
+    <div id="aa_motto_img_div">  
+      <a href="/"><img id="aa_motto_img" src="/images/aa-logo-en.gif"
+          alt="Выздоровление Единство Служение" />
+      </a>    
+    </div>    
+    <div id="aa_motto_child_div" >
+      <p>
+        <a id="aa_motto_link_no_underline" class="aa_motto_link_no_underline" href="/solution">    
+          Выздоровление Единство Служение
+        </a>
+        ♦ 
+        <a id="aa_motto_link_no_underline" class="aa_motto_link_no_underline" href="/solution">    
+          12 Шагов
+        </a>
+        <br />
+        +79601979248 <br />
+        <a href="mailto:aannovru@gmail.com">aannovru@gmail.com</a>        
+      </p>
+    </div>
+  </div>
+
+  <div class="title" id="aa_menu_div">
+    <!--<a href="/">Анонимные Алкоголики</a>-->
+    <a class="extra" href="/">Главная</a>
+    <a class="extra" href="/solution">12 Шагов</a>
+    <a class="extra" href="/community">Как нас найти</a>
+    <a class="extra" href="/stories">Наши истории</a>
+    <a class="extra" href="/links">Ссылки</a>
+  </div>
+
+  
+    
+   
+
+
+<div id="post">
+  
+    <p>
+        <a href="/solution">→12 Шагов</a>
+    
+        
+          <br />
+          <span class="post_tags">Метки:&nbsp;</span>
+          
+            <a class="post_tags_underline" href="/solution/index.html#Новичку">
+              <u>Новичку</u>
+            </a>
+            &nbsp;&nbsp;
+                
+        
+    </p>    
+  
+
+    
+  <h1>Loading custom code in Rails</h1>
+  <p class="meta">
+    22.09.2008
+    <a href="">(ссылка)</a>   
+  </p>
+
+  <p>This is a question I&#8217;ve seen asked (including by myself) in #rubyonrails on Freenode quite a few times, and I figured I&#8217;d settle it once and for all. There&#8217;s a few different ways to get custom code loaded into your Rails app. The first solution to this is understanding how code gets loaded with Ruby in the first place, which I usually get confused with. Let&#8217;s do a little recap about your different options that Ruby and Rails provides:</p>
+<ul>
+	<li><strong><a href="http://www.ruby-doc.org/core/classes/Kernel.html#M005966">load</a>: </strong>Loads and executes the Ruby program in the file <em>filename</em>.</li>
+	<li><strong><a href="http://www.ruby-doc.org/core/classes/Kernel.html#M005967">require</a>: </strong>Ruby tries to load the library<em></em>, returning <tt>true</tt> if successful.</li>
+	<li><strong><a href="http://wiki.rubyonrails.org/rails/pages/RequireDependency">require_dependency</a>: </strong>Reloads source files on each request when in development mode, so changes are reflected on the next request.</li>
+	<li><strong>require_or_load: </strong>There doesn&#8217;t seem to be much documentation on this, but it doesn&#8217;t seem as safe and <a href="http://github.com/rails/rails/tree/master/activesupport/CHANGELOG#L1123">it may result in your code being loaded twice</a>. Review the code <a href="http://github.com/rails/rails/tree/master/activesupport/lib/active_support/dependencies.rb#L228-264">here</a> before you use it.</li>
+</ul>
+<p>So, the most ideal keyword to use is <strong>require_dependency</strong>, since it will reload code during development mode when you make changes. Otherwise, you&#8217;ll have to constantly restart your development server/console, and that just sucks. Plus, it&#8217;ll work perfectly in production mode and only load the files once.</p>
+<p>So, where&#8217;s the best place to put the files with your custom code? Well, there&#8217;s a few folders that are on the Rails load path in the first place: <strong>app, lib, vendor and mock</strong> <strong>paths</strong> (<a href="http://github.com/rails/rails/tree/master/railties/lib/initializer.rb#L607-609">source</a>) you need to add different folders to the load path, that&#8217;s more than possible. In your config/environment.rb, add whatever folder you want in the config.load_paths variable. For instance,</p>
+<p>Liquid error: No such file or directory &#8211; pygmentize -l ruby -f html -O encoding=utf-8</p>
+<p>This will load the custom directory (RAILS_ROOT/custom) to the load path so you can use those files. The problem with files you put in these directories is that they may be in the load path, but you&#8217;ll have to require the custom files you want in each class that you&#8217;ll want to use them. The solution to this is to get the file required for the entire Rails environment, which is a lot easier than you&#8217;d think.</p>
+<p>Let&#8217;s say we want to load some extensions to String for your app. Being a forward thinking developer, you&#8217;ve created a new folder in lib, called core_ext, where you can put other ruby files in the future if you need to. So in lib/core_ext/string.rb you&#8217;ve dumped for example:</p>
+<p>Liquid error: No such file or directory &#8211; pygmentize -l ruby -f html -O encoding=utf-8</p>
+<p>The folder config/initializers contains files that run once when your Rails environment is getting set up. Create a new file in that folder and this will run through your custom folder and make sure that the files are required properly.</p>
+<p>Liquid error: No such file or directory &#8211; pygmentize -l ruby -f html -O encoding=utf-8</p>
+<p>So now, you can call <code>require_core_ext</code> in whatever class you want, and it will reload all of your custom code if you&#8217;re in development mode or if you&#8217;re in production, it will only load your custom classes when the file is first loaded. Now you can call <code>String#slugify</code> all you want, and if you make changes to the method in lib/core_ext it will be reflected when you refresh the page.</p>
+<p>If you&#8217;ve got any other examples of how you bring in custom code, let me know, as I&#8217;d love to find out.</p>
+</div>
+
+<!--<div id="related">
+  <h2>Related Posts</h2>
+  <ul class="posts">
+    
+      <li><span>16.01.2011</span> &raquo; <a href="/news/2011/01/16/id-00005.html">I've just written a helper new_post.rb</a></li>
+    
+      <li><span>16.01.2011</span> &raquo; <a href="/solution/2011/01/16/id-00004.html">Молитва Нашей Шаговой Группы</a></li>
+    
+      <li><span>16.01.2011</span> &raquo; <a href="/news/2011/01/16/id-00003.html">Switching to Rails. This an Example of a Post. (markdown)</a></li>
+    
+  </ul>
+</div>-->
+<!-- vim: set sts=2 sw=2 et: --> 
+
+  
+  <div class="footer">
+    <div class="contact">
+      <p>
+        Анонимные Алкоголики Нижний Новгород<br />
+        +79601979248<br />
+        <a href="mailto:aannovru@gmail.com">aannovru@gmail.com</a>        
+      </p>
+    </div>
+    <!--<div class="contact">
+      <p>
+        <br />
+        <a href="http://twitter.com/mojombo/">twitter.com/mojombo</a><br />
+        <a href="http://flickr.com/photos/mojombo/">flickr.com/photos/mojombo</a>
+      </p>
+    </div>-->
+    <div class="rss">
+      <a href="http://feeds.feedburner.com/tom-preston-werner">
+        <img src="/images/rss.png" alt="Subscribe to RSS Feed" />
+      </a>
+    </div>
+  </div>
+</div>
+
+<!--<a href="http://github.com/mojombo"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>-->
+
+<!-- ClickTale Bottom part -->
+<!--<div id="ClickTaleDiv" style="display: none;"></div>
+<script type="text/javascript">
+if(document.location.protocol!='https:')
+  document.write(unescape("%3Cscript%20src='http://s.clicktale.net/WRb.js'%20type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+if(typeof ClickTale=='function') ClickTale(206,0.3,"www03");
+</script>-->
+<!-- ClickTale end of Bottom part -->
+
+<!-- Google Analytics -->
+<!--<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-6016902-1");
+pageTracker._trackPageview();
+</script>-->
+<!-- Google Analytics end -->
+
+</body>
+</html>
+<!-- vim: set sts=2 sw=2 et: --> 

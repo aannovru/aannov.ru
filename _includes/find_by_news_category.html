@@ -1,0 +1,26 @@
+{% assign category = 'news' %}
+{% if site.categories.news.size > 0 %}
+  <p>
+    <a href="/{{ category }}">→{{ page.menu_news_ru }}</a>
+  </p>
+{% endif %}
+<ul class="posts">
+  {% for post in site.categories.news limit:3 %}
+    <li>
+        <span>{{ post.date | date:"%d.%m.%Y" }}</span> &raquo;
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <br />
+
+        {% if my_truncatewords == 'true' %}
+          {{ post.content | strip_html | truncatewords: 35 }}        
+          <br />
+          <a href="{{ post.url }}/">Весь текст ...</a>)
+        {% endif %}
+
+        {% if post.author and show_author == 'true' %}
+            <span>автор: {{ post.author }}</span>
+        {% endif %}    
+    </li>    
+  {% endfor %}
+</ul>
+<!-- vim: set sts=2 sw=2 et: --> 

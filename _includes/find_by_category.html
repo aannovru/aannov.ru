@@ -1,0 +1,27 @@
+<p>    
+  {% if show_breadcrumbs == 'true' category_ru and category %}
+    <a href="/{{ category }}">→{{ category_ru }}</a> &gt;
+  {% endif %}  
+</p>
+<ul class="posts">
+  {% for post in site.posts %}
+    {% if post.categories contains category %} 
+      <li>
+        <span>{{ post.date | date:"%d.%m.%Y" }}</span> &raquo;
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <br />
+
+        {% if my_truncatewords == 'true' %}
+          {{ post.content | strip_html | truncatewords: 35 }}        
+          <br />
+          <a href="{{ post.url }}/">Весь текст ...</a>)
+        {% endif %}
+
+        {% if post.author and show_author == 'true' %}
+            <span>автор: {{ post.author }}</span>
+        {% endif %}    
+      </li>
+    {% endif %}    
+  {% endfor %}
+</ul>
+<!-- vim: set sts=2 sw=2 et: --> 

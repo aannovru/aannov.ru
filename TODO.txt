@@ -1,0 +1,3 @@
+#   YAML front matter block is duplicated in index.html and _layouts/post.html.
+    This doesn't conform to the DRY (Don't Repeat Yourself) principle
+#   clean up the header of the site: logo, motto, layout in screen.css / default.html

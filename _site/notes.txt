@@ -1,0 +1,2 @@
+#   .site CSS can be found in css/screen.css
+#   an example of tag usage can be found at _posts/solution/2010-04-18-ironruby-drops-make-some-noise.textile

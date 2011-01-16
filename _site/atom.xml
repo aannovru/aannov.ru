@@ -1,0 +1,902 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Tom Preston-Werner</title>
+ <link href="http://tom.preston-werner.com/atom.xml" rel="self"/>
+ <link href="http://tom.preston-werner.com/"/>
+ <updated>2011-01-16T23:50:06+03:00</updated>
+ <id>http://tom.preston-werner.com/</id>
+ <author>
+   <name>Tom Preston-Werner</name>
+   <email>tom@mojombo.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>I've just written a helper new_post.rb</title>
+   <link href="http://tom.preston-werner.com/news/2011/01/16/id-00005.html"/>
+   <updated>2011-01-16T00:00:00+03:00</updated>
+   <id>http://tom.preston-werner.com/news/2011/01/16/id-00005</id>
+   <content type="html">&lt;p&gt;Ruby is designed to make programmers happy&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Молитва Нашей Шаговой Группы</title>
+   <link href="http://tom.preston-werner.com/solution/2011/01/16/id-00004.html"/>
+   <updated>2011-01-16T00:00:00+03:00</updated>
+   <id>http://tom.preston-werner.com/solution/2011/01/16/id-00004</id>
+   <content type="html">&lt;p&gt;Мы берёмся за руки и вместе можем сделать то,&lt;br /&gt;
+Что в одиночку нам не под силу.&lt;br /&gt;
+Прошло чувство отчаянья.&lt;br /&gt;
+Теперь никто из нас не зависит от своей шаткой воли.&lt;br /&gt;
+Теперь мы вместе стоим,&lt;br /&gt;
+Протягивая руки к Силе,&lt;br /&gt;
+Превышающую нашу собственную.&lt;br /&gt;
+Держась за руки,&lt;br /&gt;
+Мы находим любовь и понимание,&lt;br /&gt;
+Которых не было и в самых прекрасных наших мечтах.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Switching to Rails. This an Example of a Post. (markdown)</title>
+   <link href="http://tom.preston-werner.com/news/2011/01/16/id-00003.html"/>
+   <updated>2011-01-16T00:00:00+03:00</updated>
+   <id>http://tom.preston-werner.com/news/2011/01/16/id-00003</id>
+   <content type="html">&lt;p&gt;For a while now I've been &lt;span style=&quot;text-decoration: line-through;&quot;&gt;obsessed&lt;/span&gt;
+working with Ruby on Rails. Rails has caused me to switch from doing .NET/ASP.NET development
+on my desktop PC using Windows XP to owning a Mac Mini and putting Ubuntu on Dell laptop.
+Obviously, this is a huge change, and I'm going to explain why I've switched.&lt;/p&gt;
+
+&lt;h3&gt;Rails is a combination of software engineering principles and web programming best practices.&lt;/h3&gt;
+
+
+&lt;p&gt;One of my goals, by having this site, is to learn how to write proper english.
+It's my second language, and it's specially dear to me, because most of the
+things I've learned that have shapen the way I am, my work and my process,
+were written in english.  It really is an awesome language to grasp the
+meaning/message of text since, as a basic comparison, you can get the idea in
+less words than if it were written in spanish (for example).&lt;/p&gt;
+
+&lt;p&gt;I'm starting with
+&lt;a href=&quot;http://www.economist.com/research/StyleGuide/&quot;&gt;The Economist Style Guide&lt;/a&gt;.
+My first area of focus is punctuation. Major missunderstanding I have is
+with the semicolon (&quot;;&quot;).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.economist.com/research/styleGuide/index.cfm?page=805705&quot;&gt;Semi-colons&lt;/a&gt;
+Semi-colons should be used to mark a pause longer than a comma and shorter than
+a full stop. Don't overdo them.&lt;/p&gt;
+
+&lt;p&gt;I already knew a lot about what I &lt;em&gt;didn't&lt;/em&gt; want. I was tired of complicated
+blogging engines like WordPress and Mephisto. I wanted to write great posts,
+not style a zillion template pages, moderate comments all day long, and
+constantly lag behind the latest software release. Something like Posterous
+looked attractive, but I wanted to style my blog, and it needed to be hosted
+at the domain of my choosing. For the same reason, other hosted sites
+(wordpress.com, blogger.com) were disqualified. There are a few people
+directly using GitHub as a blog (which is very cool), but that's a bit
+too much of an impedance mismatch for my tastes.&lt;/p&gt;
+
+&lt;p&gt;In this respect Rails is a dream: Active Record. RESTful architecture.
+Built-in xml/json/etc web services. TDD/BDD practices. I could go on and on, but all
+that matters is &lt;strong&gt;writing Rails applications is an enjoyable&lt;/strong&gt; &lt;strong&gt;and
+fun process&lt;/strong&gt;. You're not writing &lt;a href=&quot;http://www.php.net/&quot;&gt;scripts for pages&lt;/a&gt;,
+not having to worry about &lt;a href=&quot;http://asp.net&quot;&gt;the nuts and bolts&lt;/a&gt; of creating a site, or &lt;a href=&quot;http://java.sun.com/products/ejb/&quot;&gt;dealing with painful XML files&lt;/a&gt;. Convention over configuration is a real path to productivity, and it's going to take the other competing systems a long time to catch up to the headway that Rails is making on a daily basis. Rails isn't the solution to everything, and &lt;a href=&quot;http://www.zeitgeist.com/wp-content/uploads/2008/06/failwhale.png&quot;&gt;it certainly has had it share of growing pains&lt;/a&gt;, but it's being proven again and again as the most efficient way to create data-driven web applications that are very reliable and follow web standards.&lt;/p&gt;
+
+&lt;h3&gt;Tools on *nix based systems are a lot better for Rails development.&lt;/h3&gt;
+
+
+&lt;p&gt;&lt;a href=&quot;http://java.sys-con.com/node/313594&quot;&gt;DHH puts it best&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;em&gt;The stigma of being a Web programmer still using Windows will increase.&lt;/em&gt;&lt;/p&gt;
+
+
+&lt;p&gt;For me, it's not that much of a stigma, but more of a practical issue. The power of the Unix command line combined with tools like Textmate makes development on OSX and Linux machines for Rails a LOT easier. The tools on the Windows side are there, but they're usually not as powerful and not as easy to set up. Cygwin is piss slow. Most of the non-Visual Studio text editors suck. The command line sucks, and &lt;a href=&quot;http://litanyagainstfear.com/blog/2008/03/20/pimping-the-windows-command-line/&quot;&gt;I tried really hard to make it not suck&lt;/a&gt;. &lt;a href=&quot;http://blog.mmediasys.com/2008/03/06/is-windows-a-supported-platform-for-ruby-i-guess-not/&quot;&gt; Even Ruby is slower&lt;/a&gt;! All of this pain goes away on OSX/Ubuntu. Rails would be a lot different if it started on Windows, and I wonder if it would really be the same platform. For now though, I'm loving the productivity boost that I'm experencing and trying out different operating systems, and it serves my needs well.&lt;/p&gt;
+
+&lt;h3&gt;Bleak future of .NET development.&lt;/h3&gt;
+
+
+&lt;p&gt;This one will probably get me flamed the most. It's not that I don't like .NET, it's just that I couldn't see myself using it any more professionally. I'm really not a fan of VB.NET, especially compared to Ruby. It's a cruft filled language that &lt;a href=&quot;http://www.panopticoncentral.net/archive/2007/11/14/22589.aspx&quot;&gt;makes me feel like Mort when writing it.&lt;/a&gt; Great things are possible with the language, but the result is so unreadable and ugly that I don't feel it's worth it anymore to use, especially if I can choose not to. C# on the other hand I love and always will, especially over Java.&lt;/p&gt;
+
+&lt;p&gt;What scares me more about .NET is where's it's going: Silverlight and WPF. WPF is supposed to be an awesome new platform that makes it easier for both programmers and designers to collaborate and create great applications.&lt;strong&gt; Seriously though, where are the great WPF applications? &lt;/strong&gt;Why haven't we heard as much about them, as say, the newest iPhone apps? I could say the same for Silverlight. Oh wait, the Olympics. ooh, Yahoo Messenger! Whatever. Nothing is going to kill Flash's market share.&lt;/p&gt;
+
+&lt;p&gt;I'm sure that things have changed since I was heavy into (bleeding edge) .NET development 6-9 months ago, but still there seems to be no killer app for WPF or Silverlight yet. Until that happens they'll just suck like everything else. I'd love to be proven wrong on this point, so if you know of one please show me.&lt;/p&gt;
+
+&lt;p&gt;If you've switched away from Windows or even if you've become a Rubyist/Pythonista in recent times, let me know what your experiences have been. For now on my blog posts will hopefully be a bit more frequent, and will chronicle various quirks and fun things I've found during my Rails journeys.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Switching to Rails. This an Example of a Post. (markdown)</title>
+   <link href="http://tom.preston-werner.com/solution/2011/01/16/id-00002.html"/>
+   <updated>2011-01-16T00:00:00+03:00</updated>
+   <id>http://tom.preston-werner.com/solution/2011/01/16/id-00002</id>
+   <content type="html">&lt;p&gt;For a while now I've been &lt;span style=&quot;text-decoration: line-through;&quot;&gt;obsessed&lt;/span&gt;
+working with Ruby on Rails. Rails has caused me to switch from doing .NET/ASP.NET development
+on my desktop PC using Windows XP to owning a Mac Mini and putting Ubuntu on Dell laptop.
+Obviously, this is a huge change, and I'm going to explain why I've switched.&lt;/p&gt;
+
+&lt;h3&gt;Rails is a combination of software engineering principles and web programming best practices.&lt;/h3&gt;
+
+
+&lt;p&gt;One of my goals, by having this site, is to learn how to write proper english.
+It's my second language, and it's specially dear to me, because most of the
+things I've learned that have shapen the way I am, my work and my process,
+were written in english.  It really is an awesome language to grasp the
+meaning/message of text since, as a basic comparison, you can get the idea in
+less words than if it were written in spanish (for example).&lt;/p&gt;
+
+&lt;p&gt;I'm starting with
+&lt;a href=&quot;http://www.economist.com/research/StyleGuide/&quot;&gt;The Economist Style Guide&lt;/a&gt;.
+My first area of focus is punctuation. Major missunderstanding I have is
+with the semicolon (&quot;;&quot;).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.economist.com/research/styleGuide/index.cfm?page=805705&quot;&gt;Semi-colons&lt;/a&gt;
+Semi-colons should be used to mark a pause longer than a comma and shorter than
+a full stop. Don't overdo them.&lt;/p&gt;
+
+&lt;p&gt;I already knew a lot about what I &lt;em&gt;didn't&lt;/em&gt; want. I was tired of complicated
+blogging engines like WordPress and Mephisto. I wanted to write great posts,
+not style a zillion template pages, moderate comments all day long, and
+constantly lag behind the latest software release. Something like Posterous
+looked attractive, but I wanted to style my blog, and it needed to be hosted
+at the domain of my choosing. For the same reason, other hosted sites
+(wordpress.com, blogger.com) were disqualified. There are a few people
+directly using GitHub as a blog (which is very cool), but that's a bit
+too much of an impedance mismatch for my tastes.&lt;/p&gt;
+
+&lt;p&gt;In this respect Rails is a dream: Active Record. RESTful architecture.
+Built-in xml/json/etc web services. TDD/BDD practices. I could go on and on, but all
+that matters is &lt;strong&gt;writing Rails applications is an enjoyable&lt;/strong&gt; &lt;strong&gt;and
+fun process&lt;/strong&gt;. You're not writing &lt;a href=&quot;http://www.php.net/&quot;&gt;scripts for pages&lt;/a&gt;,
+not having to worry about &lt;a href=&quot;http://asp.net&quot;&gt;the nuts and bolts&lt;/a&gt; of creating a site, or &lt;a href=&quot;http://java.sun.com/products/ejb/&quot;&gt;dealing with painful XML files&lt;/a&gt;. Convention over configuration is a real path to productivity, and it's going to take the other competing systems a long time to catch up to the headway that Rails is making on a daily basis. Rails isn't the solution to everything, and &lt;a href=&quot;http://www.zeitgeist.com/wp-content/uploads/2008/06/failwhale.png&quot;&gt;it certainly has had it share of growing pains&lt;/a&gt;, but it's being proven again and again as the most efficient way to create data-driven web applications that are very reliable and follow web standards.&lt;/p&gt;
+
+&lt;h3&gt;Tools on *nix based systems are a lot better for Rails development.&lt;/h3&gt;
+
+
+&lt;p&gt;&lt;a href=&quot;http://java.sys-con.com/node/313594&quot;&gt;DHH puts it best&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;em&gt;The stigma of being a Web programmer still using Windows will increase.&lt;/em&gt;&lt;/p&gt;
+
+
+&lt;p&gt;For me, it's not that much of a stigma, but more of a practical issue. The power of the Unix command line combined with tools like Textmate makes development on OSX and Linux machines for Rails a LOT easier. The tools on the Windows side are there, but they're usually not as powerful and not as easy to set up. Cygwin is piss slow. Most of the non-Visual Studio text editors suck. The command line sucks, and &lt;a href=&quot;http://litanyagainstfear.com/blog/2008/03/20/pimping-the-windows-command-line/&quot;&gt;I tried really hard to make it not suck&lt;/a&gt;. &lt;a href=&quot;http://blog.mmediasys.com/2008/03/06/is-windows-a-supported-platform-for-ruby-i-guess-not/&quot;&gt; Even Ruby is slower&lt;/a&gt;! All of this pain goes away on OSX/Ubuntu. Rails would be a lot different if it started on Windows, and I wonder if it would really be the same platform. For now though, I'm loving the productivity boost that I'm experencing and trying out different operating systems, and it serves my needs well.&lt;/p&gt;
+
+&lt;h3&gt;Bleak future of .NET development.&lt;/h3&gt;
+
+
+&lt;p&gt;This one will probably get me flamed the most. It's not that I don't like .NET, it's just that I couldn't see myself using it any more professionally. I'm really not a fan of VB.NET, especially compared to Ruby. It's a cruft filled language that &lt;a href=&quot;http://www.panopticoncentral.net/archive/2007/11/14/22589.aspx&quot;&gt;makes me feel like Mort when writing it.&lt;/a&gt; Great things are possible with the language, but the result is so unreadable and ugly that I don't feel it's worth it anymore to use, especially if I can choose not to. C# on the other hand I love and always will, especially over Java.&lt;/p&gt;
+
+&lt;p&gt;What scares me more about .NET is where's it's going: Silverlight and WPF. WPF is supposed to be an awesome new platform that makes it easier for both programmers and designers to collaborate and create great applications.&lt;strong&gt; Seriously though, where are the great WPF applications? &lt;/strong&gt;Why haven't we heard as much about them, as say, the newest iPhone apps? I could say the same for Silverlight. Oh wait, the Olympics. ooh, Yahoo Messenger! Whatever. Nothing is going to kill Flash's market share.&lt;/p&gt;
+
+&lt;p&gt;I'm sure that things have changed since I was heavy into (bleeding edge) .NET development 6-9 months ago, but still there seems to be no killer app for WPF or Silverlight yet. Until that happens they'll just suck like everything else. I'd love to be proven wrong on this point, so if you know of one please show me.&lt;/p&gt;
+
+&lt;p&gt;If you've switched away from Windows or even if you've become a Rubyist/Pythonista in recent times, let me know what your experiences have been. For now on my blog posts will hopefully be a bit more frequent, and will chronicle various quirks and fun things I've found during my Rails journeys.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Switching to Rails. This an Example of a Post. (textile)</title>
+   <link href="http://tom.preston-werner.com/solution/2011/01/16/id-00001.html"/>
+   <updated>2011-01-16T00:00:00+03:00</updated>
+   <id>http://tom.preston-werner.com/solution/2011/01/16/id-00001</id>
+   <content type="html">&lt;h3&gt;Bleak future of .&lt;span class=&quot;caps&quot;&gt;NET&lt;/span&gt; development.&lt;/h3&gt;
+&lt;p&gt;This one will probably get me flamed the most. It&amp;#8217;s not that I don&amp;#8217;t like .&lt;span class=&quot;caps&quot;&gt;NET&lt;/span&gt;, it&amp;#8217;s just that I couldn&amp;#8217;t see myself using it any more professionally. I&amp;#8217;m really not a fan of VB.&lt;span class=&quot;caps&quot;&gt;NET&lt;/span&gt;, especially compared to Ruby. It&amp;#8217;s a cruft filled language that &lt;a href=&quot;http://www.panopticoncentral.net/archive/2007/11/14/22589.aspx&quot;&gt;makes me feel like Mort when writing it.&lt;/a&gt; Great things are possible with the language, but the result is so unreadable and ugly that I don&amp;#8217;t feel it&amp;#8217;s worth it anymore to use, especially if I can choose not to. C# on the other hand I love and always will, especially over Java.&lt;/p&gt;
+&lt;p&gt;What scares me more about .&lt;span class=&quot;caps&quot;&gt;NET&lt;/span&gt; is where&amp;#8217;s it&amp;#8217;s going: Silverlight and &lt;span class=&quot;caps&quot;&gt;WPF&lt;/span&gt;. &lt;span class=&quot;caps&quot;&gt;WPF&lt;/span&gt; is supposed to be an awesome new platform that makes it easier for both programmers and designers to collaborate and create great applications.&lt;strong&gt; Seriously though, where are the great &lt;span class=&quot;caps&quot;&gt;WPF&lt;/span&gt; applications? &lt;/strong&gt;Why haven&amp;#8217;t we heard as much about them, as say, the newest iPhone apps? I could say the same for Silverlight. Oh wait, the Olympics. ooh, Yahoo Messenger! Whatever. Nothing is going to kill Flash&amp;#8217;s market share.&lt;/p&gt;
+&lt;p&gt;I&amp;#8217;m sure that things have changed since I was heavy into (bleeding edge) .&lt;span class=&quot;caps&quot;&gt;NET&lt;/span&gt; development 6-9 months ago, but still there seems to be no killer app for &lt;span class=&quot;caps&quot;&gt;WPF&lt;/span&gt; or Silverlight yet. Until that happens they&amp;#8217;ll just suck like everything else. I&amp;#8217;d love to be proven wrong on this point, so if you know of one please show me.&lt;/p&gt;
+&lt;p&gt;If you&amp;#8217;ve switched away from Windows or even if you&amp;#8217;ve become a Rubyist/Pythonista in recent times, let me know what your experiences have been. For now on my blog posts will hopefully be a bit more frequent, and will chronicle various quirks and fun things I&amp;#8217;ve found during my Rails journeys.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>IronRuby drops - make some noise!</title>
+   <link href="http://tom.preston-werner.com/solution/2010/04/18/ironruby-drops-make-some-noise.html"/>
+   <updated>2010-04-18T00:00:00+04:00</updated>
+   <id>http://tom.preston-werner.com/solution/2010/04/18/ironruby-drops-make-some-noise</id>
+   <content type="html">&lt;p&gt;A little context about myself and recent events:&lt;/p&gt;
+&lt;ol&gt;
+	&lt;li&gt;I used to be big into .&lt;span class=&quot;caps&quot;&gt;NET&lt;/span&gt; before Ruby.&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://litanyagainstfear.com/blog/2008/09/18/switching-to-rails/&quot;&gt;I decided to move away from .&lt;span class=&quot;caps&quot;&gt;NET&lt;/span&gt; over 2 years ago.&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;For the past 4 months I&amp;#8217;ve been using &lt;span class=&quot;caps&quot;&gt;ASP&lt;/span&gt;.&lt;span class=&quot;caps&quot;&gt;NET&lt;/span&gt; &lt;span class=&quot;caps&quot;&gt;MVC&lt;/span&gt; 2 for my senior capstone project.&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://www.rubyinside.com/ironruby-1-0-released-microsoft-s-3-years-with-ruby-pay-off-3212.html&quot;&gt;IronRuby&amp;#8217;s 1.0 release has dropped!&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a href=&quot;http://localhost:4000/solution/2010/04/18/ironruby-drops-make-some-noise.html#без_пробела&quot;&gt;без_пробела&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://localhost:4000/solution/2010/04/18/ironruby-drops-make-some-noise.html#с%20двумя%20пробелами&quot;&gt;с двумя пробелами!1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This week &lt;a href=&quot;http://blog.scottbellware.com/2010/04/ironruby-drops-does-it-make-sound.html&quot;&gt;Scott Bellware wrote&lt;/a&gt; about why this should matter to anyone doing .&lt;span class=&quot;caps&quot;&gt;NET&lt;/span&gt;, especially the &amp;#8216;forward thinking&amp;#8217; &lt;a href=&quot;http://altdotnet.org&quot;&gt;&lt;span class=&quot;caps&quot;&gt;ALT&lt;/span&gt;.&lt;span class=&quot;caps&quot;&gt;NET&lt;/span&gt;&lt;/a&gt; crowd. I&amp;#8217;m not too familiar with the history of the &lt;span class=&quot;caps&quot;&gt;ALT&lt;/span&gt;.&lt;span class=&quot;caps&quot;&gt;NET&lt;/span&gt; movement, but I love following smart developers in any sector of our industry on Twitter and I&amp;#8217;ve been watching more .&lt;span class=&quot;caps&quot;&gt;NET&lt;/span&gt; devs lately because of my senior project.&lt;/p&gt;
+&lt;p&gt;Here&amp;#8217;s Scott&amp;#8217;s main points as I saw it:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Comparsions of Rails to &lt;span class=&quot;caps&quot;&gt;ASP&lt;/span&gt;.&lt;span class=&quot;caps&quot;&gt;NET&lt;/span&gt; &lt;span class=&quot;caps&quot;&gt;MVC&lt;/span&gt; 2 are difficult (I agree!)&lt;/li&gt;
+	&lt;li&gt;Getting the average .&lt;span class=&quot;caps&quot;&gt;NET&lt;/span&gt; developer out of the Visual Studio comfort zone is still unlikely&lt;/li&gt;
+	&lt;li&gt;You can now painlessly use Ruby and Rails with &lt;span class=&quot;caps&quot;&gt;IIS&lt;/span&gt; and .&lt;span class=&quot;caps&quot;&gt;NET&lt;/span&gt; in general&lt;/li&gt;
+	&lt;li&gt;Stop using .&lt;span class=&quot;caps&quot;&gt;NET&lt;/span&gt; ports of Ruby projects, you can just run them with IronRuby now!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After reading it and seeing &lt;a href=&quot;http://twitter.com/armmer&quot;&gt;Jason Meridth&amp;#8217;s&lt;/a&gt; tweet&amp;#8230;&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;http://twictur.es/i/12367649265.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#8230;I had to give a Rubyist response. My reaction is: &lt;strong&gt;Welcome!&lt;/strong&gt; I don&amp;#8217;t think fear has anything to do with it, it&amp;#8217;s just hard to break out of the norm for any of us. I&amp;#8217;m positive you&amp;#8217;ll have fun learning Ruby and integrating with your existing .&lt;span class=&quot;caps&quot;&gt;NET&lt;/span&gt; infrastructure.&lt;/p&gt;
+&lt;p&gt;I&amp;#8217;m right behind Scott in that the barrier to entry for those on Windows and in the .&lt;span class=&quot;caps&quot;&gt;NET&lt;/span&gt; ecosystem has been lowered immensely. Plenty have said it before, but now is the time to start. Many of us have converted over from C#/VB.&lt;span class=&quot;caps&quot;&gt;NET&lt;/span&gt;, and I can&amp;#8217;t be the only one who&amp;#8217;s happy to share their experience with those considering diving into Ruby.&lt;/p&gt;
+&lt;p&gt;Let me start you off right now:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://guides.rails.info/&quot;&gt;Rails Guides, a daily reference and great starter manual&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://railscasts.com/&quot;&gt;Railscasts, tons of great recipes in video form&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://www.railstutorial.org/&quot;&gt;Rails Tutorial, a book in progress&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://www.sinatrarb.com/intro.html&quot;&gt;Intro to Sinatra, the classiest web framework around&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;без_пробела&quot; class=&quot;tag&quot;&gt;без_пробела !11&lt;/h2&gt;
+&lt;h2 id=&quot;с двумя пробелами&quot; class=&quot;tag&quot;&gt;с двумя пробелами !11&lt;/h2&gt;
+&lt;p&gt;IronRuby has dropped, but you have to make the noise. We Rubyists are waiting to hear from you!&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>The Rails Module (in Rails 3)</title>
+   <link href="http://tom.preston-werner.com/solution/2010/02/03/the-rails-module.html"/>
+   <updated>2010-02-03T00:00:00+03:00</updated>
+   <id>http://tom.preston-werner.com/solution/2010/02/03/the-rails-module</id>
+   <content type="html">&lt;p&gt;So, you may have noticed this in the &lt;a href=&quot;http://guides.rails.info/3_0_release_notes.html&quot;&gt;Rails 3 Changelog&lt;/a&gt;&amp;#8230;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Railties now deprecates:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;RAILS_ROOT&lt;/code&gt; in favour of &lt;code&gt;Rails.root&lt;/code&gt;,&lt;br /&gt;
+&lt;code&gt;RAILS_ENV&lt;/code&gt; in favour of &lt;code&gt;Rails.env&lt;/code&gt;, and&lt;br /&gt;
+&lt;code&gt;RAILS_DEFAULT_LOGGER&lt;/code&gt; in favour of &lt;code&gt;Rails.logger&lt;/code&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Great&amp;#8230;but why? Better alternatives have existed for a while in Rails core (some since 2.1.0), and it&amp;#8217;s about damn time you start using them properly. There&amp;#8217;s also some other helpful methods on the &lt;code&gt;Rails&lt;/code&gt; module we&amp;#8217;ll explore in this post.&lt;/p&gt;
+&lt;h2&gt;Rails.root&lt;/h2&gt;
+&lt;p&gt;This is a big one. Every Rails developer has done &lt;code&gt;File.join(RAILS_ROOT, &quot;path&quot;, &quot;to&quot;, &quot;something&quot;)&lt;/code&gt; before. Stop that. And don&amp;#8217;t just replace &lt;code&gt;RAILS_ROOT&lt;/code&gt; with &lt;code&gt;Rails.root&lt;/code&gt; either. &lt;code&gt;Rails.root&lt;/code&gt; is a &lt;a href=&quot;http://ruby-doc.org/stdlib/libdoc/pathname/rdoc/index.html&quot;&gt;Pathname&lt;/a&gt;, which means you can do cool stuff like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ rails console
+&amp;gt;&amp;gt; Rails.root
+=&amp;gt; #&amp;lt;Pathname:/Users/qrush/Dev/ruby/new_app&amp;gt;
+
+&amp;gt;&amp;gt; Rails.root.join(&quot;config&quot;, &quot;database.yml&quot;)
+=&amp;gt; #&amp;lt;Pathname:/Users/qrush/Dev/ruby/new_app/config/database.yml&amp;gt;
+
+&amp;gt;&amp;gt; _.read
+=&amp;gt; &quot;development:\n ...
+&lt;/pre&gt;&lt;p&gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h2&gt;Rails.env&lt;/h2&gt;
+&lt;p&gt;Same deal, you&amp;#8217;ve probably done something like &lt;code&gt;if RAILS_ENV == &quot;production&quot;&lt;/code&gt; in your Rails apps. Stop that too. Oh, you thought this would just be a &lt;code&gt;String&lt;/code&gt;?&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ rails console
+&amp;gt;&amp;gt; Rails.env
+=&amp;gt; &quot;development&quot;
+
+&amp;gt;&amp;gt; Rails.env.class
+=&amp;gt; ActiveSupport::StringInquirer
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.hulu.com/watch/124915/family-guy-back-to-jail#s-p1-sr-i1&quot;&gt;Whaaaat?&lt;/a&gt; Actually, this is a really neat utility. From &lt;code&gt;activesupport/lib/active_support/string_inquirer.rb&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;Liquid error: No such file or directory &amp;#8211; pygmentize -l ruby -f html -O encoding=utf-8&lt;/p&gt;
+&lt;p&gt;Awesome. This lets us do stuff like this in &lt;a href=&quot;http://github.com/qrush/gemcutter&quot;&gt;Gemcutter&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;Liquid error: No such file or directory &amp;#8211; pygmentize -l ruby -f html -O encoding=utf-8&lt;/p&gt;
+&lt;h2&gt;Rails.logger&lt;/h2&gt;
+&lt;p&gt;This is your favorite &lt;code&gt;Logger&lt;/code&gt; class, just now without an annoying constant name of &lt;code&gt;RAILS_DEFAULT_LOGGER&lt;/code&gt;. Much easier to remember.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ rails console
+&amp;gt;&amp;gt; Rails.logger
+=&amp;gt; #&amp;lt;ActiveSupport::BufferedLogger:0x21de384 ...
+
+&amp;gt;&amp;gt; Rails.logger.info &quot;zomg!&quot;
+=&amp;gt; &quot;zomg!\n&quot;
+
+&amp;gt;&amp;gt; File.read(&quot;log/development.log&quot;)
+=&amp;gt; &quot;zomg!\n&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Rails.public_path&lt;/h2&gt;
+&lt;p&gt;A helpful shortcut to what your &lt;code&gt;public&lt;/code&gt; assets directory is called, probably to use with &lt;code&gt;Rails.root&lt;/code&gt;. (Why this isn&amp;#8217;t a &lt;code&gt;Pathname&lt;/code&gt; is beyond me, sounds like a good patch to whip up!)&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ rails console
+&amp;gt;&amp;gt; Rails.public_path
+=&amp;gt; &quot;public&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Rails.cache&lt;/h2&gt;
+&lt;p&gt;Now the rabbit hole goes deeper. This is a unified interface to memory/file/you name it caching stores that can be used with Rails. If you&amp;#8217;ve ever made some sort of caching global variable, like &lt;code&gt;$memcache&lt;/code&gt; or &lt;code&gt;CACHE&lt;/code&gt;, you should &lt;a href=&quot;http://guides.rubyonrails.org/caching_with_rails.html&quot;&gt;read up here.&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ rails console
+&amp;gt;&amp;gt; Rails.cache
+=&amp;gt; #&amp;lt;ActiveSupport::Cache::MemoryStore:0x21e04b8 @data={}&amp;gt;
+
+&amp;gt;&amp;gt; Rails.cache.write(&quot;rush&quot;, &quot;limelight&quot;)
+=&amp;gt; &quot;limelight&quot;
+
+&amp;gt;&amp;gt; Rails.cache.read(&quot;rush&quot;)
+=&amp;gt; &quot;limelight&quot;
+
+&amp;gt;&amp;gt; Rails.cache
+=&amp;gt; #&amp;lt;ActiveSupport::Cache::MemoryStore:0x21e04b8
+     @data={&quot;rush&quot;=&amp;gt;&quot;limelight&quot;}&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Rails.application&lt;/h2&gt;
+&lt;p&gt;The new &lt;code&gt;Rails::Application&lt;/code&gt; class encapsulates &lt;strong&gt;a lot&lt;/strong&gt; of what was thrown around in Railties in previous releases of Rails, and really represents the ultimate embracing of Rack&amp;#8217;s modularity. &lt;a href=&quot;http://www.engineyard.com/blog/2010/rails-and-merb-merge-rails-core-part-4-of-6/&quot;&gt;Yehuda&amp;#8217;s post&lt;/a&gt; can explain it further, but the important thing is now you can run multiple &lt;code&gt;Rails::Application&lt;/code&gt;s in the same process if you need to, and it&amp;#8217;s promoting decoupling even further by starting from the inside of the framework. Awesome.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ rails console
+&amp;gt;&amp;gt; Rails.application
+=&amp;gt; #&amp;lt;NewApp::Application:0x13896b0 ...
+
+&amp;gt;&amp;gt; Rails.application.routes
+=&amp;gt; #&amp;lt;ActionDispatch::Routing::RouteSet:0x162877c ...
+
+&amp;gt;&amp;gt; Rails.application.routes.recognize_path(&quot;rails/info/properties&quot;)
+=&amp;gt; {:controller=&amp;gt;&quot;rails/info&quot;, :action=&amp;gt;&quot;properties&quot;}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Rails.configuration&lt;/h2&gt;
+&lt;p&gt;This gives you global access to all of the configuration data set up in your &lt;code&gt;config/application.rb&lt;/code&gt; and various &lt;code&gt;config/environments/#{Rails.env}.rb&lt;/code&gt; files, if you should ever need it.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ rails console
+&amp;gt;&amp;gt; Rails.configuration
+=&amp;gt; #&amp;lt;Rails::Application::Configuration:0x7e1ab0 ...
+
+&amp;gt;&amp;gt; pp Rails.configuration.middleware
+[ActionDispatch::Static,
+ Rack::Lock,
+ Rack::Runtime,
+ Rails::Rack::Logger,
+ ActionDispatch::ShowExceptions,
+ ActionDispatch::Callbacks,
+ ActionDispatch::Cookies,
+ ActionDispatch::Session::CookieStore,
+ ActionDispatch::Flash,
+ ActionDispatch::Cascade,
+ ActionDispatch::ParamsParser,
+ Rack::MethodOverride,
+ ActionDispatch::Head,
+ ActiveRecord::ConnectionAdapters::ConnectionManagement,
+ ActiveRecord::QueryCache]
+=&amp;gt; nil
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Wrapup&lt;/h2&gt;
+&lt;p&gt;I&amp;#8217;m sure some are missing here (like &lt;code&gt;Rails.version&lt;/code&gt;), but these are the ones that I think matter most to Rails developers. If something else should be covered here, let me know!&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Load Rails conditionally with Rack</title>
+   <link href="http://tom.preston-werner.com/solution/2009/11/10/load-rails-conditionally-with-rack.html"/>
+   <updated>2009-11-10T00:00:00+03:00</updated>
+   <id>http://tom.preston-werner.com/solution/2009/11/10/load-rails-conditionally-with-rack</id>
+   <content type="html">&lt;p&gt;One of the great things about &lt;a href=&quot;http://gemcutter.org&quot;&gt;Gemcutter&lt;/a&gt; is that it&amp;#8217;s using &lt;a href=&quot;http://www.sinatrarb.com&quot;&gt;Sinatra&lt;/a&gt; via &lt;a href=&quot;http://guides.rubyonrails.org/rails_on_rack.html&quot;&gt;Rails Metal&lt;/a&gt; to serve up the gems. Recently, I had to run some long migrations (~10 minutes) and I&amp;#8217;m sure we&amp;#8217;ll have some more in the future. Since the gem server is decoupled from the Rails app, some clever Rack loading now allows us to continue to serve gems even when we&amp;#8217;re down for maintenance.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;config.ru&lt;/code&gt; now looks like this:&lt;/p&gt;
+&lt;p&gt;Liquid error: No such file or directory &amp;#8211; pygmentize -l ruby -f html -O encoding=utf-8&lt;/p&gt;
+&lt;p&gt;So now, Heroku treats Gemcutter as a Rack app, and not a pure Rails app. Normally, it&amp;#8217;ll just use Thin and boot up Rails as normal with &lt;code&gt;Rack::Adapter::Rails&lt;/code&gt;. &lt;code&gt;script/server&lt;/code&gt; still works as normal, too, but I&amp;#8217;ll probably use &lt;a href=&quot;http://github.com/rtomayko/shotgun&quot;&gt;shotgun&lt;/a&gt; instead.&lt;/p&gt;
+&lt;p&gt;The fun begins when you run &lt;code&gt;MAINTENANCE_MODE=on rackup&lt;/code&gt;. The following happens from there:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Load up the &lt;a href=&quot;http://litanyagainstfear.com/blog/2009/10/14/gem-bundler-is-the-future/&quot;&gt;Bundler&lt;/a&gt; environment that has all of our gems, and some of Rails&amp;#8217; magic.&lt;/li&gt;
+	&lt;li&gt;Fire up &lt;a href=&quot;http://rack.rubyforge.org/doc/classes/Rack/Static.html&quot;&gt;Rack::Static&lt;/a&gt; to serve static assets like the images and &lt;span class=&quot;caps&quot;&gt;CSS&lt;/span&gt; to make the site look nice&lt;/li&gt;
+	&lt;li&gt;Use the &lt;a href=&quot;http://github.com/qrush/gemcutter/blob/master/app/metal/hostess.rb&quot;&gt;Hostess&lt;/a&gt;, Gemcutter&amp;#8217;s Sinatra gem server to continue to serve gems&lt;/li&gt;
+	&lt;li&gt;All other requests are then caught by David Dollar&amp;#8217;s &lt;a href=&quot;http://github.com/ddollar/rack-maintenance&quot;&gt;rack-maintenance&lt;/a&gt; that simply serves up a static &lt;span class=&quot;caps&quot;&gt;HTML&lt;/span&gt; page.&lt;/li&gt;
+	&lt;li&gt;Use &lt;code&gt;Sinatra::Application&lt;/code&gt; since we need some sort of endpoint.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And boom, we have a read-only site that continues to serve gems. Rack rules.&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;http://6.media.tumblr.com/tumblr_kobz0jtHsN1qzln4lo1_400.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Gem Bundler is the Future</title>
+   <link href="http://tom.preston-werner.com/2009/10/14/gem-bundler-is-the-future.html"/>
+   <updated>2009-10-14T00:00:00+04:00</updated>
+   <id>http://tom.preston-werner.com/2009/10/14/gem-bundler-is-the-future</id>
+   <content type="html">&lt;p style=&quot;text-align:center;&quot;&gt;&lt;a href=&quot;http://www.flickr.com/photos/mrcam/206628748/&quot;&gt;&lt;img src=&quot;http://farm1.static.flickr.com/59/206628748_8f2594a16b_m.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you haven&amp;#8217;t checked out &lt;a href=&quot;http://twitter.com/wycats&quot;&gt;Yehuda Katz&amp;#8217;s&lt;/a&gt; and &lt;a href=&quot;http://twitter.com/carllerche&quot;&gt;Carl Lerche&amp;#8217;s&lt;/a&gt; gem bundler yet, &lt;a href=&quot;http://github.com/wycats/bundler&quot;&gt;now is the time&lt;/a&gt;. This project replaces the horribly broken dependency resolution in Rails and what we all know and use as &lt;code&gt;config.gem&lt;/code&gt;&amp;#8216;s. Ever seen &lt;code&gt;can&amp;#8217;t activate $gemname ($gemversion = runtime)&lt;/code&gt;? Or maybe my favorite, when it can&amp;#8217;t even figure out what gem can&amp;#8217;t be activated. If so, read on, bundler&amp;#8217;s about to make your life a lot easier.&lt;/p&gt;
+&lt;p&gt;Yehuda has a great roundup of what can be done (and has been done with the bundler) &lt;a href=&quot;http://yehudakatz.com/2009/07/08/rails-bundling-revisited/&quot;&gt;on his blog&lt;/a&gt;. This is going to be a part of Rails 3, so you&amp;#8217;re going to have to run into this sooner or later. I was getting frustrated with managing gem dependencies in &lt;a href=&quot;http://github.com/qrush/gemcutter&quot;&gt;Gemcutter&lt;/a&gt;, so now it&amp;#8217;s bundled up and ready as a decent example of the bundler in action.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Enter the bundler&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;#8217;m using the edge gem built from their repo, and I suggest you do as well. Hopefully soon they&amp;#8217;ll push it to that &lt;a href=&quot;http://gemcutter.org&quot;&gt;new gem hosting site&lt;/a&gt; I&amp;#8217;ve heard so much about.&lt;/p&gt;
+&lt;pre&gt;
+git clone git://github.com/wycats/bundler
+cd bundler
+sudo rake install
+&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;The Gemfile&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Now we&amp;#8217;re ready to make a &lt;code&gt;Gemfile&lt;/code&gt;. This is basically a specification of what gems should be included in your app. Here&amp;#8217;s Gemcutter&amp;#8217;s:&lt;/p&gt;
+&lt;p&gt;Liquid error: No such file or directory &amp;#8211; pygmentize -l ruby -f html -O encoding=utf-8&lt;/p&gt;
+&lt;p&gt;Some notes here:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;By default the gem host is &lt;code&gt;gems.rubyforge.org&lt;/code&gt;, so I&amp;#8217;ve cleared the sources to use gemcutter.org instead.&lt;/li&gt;
+	&lt;li&gt;You can easily specify gems for a given environment and multiple gems with &lt;code&gt;only&lt;/code&gt; and pass it a symbol for the environment name. Thank goodness.&lt;/li&gt;
+	&lt;li&gt;The default bundle path is &lt;code&gt;vendor/gems&lt;/code&gt;. This won&amp;#8217;t work for Rails since it assumes way too much about this directory, so we switch it to &lt;code&gt;vendor/bundler_gems&lt;/code&gt;. &lt;strong&gt;Note:&lt;/strong&gt; Yehuda has told me that this will work as normal once Rails 3 is closer/done.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Bundle up!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Now we&amp;#8217;re ready to run &lt;code&gt;gem bundle&lt;/code&gt;. This pulls down the gems from the given sources along with any dependencies. This basically creates a virtual RubyGems environment right inside of your &lt;code&gt;vendor&lt;/code&gt; directory. (I&amp;#8217;m cutting some out since the log is so long)&lt;/p&gt;
+&lt;pre&gt;
+$ gem bundle
+Calculating dependencies...
+Updating source: http://gems.github.com
+Updating source: http://gemcutter.org
+Downloading actionmailer-2.3.4.gem
+Downloading actionpack-2.3.4.gem
+...
+Downloading xml-simple-1.0.12.gem
+Installing rr (0.10.4)
+Installing fakeweb (1.2.6)
+...
+Installing nokogiri (1.3.3)
+Building native extensions.  This could take a while...
+Done.
+&lt;/pre&gt;
+&lt;p&gt;So now in your &lt;code&gt;vendor/bundler_gems&lt;/code&gt; directory, we&amp;#8217;ve got the &lt;code&gt;.gem&lt;/code&gt; files pulled down in &lt;code&gt;cache&lt;/code&gt;, unpacked in the &lt;code&gt;gems&lt;/code&gt; directory, and the gem specifications are unloaded into &lt;code&gt;specifications&lt;/code&gt;. Bundler also makes its own &lt;code&gt;environment.rb&lt;/code&gt; for loading the dependencies.&lt;/p&gt;
+&lt;pre&gt;
+vendor
+|-- bundler_gems
+|   |-- cache
+|   |   |-- actionmailer-2.3.4.gem
+|   |   |-- actionpack-2.3.4.gem
+|   |   |-- ...
+|   |   `-- xml-simple-1.0.12.gem
+|   |-- doc
+|   |-- environment.rb
+|   |-- gems
+|   |   |-- actionmailer-2.3.4
+|   |   |-- actionpack-2.3.4
+|   |   |-- ...
+|   |   `-- xml-simple-1.0.12
+|   `-- specifications
+|       |-- actionmailer-2.3.4.gemspec
+|       |-- actionpack-2.3.4.gemspec
+|       |-- ...
+|       `-- xml-simple-1.0.12.gemspec
+`-- plugins
+&lt;/pre&gt;
+&lt;p&gt;Bundler will also dump gem executables in your &lt;code&gt;Rails.root/bin&lt;/code&gt; directory. This means you can then use &lt;code&gt;bin/rake&lt;/code&gt;, for example. Running &lt;code&gt;rake&lt;/code&gt; as normal should still work though. As for your version control, it&amp;#8217;s recommended to check in the &lt;code&gt;.gem&lt;/code&gt;&amp;#8217;s only, then run &lt;code&gt;gem bundle&lt;/code&gt; to unpack/install them. This goes both for new developers and getting code deployed.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Loading the Environment&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Now the issue is to load up the bundled environment instead of the system installed one. Start by creating a &lt;code&gt;config/preinitializer.rb&lt;/code&gt;, which is loaded first before &lt;code&gt;config/environment.rb&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;Liquid error: No such file or directory &amp;#8211; pygmentize -l ruby -f html -O encoding=utf-8&lt;/p&gt;
+&lt;p&gt;Then, in each &lt;code&gt;config/environments/*.rb&lt;/code&gt; file:&lt;/p&gt;
+&lt;p&gt;Liquid error: No such file or directory &amp;#8211; pygmentize -l ruby -f html -O encoding=utf-8&lt;/p&gt;
+&lt;p&gt;This basically does a &lt;code&gt;require&lt;/code&gt; for every gem listed in your Gemfile and their associated dependencies. That should be it! Your app should (hopefully) boot and now you should run your tests to ensure your application is still working right.&lt;/p&gt;
+&lt;p&gt;If you want to see this all in action &lt;a href=&quot;http://github.com/qrush/gemcutter&quot;&gt;clone Gemcutter&lt;/a&gt; and follow the &lt;a href=&quot;http://wiki.github.com/qrush/gemcutter/contribution-guidelines&quot;&gt;contribution guidelines for getting up and running&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Issues&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;So, I had a few roadblocks with the bundler, and I don&amp;#8217;t think it would be fair to not mention them.&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The documentation sucks. I&amp;#8217;m hoping this will improve before Rails 3 is ready (whenever that is). Maybe a Rails guide would be appropriate, and I&amp;#8217;ll definitely help start it.&lt;/li&gt;
+	&lt;li&gt;Gemcutter&amp;#8217;s on Heroku, so it&amp;#8217;s necessary to check in a lot of the vendored code (in fact, all of the development/production dependencies). New contributors just have to run &lt;code&gt;gem bundle -u&lt;/code&gt; to get the test dependencies.&lt;/li&gt;
+	&lt;li&gt;In my staging environment I had to use &lt;code&gt;Bundler.require_env &quot;production&quot;&lt;/code&gt;. Pretty self-explanatory but I missed it at first.&lt;/li&gt;
+	&lt;li&gt;Shoulda macros just stopped working, since it assumes the location of gems in &lt;code&gt;vendor/gems&lt;/code&gt; or &lt;code&gt;vendor/plugins&lt;/code&gt;. I had to include this in &lt;code&gt;test/test_helper.rb&lt;/code&gt; to make it happy:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Liquid error: No such file or directory &amp;#8211; pygmentize -l ruby -f html -O encoding=utf-8&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Wrapup&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This guide went over how to use Bundler today, with a Rails 2.3.4 app. According to Yehuda, this eventually will be packaged in Rails 3, so the commands will be baked into Rails&amp;#8230;so something like &lt;code&gt;script/bundle&lt;/code&gt;. The nice thing is that you can use the bundler with any Ruby project, so this is good to know in general.&lt;/p&gt;
+&lt;p&gt;The bundler is really the future of gem dependency management. If you&amp;#8217;re sick of fighting with &lt;code&gt;config.gem&lt;/code&gt;&amp;#8216;s or are starting a new app it would be well worth your time to start looking at it. If you&amp;#8217;re having trouble with the bundler (or success stories!) feel free to comment here or hop in &lt;code&gt;#carlhuda&lt;/code&gt; on &lt;code&gt;irc.freenode.net&lt;/code&gt;. Check it out on &lt;a href=&quot;http://github.com/wycats/bundler&quot;&gt;GitHub&lt;/a&gt; if you haven&amp;#8217;t yet.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>On Gem Forking</title>
+   <link href="http://tom.preston-werner.com/solution/2009/10/09/on-gem-forking.html"/>
+   <updated>2009-10-09T00:00:00+04:00</updated>
+   <id>http://tom.preston-werner.com/solution/2009/10/09/on-gem-forking</id>
+   <content type="html">&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;http://cloud.github.com/downloads/qrush/litanyagainstfear/fork2.JPG&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;So, &lt;a href=&quot;http://github.com/blog/515-gem-building-is-defunct&quot;&gt;GitHub has recommended Gemcutter&lt;/a&gt; as an alternative to hosting gems on GitHub. Of course, there seems to be an outcry, for three main reasons that I can see:&lt;/p&gt;
+&lt;p&gt;1) Effort must be made to move documentation and install instructions&lt;br /&gt;
+2) Gem forking is not possible with the new site&lt;br /&gt;
+3) GitHub gave no warning on this&lt;/p&gt;
+&lt;p&gt;As for #1, you&amp;#8217;ve got a year to update your user base and get gems off GitHub. I&amp;#8217;d assume that any actively maintained project has figured Gemcutter out by then. And for #3, at least we&amp;#8217;ve got a new service that works and can meet the same needs.&lt;/p&gt;
+&lt;p&gt;Regarding RubyGem forking, I&amp;#8217;d like to state that this statement is &lt;strong&gt;false&lt;/strong&gt;. Gemcutter accepts built gems, so you simply need to mimic the actions that GitHub&amp;#8217;s gem builder did: Open your .gemspec up, append your username to the gem name, and save. &lt;code&gt;gem build&lt;/code&gt;, &lt;code&gt;gem push&lt;/code&gt;, and done.&lt;/p&gt;
+&lt;p&gt;I think an important distinction must be made here: &lt;strong&gt;gem forking != scm forking&lt;/strong&gt;. GitHub made it easy for anyone to automatically push modifications to gems, but there&amp;#8217;s a bigger picture to think of here. Hopefully at some point, the changes you made will be brought back into the mainline gem. As &lt;a href=&quot;http://daviddollar.org/&quot;&gt;David Dollar&lt;/a&gt; so eloquently puts it:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I think the general idea is that gem forks should be a huge special case. I&amp;#8217;m somewhat of the mind personally that making gem forks too &amp;#8216;easy&amp;#8217; causes a great deal of unnecessary fragmentation in the community. It seems reasonable to me, that if your project is going to depend on a gem fork, that the dependency resolution not be automatic, and your installation instructions can tell the user how to get the forked dependency.&lt;/p&gt;
+&lt;p&gt;If a fork is going to be long-term, or a true alternative, it should probably be reregistered under a new name as a different project.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Like I stated above, &amp;#8216;gem forking&amp;#8217; is still supported just because of the nature of how Gemcutter works. I felt there needed to be a longer term solution for this in general, since now the community has grown used to it. This &lt;a href=&quot;http://wiki.github.com/qrush/gemcutter/fork-support&quot;&gt;lively discussion&lt;/a&gt; ensued, and after some deliberation we&amp;#8217;re going to use subdomains in order to solve the problem.&lt;/p&gt;
+&lt;p&gt;The idea is this: you&amp;#8217;ll be able to register your own subdomain on gemcutter.org, such as &lt;code&gt;qrush.gemcutter.org&lt;/code&gt;, and we&amp;#8217;ll give you a completely blank index to push to. Hopefully you&amp;#8217;ll be able to add others like the &lt;a href=&quot;http://gemcutter.org/pages/gem_docs#owner&quot;&gt;gem owner&lt;/a&gt; system works now. I feel this feature needs to be used in the following ways:&lt;/p&gt;
+&lt;p&gt;1) Subdomain use should be infrequent. It&amp;#8217;s for trial/forked gems that shouldn&amp;#8217;t be relied on for production.&lt;br /&gt;
+2) Use prerelease versions for development snapshots (version numbers like 1.0.0pre, &lt;code&gt;gem install yourgem --prerelease&lt;/code&gt;)&lt;br /&gt;
+3) Don&amp;#8217;t add someone&amp;#8217;s subdomain as a source, unless you can completely trust anything they toss there. (like, your own for example)&lt;br /&gt;
+4) Consider gemcutter.org/rubygems.org as the main, canonical repo that you can trust.&lt;br /&gt;
+5) Start looking into &lt;a href=&quot;http://blog.segment7.net/articles/2009/02/04/a-rubygems-github-proposal&quot;&gt;gem signing/cert&lt;/a&gt; since it&amp;#8217;s &lt;strong&gt;the&lt;/strong&gt; way we can really trust gems&lt;/p&gt;
+&lt;p&gt;Of course, none of this subdomains stuff works yet, but it seems like the best way forward. It&amp;#8217;s also spawning new, awesome ideas like &lt;a href=&quot;http://github.com/qrush/gemcutter/issues#issue/91&quot;&gt;password protected, private subdomains&lt;/a&gt;. If you&amp;#8217;re interested in contributing to the project, please &lt;a href=&quot;http://github.com/qrush/gemcutter&quot;&gt;fork away&lt;/a&gt; or hop in #gemcutter on Freenode to see what&amp;#8217;s happening.&lt;/p&gt;
+&lt;p&gt;This is &lt;strong&gt;our&lt;/strong&gt; gem host now, let&amp;#8217;s make it awesome.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>RailsCamp NE Adventures</title>
+   <link href="http://tom.preston-werner.com/solution/2009/07/20/railscamp-ne-adventures.html"/>
+   <updated>2009-07-20T00:00:00+04:00</updated>
+   <id>http://tom.preston-werner.com/solution/2009/07/20/railscamp-ne-adventures</id>
+   <content type="html">&lt;p&gt;The concept is simple: Get a bunch of developers together for a weekend away from the internet and most of civilization to have fun and relax. To be honest, I didn&amp;#8217;t get to relax much, but it was made up in spades just by how awesome the event was.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://railscamps.com&quot;&gt;&lt;p style=&quot;text-align:center;&quot;&gt;&lt;img style=&quot;padding:5px; background: #fff&quot; src=&quot;http://railscamps.com/images/yield.png&quot; /&gt;&lt;/p&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The venue was the &lt;a href=&quot;http://www.themainehouses.com/mountain_house/mountain_house.php&quot;&gt;Maine MountainView House&lt;/a&gt; in &lt;a href=&quot;http://maps.google.com/maps?q=bryant+pond,+me&amp;amp;oe=utf-8&amp;amp;rls=com.ubuntu:en-US:unofficial&amp;amp;client=firefox-a&amp;amp;um=1&amp;amp;ie=UTF-8&amp;amp;split=0&amp;amp;gl=us&amp;amp;ei=42BkSrOdNYXeNbClrPcB&amp;amp;sa=X&amp;amp;oi=geocode_result&amp;amp;ct=title&amp;amp;resnum=1&quot;&gt;Bryant Pond, ME&lt;/a&gt; I&amp;#8217;m sure others will post better pictures soon, but the pond itself was beautiful. A dock, fire pit, and plenty of chairs made for some fun smore-making and &lt;a href=&quot;http://en.wikipedia.org/wiki/Mafia_(party_game)&quot;&gt;werewolf&lt;/a&gt; games. The house was huge and definitely stood up to nearly 30 developers&amp;#8217; antics throughout the weekend.&lt;/p&gt;
+&lt;p&gt;The event itself was slightly organized, which was just perfect: catered lunch and dinner, and plenty of social hacking. Each day had a few talks showing off fun projects and interesting problems. Topics included covered &lt;a href=&quot;http://www.yotabanana.com/hiki/ruby-gettext-howto-rails.html&quot;&gt;internationalization with gettext&lt;/a&gt;, &lt;a href=&quot;http://couchdb.apache.org&quot;&gt;CouchDB&lt;/a&gt;, the &lt;a href=&quot;http://railsrumble.com&quot;&gt;Rails Rumble&lt;/a&gt;, &lt;a href=&quot;http://rdoc.info&quot;&gt;rdoc.info&lt;/a&gt;, &lt;a href=&quot;http://radiantcms.org&quot;&gt;RadiantCMS&lt;/a&gt;, and plenty more I&amp;#8217;m probably missing. &lt;a href=&quot;http://img39.yfrog.com/i/kaed.jpg/&quot;&gt;I showed off&lt;/a&gt; &lt;a href=&quot;http://gemcutter.org&quot;&gt;Gemcutter&lt;/a&gt; and got plenty of awesome feedback and ideas for the site.&lt;/p&gt;
+&lt;p&gt;As for hacking, it was an interesting mix of people and skill levels. Quite a few developers were there mostly to observe what others were using for tools and to understand how they work. I loved showing off Cucumber and I definitely heard the good word of &lt;a href=&quot;http://rubyhoedown2008.confreaks.com/05-bryan-liles-lightning-talk-tatft-test-all-the-f-in-time.html&quot;&gt;&lt;span class=&quot;caps&quot;&gt;TATFT&lt;/span&gt;&lt;/a&gt; being preached. I wish I could have watched a little more, but I was having too much fun coding away.&lt;/p&gt;
+&lt;p&gt;My adventure went something like this: The start of Saturday got a few people talking about ideas to hack on, and perhaps a project the group could work on together. &lt;a href=&quot;http://zerosum.org&quot;&gt;Nick Plante&lt;/a&gt; mentioned games via Twitter, and that eventually lead to implementing &lt;a href=&quot;http://en.wikipedia.org/wiki/Dope_Wars&quot;&gt;DopeWars&lt;/a&gt;. From there, some went outside on the porch to sketch out how the app would work, and we then wrote some basic user stories. It ended up that &lt;a href=&quot;http://jayunit.net&quot;&gt;Jason&lt;/a&gt; and I banged out a quick prototype in Sinatra and got something decently working. On Sunday, amongst recovering from some late night &lt;a href=&quot;http://www.urbanterror.net/news.php&quot;&gt;Urban Terror&lt;/a&gt;, I hacked with some others on searching gems via Gemcutter&amp;#8217;s web interface.&lt;/p&gt;
+&lt;p&gt;If there&amp;#8217;s a &lt;a href=&quot;http://railscamps.com&quot;&gt;RailsCamp&lt;/a&gt; going on even remotely close to you, do everything you can to get there. It was more hands on than RailsConf, and the amount of networking and fun being had was multiplied. I&amp;#8217;d just like to say thanks to the organizers, &lt;a href=&quot;http://freelancing-god.com&quot;&gt;Pat Allan&lt;/a&gt; and &lt;a href=&quot;http://cardarella.blogspot.com/&quot;&gt;Brian Cardarella&lt;/a&gt;, for working hard to put on a great time for all. I&amp;#8217;d love to help organize a RailsCamp in the future, perhaps since I&amp;#8217;m returning to Rochester soon it could include the Great Lakes region and bring in hackers from NY, PA, OH, MI, and more. (If you&amp;#8217;re interested too, leave a comment!)&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>The Git Parable</title>
+   <link href="http://tom.preston-werner.com/news/2009/05/19/the-git-parable.html"/>
+   <updated>2009-05-19T00:00:00+04:00</updated>
+   <id>http://tom.preston-werner.com/news/2009/05/19/the-git-parable</id>
+   <content type="html">&lt;p&gt;Git is a simple, but extremely powerful system. Most people try to teach Git by demonstrating a few dozen commands and then yelling &amp;#8220;tadaaaaa.&amp;#8221; I believe this method is flawed. Such a treatment may leave you with the ability to use Git to perform simple tasks, but the Git commands will still feel like magical incantations. Doing anything out of the ordinary will be terrifying. Until you understand the concepts upon which Git is built, you&amp;#8217;ll feel like a stranger in a foreign land.&lt;/p&gt;
+&lt;p&gt;The following parable will take you on a journey through the creation of a Git-like system from the ground up. Understanding the concepts presented here will be the most valuable thing you can do to prepare yourself to harness the full power of Git. The concepts themselves are quite simple, but allow for an amazing wealth of functionality to spring into existence. Read this parable all the way through and you should have very little trouble mastering the various Git commands and wielding the awesome power that Git makes available to you.&lt;/p&gt;
+&lt;h2&gt;The Parable&lt;/h2&gt;
+&lt;p&gt;Imagine that you have a computer that has nothing on it but a text editor and a few file system commands. Now imagine that you have decided to write a large software program on this system. Because you&amp;#8217;re a responsible software developer, you decide that you need to invent some sort of method for keeping track of versions of your software so that you can retrieve code that you previously changed or deleted. What follows is a story about how you might design one such version control system (&lt;span class=&quot;caps&quot;&gt;VCS&lt;/span&gt;) and the reasoning behind those design choices.&lt;/p&gt;
+&lt;h2&gt;Snapshots&lt;/h2&gt;
+&lt;p&gt;Alfred is a friend of yours that works down at the mall as a photographer in one of those &amp;#8220;Special Moments&amp;#8221; photo boutiques. All day long he takes photos of little kids posing awkwardly in front of jungle or ocean backdrops. During one of your frequent lunches at the pretzel stand, Alfred tells you a story about a woman named Hazel who brings her daughter in for a portrait every year on the same day. &amp;#8220;She brings the photos from all the past years with her,&amp;#8221; Alfred tells you. &amp;#8220;She likes to remember what her daughter was like at each different stage, as if the snapshots really let her move back and forth in time to those saved memories.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;Like some sort of formulaic plot device, Alfred&amp;#8217;s innocent statement acts as a catalyst for you to see the ideal solution to your version control dilemma. Snapshots, like save points in a video game, are really what you care about when you need to interact with a &lt;span class=&quot;caps&quot;&gt;VCS&lt;/span&gt;. What if you could take snapshots of your codebase at any time and resurrect that code on demand? Alfred reads the dawning realization spreading across your face and knows you&amp;#8217;re about to leave him without another word to go back and implement whatever genius idea he just caused you to have. You do not disappoint him.&lt;/p&gt;
+&lt;p&gt;You start your project in a directory named &lt;code&gt;working&lt;/code&gt;. As you code, you try to write one feature at a time. When you complete a self-contained portion of a feature, you make sure that all your files are saved and then make a copy of the entire working directory, giving it the name &lt;code&gt;snapshot-0&lt;/code&gt;. After you perform this copy operation, you make sure to never again change the code files in the new directory. After the next chunk of work, you perform another copy, only this time the new directory gets the name &lt;code&gt;snapshot-1&lt;/code&gt;, and so on.&lt;/p&gt;
+&lt;p&gt;To make it easy to remember what changes you made in each snapshot, you add a special file named &lt;code&gt;message&lt;/code&gt; to each snapshot directory that contains a summary of the work that you did and the date of completion. By printing the contents of each message, it becomes easy to find a specific change that you made in the past, in case you need to resurrect some old code.&lt;/p&gt;
+&lt;h2&gt;Branches&lt;/h2&gt;
+&lt;p&gt;After a bit of time on the project, a candidate for release begins to emerge. Late nights at the keyboard finally yield &lt;code&gt;snapshot-99&lt;/code&gt;, the nascent form of what will become Release Version 1.0. It comes to pass that this snapshot is packaged and distributed to the eagerly awaiting masses. Stoked by excellent response to your software, you push forward, determined to make the next version an even bigger success.&lt;/p&gt;
+&lt;p&gt;Your &lt;span class=&quot;caps&quot;&gt;VCS&lt;/span&gt; has so far been a faithful companion. Old versions of your code are there when you need them and can be accessed with ease. But not long after the release, bug reports start to come in. Nobody&amp;#8217;s perfect, you reassure yourself, and &lt;code&gt;snapshot-99&lt;/code&gt; is readily retrievable, glad to be brought back to life for the purposes of applying bug fixes.&lt;/p&gt;
+&lt;p&gt;Since the release, you&amp;#8217;ve created 10 new snapshots. This new work must not be included in the 1.0.1 bug fix version you now need to create. To solve this, you copy &lt;code&gt;snapshot-99&lt;/code&gt; to &lt;code&gt;working&lt;/code&gt; so that your working directory is at exactly the point where Version 1.0 was released. A few swift lines of code and the bug is fixed in the working directory.&lt;/p&gt;
+&lt;p&gt;It is here that a problem becomes apparent. The &lt;span class=&quot;caps&quot;&gt;VCS&lt;/span&gt; deals very well with linear development, but for the first time ever, you need to create a new snapshot that is not a direct descendent of the preceding snapshot. If you create a &lt;code&gt;snapshot-110&lt;/code&gt; (remember that you created 10 snapshots since the release), then you&amp;#8217;ll be interrupting the linear flow and will have no way of determining the ancestry of any given snapshot. Clearly, you need something more powerful than a linear system.&lt;/p&gt;
+&lt;p&gt;Studies show that even short exposures to nature can help recharge the mind&amp;#8217;s creative potential. You&amp;#8217;ve been sitting behind the artificially polarized light of your monitor for days on end. A walk through the woods in the brisk Autumn air will do you some good and with any luck, will help you arrive at an ideal solution to your problem.&lt;/p&gt;
+&lt;p&gt;The great oaks that line the trail have always appealed to you. They seem to stand stark and proud against the perfectly blue sky. Half the ruddy leaves have departed from their branches, leaving an intricate pattern of branches in their wake. Fixating on one of the thousands of branch tips you idly try to follow it back to the solitary trunk. This organically produced structure allows for such great complexity, but the rules for finding your way back to the trunk are so simple, and perfect for keeping track of multiple lines of development! It turns out that what they say about nature and creativity are true.&lt;/p&gt;
+&lt;p&gt;By looking at your code history as a tree, solving the problem of ancestry becomes trivial. All you need to do is include the name of the parent snapshot in the &lt;code&gt;message&lt;/code&gt; file you write for each snapshot. Adding just a single upstream pointer will enable you to easily and accurately trace the history of any given snapshot all the way back to the root.&lt;/p&gt;
+&lt;h2&gt;Branch Names&lt;/h2&gt;
+&lt;p&gt;Your code history is now a tree. Instead of having a single latest snapshot, you have two: one for each branch. With a linear system, your sequential numbering system let you easily identify the latest snapshot. Now, that ability is lost.&lt;/p&gt;
+&lt;p&gt;Creating new development branches has become so simple that you&amp;#8217;ll want to take advantage of it all the time. You&amp;#8217;ll be creating branches for fixes to old releases, for experiments that may not pan out; indeed it becomes possible to create a new branch for every feature you begin!&lt;/p&gt;
+&lt;p&gt;But like everything good in life, there is a price to be paid. Each time you create a new snapshot, you must remember that the new snapshot becomes the latest on its branch. Without this information, switching to a new branch would become a laborious process indeed.&lt;/p&gt;
+&lt;p&gt;Every time you create a new branch you probably give it a name in your head. &amp;#8220;This will be the Version 1.0 Maintenance Branch,&amp;#8221; you might say. Perhaps you refer to the former linear branch as the &amp;#8220;master&amp;#8221; branch.&lt;/p&gt;
+&lt;p&gt;Think about this a little further, though. From the perspective of a tree, what does it mean to name a branch? Naming every snapshot that appears in the history of a branch would do the trick, but requires the storage of a potentially large amount of data. Additionally, it still wouldn&amp;#8217;t help you efficiently locate the latest snapshot on a branch.&lt;/p&gt;
+&lt;p&gt;The least amount of information necessary to identify a branch is the location of the latest snapshot on that branch. If you need to know the list of snapshots that are part of the branch you can easily trace the parentage.&lt;/p&gt;
+&lt;p&gt;Storing the branch names is trivial. In a file named &lt;code&gt;branches&lt;/code&gt;, stored outside of any specific snapshot, you simply list the name/snapshot pairs that represent the tips of branches. To switch to a named branch you need only look up the snapshot for the corresponding name from this file.&lt;/p&gt;
+&lt;p&gt;Because you&amp;#8217;re only storing the latest snapshot on each branch, creating a new snapshot now contains an additional step. If the new snapshot is being created as part of a branch, the &lt;code&gt;branches&lt;/code&gt; file must be updated so that the name of the branch becomes associated with the new snapshot. A small price to pay for the benefit.&lt;/p&gt;
+&lt;h2&gt;Tags&lt;/h2&gt;
+&lt;p&gt;After using branches for a while you notice that they can serve two purposes. First, they can act as movable pointers to snapshots so that you can keep track of the branch tips. Second, they can be pointed at a single snapshot and never move.&lt;/p&gt;
+&lt;p&gt;The first use case allows you to keep track of ongoing development, things like &amp;#8220;Release Maintenance&amp;#8221;. The second case is useful for labeling points of interest, like &amp;#8220;Version 1.0&amp;#8221; and &amp;#8220;Version 1.0.1&amp;#8221;.&lt;/p&gt;
+&lt;p&gt;Mixing both of these uses into a single file feels messy. Both types are pointers to snapshots, but one moves and one doesn&amp;#8217;t. For the sake of clarity and elegance, you decide to create another file called &lt;code&gt;tags&lt;/code&gt; to contain pointers of the second type.&lt;/p&gt;
+&lt;p&gt;Keeping these two inherently different pointers in separate files will help you from accidentally treating a branch as a tag or vice versa.&lt;/p&gt;
+&lt;h2&gt;Distributed&lt;/h2&gt;
+&lt;p&gt;Working on your own gets pretty lonely. Wouldn&amp;#8217;t it be nice if you could invite a friend to work on your project with you? Well, you&amp;#8217;re in luck. Your friend Zoe has a computer setup just like yours and wants to help with the project. Because you&amp;#8217;ve created such a great version control system, you tell her all about it and send her a copy of all your snapshots, branches, and tags so she can enjoy the same benefits of the code history.&lt;/p&gt;
+&lt;p&gt;It&amp;#8217;s great to have Zoe on the team but she has a habit of taking long trips to far away places without internet access. As soon as she has the source code, she catches a flight to Patagonia and you don&amp;#8217;t hear from her for a week. In the meantime you both code up a storm. When she finally gets back, you discover a critical flaw in your &lt;span class=&quot;caps&quot;&gt;VCS&lt;/span&gt;. Because you&amp;#8217;ve both been using the same numbering system, you each have directories named &amp;#8216;snapshot-114&amp;#8217;, &amp;#8216;snapshot-115&amp;#8217;, and so on, but with different contents!&lt;/p&gt;
+&lt;p&gt;To make matters worse, you don&amp;#8217;t even know who authored the changes in those new snapshots. Together, you devise a plan for dealing with these problems. First, snapshot messages will henceforth contain author name and email. Second, snapshots will no longer be named with simple numbers. Instead, you&amp;#8217;ll use the contents of the message file to produce a hash. This hash will be guaranteed to be unique to the snapshot since no two messages will ever have the same date, message, parent, and author. To make sure everything goes smoothly, you both agree to use the SHA1 hash algorithm that takes the contents of a file and produces a 40 character hexadecimal string. You both update your histories with the new technique and instead of clashing &amp;#8216;snapshot-114&amp;#8217; directories, you now have distinct directories named &amp;#8216;8ba3441b6b89cad23387ee875f2ae55069291f4b&amp;#8217; and &amp;#8216;db9ecb5b5a6294a8733503ab57577db96ff2249e&amp;#8217;.&lt;/p&gt;
+&lt;p&gt;With the updated naming scheme, it becomes trivial for you to fetch all the new snapshots from Zoe&amp;#8217;s computer and place them next to your existing snapshots. Because every snapshot specifies its parent, and identical messages (and therefor identical snapshots) have identical names no matter where they are created, the history of the codebase can still be drawn as a tree. Only now, the tree is comprised of snapshots authored by both Zoe and you.&lt;/p&gt;
+&lt;p&gt;This point is important enough to warrant repeating. A snapshot is identified by a SHA1 that uniquely identifies it (and its parent). These snapshots can be created and moved around between computers without losing their identity or where they belong in the history tree of a project. What&amp;#8217;s more, snapshots can be shared or kept private as you see fit. If you have some experimental snapshots that you want to keep to yourself, you can do so quite easily. Just don&amp;#8217;t make them available to Zoe!&lt;/p&gt;
+&lt;h2&gt;Offline&lt;/h2&gt;
+&lt;p&gt;Zoe&amp;#8217;s travel habits cause her to spend countless hours on airplanes and boats. Most of the places she visits have no readily available internet access. At the end of the day, she spends more time offline than online.&lt;/p&gt;
+&lt;p&gt;It&amp;#8217;s no surprise, then, that Zoe raves about your &lt;span class=&quot;caps&quot;&gt;VCS&lt;/span&gt;. All of the day to day operations that she needs to do can be done locally. The only time she needs a network connection is when she&amp;#8217;s ready to share her snapshots with you.&lt;/p&gt;
+&lt;h2&gt;Merges&lt;/h2&gt;
+&lt;p&gt;Before Zoe left on her trip, you had asked her to start working off of the branch named &amp;#8216;math&amp;#8217; and to implement a function that generated prime numbers. Meanwhile, you were also developing off of the &amp;#8216;math&amp;#8217; branch, only you were writing a function to generate magic numbers. Now that Zoe has returned, you are faced with the task of merging these two separate branches of development into a single snapshot. Since you both worked on separate tasks, the merge is simple. While constructing the snapshot message for the merge, you realize that this snapshot is special. Instead of just a single parent, this merge snapshot has two parents! The first parent is your latest on the &amp;#8216;math&amp;#8217; branch and the second parent is Zoe&amp;#8217;s latest on her &amp;#8216;math&amp;#8217; branch. The merge snapshot doesn&amp;#8217;t contain any changes beyond those necessary to merge the two disparate parents into a single codebase.&lt;/p&gt;
+&lt;p&gt;Once you complete the merge, Zoe fetches all the snapshots that you have that she does not, which include your development on the &amp;#8216;math&amp;#8217; branch and your merge snapshot. Once she does this, both of your histories match exactly!&lt;/p&gt;
+&lt;h2&gt;Rewriting History&lt;/h2&gt;
+&lt;p&gt;Like many software developers you have a compulsion to keep your code clean and very well organized. This carries over into a desire to keep your code history well groomed. Last night you came home after having a few too many pints of Guinness at the local brewpub and started coding, producing a handful of snapshots along the way. This morning, a review of the code you wrote last night makes you cringe a little bit. The code is good overall, but you made a lot of mistakes early on that you corrected in later snapshots.&lt;/p&gt;
+&lt;p&gt;Let&amp;#8217;s say the branch on which you did your drunken development is called &amp;#8216;drunk&amp;#8217; and you made three snapshots after you got home from the bar. If the name &amp;#8216;drunk&amp;#8217; points at the latest snapshot on that branch, then you can use a useful notation to refer to the parent of that snapshot. The notation &amp;#8216;drunk^&amp;#8217; means the parent of the snapshot pointed to by the branch name &amp;#8216;drunk&amp;#8217;. Similarly &amp;#8216;drunk^^&amp;#8217; means the grandparent of the &amp;#8216;drunk&amp;#8217; snapshot. So the three snapshots in chronological order are &amp;#8216;drunk^^&amp;#8217;, &amp;#8216;drunk^&amp;#8217;, and &amp;#8216;drunk&amp;#8217;.&lt;/p&gt;
+&lt;p&gt;You&amp;#8217;d really like those three lousy snapshots to be two clean snapshots. One that changes an existing function, and one that adds a new file. To accomplish this revision of history you copy &amp;#8216;drunk&amp;#8217; to &amp;#8216;working&amp;#8217; and delete the file that is new in the series. Now &amp;#8216;working&amp;#8217; represents the correct modifications to the existing function. You create a new snapshot from &amp;#8216;working&amp;#8217; and write the message to be appropriate to the changes. For the parent you specify the SHA1 of the &amp;#8216;drunk^^^&amp;#8217; snapshot, essentially creating a new branch off of the same snapshot as last night. Now you can copy &amp;#8216;drunk&amp;#8217; to &amp;#8216;working&amp;#8217; and roll a snapshot with the new file addition. As the parent you specify that snapshot you created just before this one.&lt;/p&gt;
+&lt;p&gt;As the last step, you change the branch name &amp;#8216;drunk&amp;#8217; to point to the last snapshot you just made.&lt;/p&gt;
+&lt;p&gt;The history of the &amp;#8216;drunk&amp;#8217; branch now represents a nicer version of what you did last night. The other snapshots that you&amp;#8217;ve replaced are no longer needed so you can delete them or just leave them around for posterity. No branch names are currently pointing at them so it will be hard to find them later on, but if you don&amp;#8217;t delete them, they&amp;#8217;ll stick around.&lt;/p&gt;
+&lt;h2&gt;Staging Area&lt;/h2&gt;
+&lt;p&gt;As much as you try to keep your new modifications related to a single feature or logical chunk, you sometimes get sidetracked and start hacking on something totally unrelated. Only half-way into this do you realize that your working directory now contains what should really be separated as two discrete snapshots.&lt;/p&gt;
+&lt;p&gt;To help you with this annoying situation, the concept of a staging directory is useful. This area acts as an intermediate step between your working directory and a final snapshot. Each time you finish a snapshot, you also copy that to a &lt;code&gt;staging&lt;/code&gt; directory. Now, every time you finish an edit to a new file, create a new file, or remove a file, you can decide whether that change should be part of your next snapshot. If it belongs, you mimic the change inside &lt;code&gt;staging&lt;/code&gt;. If it doesn&amp;#8217;t, you can leave it in &lt;code&gt;working&lt;/code&gt; and make it part of a later snapshot. From now on, snapshots are created directly from the staging directory.&lt;/p&gt;
+&lt;p&gt;This separation of coding and preparing the stage makes it easy to specify what is and is not included in the next snapshot. You no longer have to worry too much about making an accidental, unrelated change in your working directory.&lt;/p&gt;
+&lt;p&gt;You have to be a bit careful, though. Consider a file named &lt;code&gt;README&lt;/code&gt;. You make an edit to this file and then mimic that in &lt;code&gt;staging&lt;/code&gt;. You go on about your business, editing other files. After a bit, you make another change to &lt;code&gt;README&lt;/code&gt;. Now you have made two changes to that file, but only one is in the staging area! Were you to create a snapshot now, your second change would be absent.&lt;/p&gt;
+&lt;p&gt;The lesson is this: every new edit must be added to the staging area if it is to be part of the next snapshot.&lt;/p&gt;
+&lt;h2&gt;Diffs&lt;/h2&gt;
+&lt;p&gt;With a working directory, a staging area, and loads of snapshots laying around, it starts to get confusing as to what the specific code changes are between these directories. A snapshot message only gives you a summary of what changed, not exactly what lines were changed between two files.&lt;/p&gt;
+&lt;p&gt;Using a diffing algorithm, you can implement a small program that shows you the differences in two codebases. As you develop and copy things from your working directory to the staging area, you&amp;#8217;ll want to easily see what is different between the two, so that you can determine what else needs to be staged. It&amp;#8217;s also important to see how the staging area is different from the last snapshot, since these changes are what will become part of the next snapshot you produce.&lt;/p&gt;
+&lt;p&gt;There are many other diffs you might want to see. The differences between a specific snapshot and its parent would show you the &amp;#8220;changeset&amp;#8221; that was introduced by that snapshot. The diff between two branches would be helpful for making sure your development doesn&amp;#8217;t wander too far away from the mainline.&lt;/p&gt;
+&lt;h2&gt;Eliminating Duplication&lt;/h2&gt;
+&lt;p&gt;After a few more trips to Namibia, Istanbul, and Galapagos, Zoe starts to complain that her hard drive is filling up with hundreds of nearly identical copies of the software. You too have been feeling like all the file duplication is wasteful. After a bit of thinking, you come up with something very clever.&lt;/p&gt;
+&lt;p&gt;You remember that the SHA1 hash produces a short string that is unique for a given file contents. Starting with the very first snapshot in the project history, you start a conversion process. First, you create a directory named &lt;code&gt;objects&lt;/code&gt; outside of the code history. Next, you find the most deeply nested directory in the snapshot. Additionally, you open up a temporary file for writing. For each file in this directory you perform three steps. Step 1: Calculate the SHA1 of the contents. Step 2: Add an entry into the temp file that contains the word &amp;#8216;blob&amp;#8217; (binary large object), the SHA1 from the first step, and the filename. Step 3: Copy the file to the objects directory and rename it to the SHA1 from step 1. Once finished with all the files, find the SHA1 of the temp file contents and use that to name the temp file, also placing it in the objects directory.&lt;/p&gt;
+&lt;p&gt;If at any time the objects directory already contains a file with a given name, then you have already stored that file&amp;#8217;s contents and there is no need to do so again.&lt;/p&gt;
+&lt;p&gt;Now, move up one directory and start over. Only this time, when you get to the entry for the directory that you just processed, enter the word &amp;#8216;tree&amp;#8217;, the SHA1 of the temp file from last time, and the directory&amp;#8217;s name into the new temp file. In this fashion you can build up a tree of directory object files that contain the SHA1s and names of the files and directory objects that they contain.&lt;/p&gt;
+&lt;p&gt;Once this has been accomplished for every directory and file in the snapshot, you have a single root directory object file and its corresponding SHA1. Since nothing contains the root directory, you must record the root tree&amp;#8217;s SHA1 somewhere. An ideal place to store it is in the snapshot message file. This way, the uniqueness of the SHA1 of the message also depends on the entire contents of the snapshot, and you can guarantee with absolute certainty that two identical snapshot message SHA1s contain the same files!&lt;/p&gt;
+&lt;p&gt;It&amp;#8217;s also convenient to create an object from the snapshot message in the same way that you do for blobs and trees. Since you&amp;#8217;re maintaining a list of branch and tag names that point to message SHA1s you don&amp;#8217;t have to worry about losing track of which snapshots are important to you.&lt;/p&gt;
+&lt;p&gt;With all of this information stored in the objects directory, you can safely delete the snapshot directory that you used as the source of this operation. If you want to reconstitute the snapshot at a later date it&amp;#8217;s simply a matter of following the SHA1 of the root tree stored in the message file and extracting each tree and blob into their corresponding directory and file.&lt;/p&gt;
+&lt;p&gt;For a single snapshot, this transformation process doesn&amp;#8217;t get you much. You&amp;#8217;ve basically just converted one filesystem into another and created a lot of work in the process. The real benefits of this system arise from reuse of trees and blobs across snapshots. Imagine two sequential snapshots in which only a single file in the root directory has changed. If the snapshots both contain 10 directories and 100 files, the transformation process will create 10 trees and 100 blobs from the first snapshot but only one new blob and one new tree from the second snapshot!&lt;/p&gt;
+&lt;p&gt;By converting every snapshot directory in the old system to object files in the new system, you can drastically reduce the number of files that are stored on disk. Now, instead of storing perhaps 50 identical copies of a rarely changed file, you only need to keep one.&lt;/p&gt;
+&lt;h2&gt;Compressing Blobs&lt;/h2&gt;
+&lt;p&gt;Eliminating blob and tree duplication significantly reduces the total storage size of your project history, but that&amp;#8217;s not the only thing you can do to save space. Source code is just text. Text can be very efficiently compressed using something like the &lt;span class=&quot;caps&quot;&gt;LZW&lt;/span&gt; or &lt;span class=&quot;caps&quot;&gt;DEFLATE&lt;/span&gt; compression algorithms. If you compress every blob before computing its SHA1 and saving it to disk you can reduce the total storage size of the project history by another very admirable quantity.&lt;/p&gt;
+&lt;h2&gt;The True Git&lt;/h2&gt;
+&lt;p&gt;The &lt;span class=&quot;caps&quot;&gt;VCS&lt;/span&gt; you have constructed is now a reasonable facsimile of Git. The main difference is that Git gives you very nice command lines tools to handle such things as creating new snapshots and switching to old ones (Git uses the term &amp;#8220;commit&amp;#8221; instead of &amp;#8220;snapshot&amp;#8221;), tracing history, keeping branch tips up-to-date, fetching changes from other people, merging and diffing branches, and hundreds of other common (and not-so-common tasks).&lt;/p&gt;
+&lt;p&gt;As you continue to learn Git, keep this parable in mind. Git is really very simple underneath, and it is this simplicity that makes it so flexible and powerful. One last thing before you run off to learn all the Git commands: remember that it is almost impossible to lose work that has been committed. Even when you delete a branch, all that&amp;#8217;s really happened is that the pointer to that commit has been removed. All of the snapshots are still in the objects directory, you just need to dig up the commit &lt;span class=&quot;caps&quot;&gt;SHA&lt;/span&gt;. In these cases, look up &lt;code&gt;git reflog&lt;/code&gt;. It contains a history of what each branch pointed to and in times of crisis, it will save the day.&lt;/p&gt;
+&lt;p&gt;Here are some resources that you should follow as your next step. Now, go, and become a Git master!&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://learn.github.com/&quot;&gt;Learn Git&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://book.git-scm.com/&quot;&gt;Git Community Book&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://www-cs-students.stanford.edu/~blynn/gitmagic/&quot;&gt;Git Magic&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;#8212;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://news.ycombinator.com/item?id=615308&quot;&gt;Discuss this post on Hacker News&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/3.0/us/&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width:0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-sa/3.0/us/80x15.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>BarCamp Boston 4 Roundup</title>
+   <link href="http://tom.preston-werner.com/news/2009/04/26/barcamp-boston-4-roundup.html"/>
+   <updated>2009-04-26T00:00:00+04:00</updated>
+   <id>http://tom.preston-werner.com/news/2009/04/26/barcamp-boston-4-roundup</id>
+   <content type="html">&lt;p&gt;BarCamp Boston 4 has been a lot of fun. This post is just a roundup of the talks I went to on Sunday. I gave a talk about &lt;a href=&quot;http://drop.io/gitstarted&quot;&gt;getting started with git&lt;/a&gt;, which seems to have went well.&lt;/p&gt;
+&lt;p&gt;I&amp;#8217;ve never been to &lt;span class=&quot;caps&quot;&gt;MIT&lt;/span&gt; before, and I need to come back and explore the campus more. It was held in the &lt;span class=&quot;caps&quot;&gt;MIT&lt;/span&gt; Strata center, which is absolutely ridiculous. The architecture is really just unreal. Also, I can&amp;#8217;t believe how much pizza a few hundred nerds can down in a manner of minutes.&lt;/p&gt;
+&lt;p&gt;One of the neatest things was that a project was being run in the hallway with a &lt;a href=&quot;http://wiffiti.com&quot;&gt;Wiffiti&lt;/a&gt; stream of the tweets, pictures, and more that was going on:&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;object type=&quot;application/x-shockwave-flash&quot; data=&quot;http://flash.alpha.locamoda.com/wiffiti.com/cloud/cataclysm.swf?&amp;loca=loca6848&amp;total=4&amp;tags=%23bcb4,bcb4,%21barcampboston,@loca6848&amp;twitter=1&amp;flickr=1&amp;locamoda=1&amp;background=http://locamoda-staging.s3.amazonaws.com/wiffiti_cloud_assets/173/bcamp-logo.png&quot; height=&quot;460&quot; width=&quot;500&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://flash.alpha.locamoda.com/wiffiti.com/cloud/cataclysm.swf?&amp;loca=loca6848&amp;total=4&amp;tags=%23bcb4,bcb4,%21barcampboston,@loca6848&amp;twitter=1&amp;flickr=1&amp;locamoda=1&amp;background=http://locamoda-staging.s3.amazonaws.com/wiffiti_cloud_assets/173/bcamp-logo.png&quot;/&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;/object&gt;&lt;/p&gt;
+&lt;p&gt;Here&amp;#8217;s the talks I went to and what I got out of them. You can see the &lt;a href=&quot;http://wiki.barcampboston.org/index.php?title=2009_Schedule&quot;&gt;full schedule here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;how to be a freelancer&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The person giving this talk wanted to hit like 8 points, but I think he only got to 3. What ensued was plenty of discussion on how to deal with clients, how to ditch them, and problems that come up with freelancing in general. The general gist I got from it: I&amp;#8217;m glad I don&amp;#8217;t have to deal with that.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Code secrets&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This was a great idea: people in the audience write down horrible, deep, dark secrets about code they&amp;#8217;ve written, and then they&amp;#8217;re read off. Hilarity ensued.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Starting a Boston startup space&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Sadly I didn&amp;#8217;t pay too much attention to this one, but my basic gist was that it&amp;#8217;s a community service, and it&amp;#8217;s tough to decide a business model that works for the people you&amp;#8217;re serving. I&amp;#8217;ll definitely be utilizing the local coworking if I end up on the lam as a freelancer or mobile worker after school is over.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Fun with QR Codes&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;QR codes are really neat, and can do some ridiculous stuff. They&amp;#8217;re really awesome for embedding URLs into the real life, like putting a QR code near a bus stop that can open a schedule for you. I just wish my phone didn&amp;#8217;t suck so I could actually read them. I do wonder how this concept would catch on with the general public. What is really funny is to watch people try to read the QR code on their phones from the screen.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;JavaScript Testing Discussion&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Lots of gripes about the current state of testing JS in the browser. There&amp;#8217;s plenty of ways to DO testing in the browser, but there doesn&amp;#8217;t seem to be a be-all, end-all solution. Listing out various testing frameworks, but there doesn&amp;#8217;t seem to be many familiar with most of them. Complaints, bitching and moaning about how difficult this situation is. It all boils down to not being able to remove the human element from testing it correctly.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ruby Testing Panel&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Seems to be a general discussion of what&amp;#8217;s going on in the Ruby testing world and reactions that people have. Starting off with a rant or reasons why to Test First. Diving into some differences between RSpec and Shoulda and their syntax differences. Some talk about mocking and stubbing and the different libraries. This discussion went for an hour but I skipped out early to make the next talk.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Introduction to the Arduino&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Should be easy to translate software development experience into the microcontroller world. Throwing some around the room so we can get a look at what they are. Huge advantage: the bootloader. All you need is a &lt;span class=&quot;caps&quot;&gt;USB&lt;/span&gt; cable and you can load code on it. There&amp;#8217;s ways to get around it or write your own too. Ridiculously neat demo: the arduino spins a platter with a thin slot that has LEDs beneath it. There&amp;#8217;s a lens at the top of the platter that the arduino can hook into, and control the speed of how fast the platter will go. Lots of C code and magic registers that you need data sheets for. I wonder if the Ruby library abstracts any of this away. Data sheets just seem scary, but useful.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span class=&quot;caps&quot;&gt;LOLCODE&lt;/span&gt; 101&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This isn&amp;#8217;t 100% serious, but for some reason somebody made a programming language around this meme. I would post some code but pygments doesn&amp;#8217;t support the language. Best part of the language: &lt;span class=&quot;caps&quot;&gt;DIAF&lt;/span&gt; is exiting with a status code.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>If you only could follow 10 people on Twitter...</title>
+   <link href="http://tom.preston-werner.com/news/2008/12/11/if-you-only-could-follow-10-people-on-twitter.html"/>
+   <updated>2008-12-11T00:00:00+03:00</updated>
+   <id>http://tom.preston-werner.com/news/2008/12/11/if-you-only-could-follow-10-people-on-twitter</id>
+   <content type="html">&lt;p&gt;&amp;#8230;who would they be? I&amp;#8217;m following a staggering number of people (1,337 to be exact), and the signal vs. noise ratio is just getting out of control. I&amp;#8217;m not sure how I got into this situation: I just started following everyone that followed me, and it spun out of control. I see a few options from here:&lt;/p&gt;
+&lt;ol&gt;
+	&lt;li&gt;Remove everyone and start again.&lt;/li&gt;
+	&lt;li&gt;Set up groups in TweetDeck and continue to follow a ton of people.&lt;/li&gt;
+	&lt;li&gt;Slowly whittle away until my following/follower ratio is down to 1:1.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This got me thinking&amp;#8230;what if you could only follow 10 people? Who would I follow and why? I present my list, and I encourage you to think of your own.&lt;/p&gt;
+&lt;ol&gt;
+	&lt;li&gt;&lt;a href=&quot;http://twitter.com/ablissfulgal&quot;&gt;ablissfulgal&lt;/a&gt;: My girlfriend. I don&amp;#8217;t need to explain this one.&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://twitter.com/mittense&quot;&gt;mittense&lt;/a&gt;: Former coworker from Stardock who plays way too many video games.&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://twitter.com/GarrettAtreides&quot;&gt;GarrettAtreides&lt;/a&gt;: Classmate at &lt;span class=&quot;caps&quot;&gt;RIT&lt;/span&gt;, MS lover, and all around goofy dude.&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://twitter.com/AmazingSyco&quot;&gt;AmazingSyco&lt;/a&gt;: Classmate at &lt;span class=&quot;caps&quot;&gt;RIT&lt;/span&gt;, Cocoa hacker, and all around funny dude.&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://twitter.com/chorn&quot;&gt;chorn&lt;/a&gt;: Local Ruby fan that&amp;#8217;s a riot. Supposedly he&amp;#8217;s a &lt;span class=&quot;caps&quot;&gt;CTO&lt;/span&gt; too.&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://twitter.com/BreakingNewsOn&quot;&gt;BreakingNewsOn&lt;/a&gt;: For those who prefer their news in &lt;span class=&quot;caps&quot;&gt;ALL&lt;/span&gt; &lt;span class=&quot;caps&quot;&gt;CAPS&lt;/span&gt;.&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://twitter.com/defunkt&quot;&gt;defunkt&lt;/a&gt;: One of the GitHubbers and an awesome Rubyist.&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://twitter.com/faithfulgeek&quot;&gt;faithfulgeek&lt;/a&gt;: Convert to the Ruby/&lt;span class=&quot;caps&quot;&gt;OSX&lt;/span&gt; world from Microsoft. I&amp;#8217;m going through the same transition.&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://twitter.com/nakajima&quot;&gt;nakajima&lt;/a&gt;: Ruby ninja who&amp;#8217;s a code machine. And he&amp;#8217;s hilarious.&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://twitter.com/guykawasaki&quot;&gt;guykawasaki&lt;/a&gt;: Entrepreneur extraordinaire. I&amp;#8217;m listed on his site as a Twitterati too.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;To those who didn&amp;#8217;t make the cut, don&amp;#8217;t feel bad! It&amp;#8217;s not that I don&amp;#8217;t want to communicate with you, just most likely I can communicate easier through a different channel (&lt;span class=&quot;caps&quot;&gt;IRC&lt;/span&gt;, IM, what have you).&lt;/p&gt;
+&lt;p&gt;Who would you follow? Let me know in the comments or make your own blog post!&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>GitHub Rebase qqqq qqqqqqqqqqqqq qqqqqqqqqqq qqqqqqq qqqqqqq qqqqqqqqqq qqqqq qq qqqqqqqqqq qqqqq</title>
+   <link href="http://tom.preston-werner.com/news/2008/10/26/github-rebase-1.html"/>
+   <updated>2008-10-26T00:00:00+04:00</updated>
+   <id>http://tom.preston-werner.com/news/2008/10/26/github-rebase-1</id>
+   <content type="html">&lt;p&gt;This is the start of a&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Pumpkin Carving 2008</title>
+   <link href="http://tom.preston-werner.com/news/2008/10/20/pumpkin-carving-2008.html"/>
+   <updated>2008-10-20T00:00:00+04:00</updated>
+   <id>http://tom.preston-werner.com/news/2008/10/20/pumpkin-carving-2008</id>
+   <content type="html">&lt;p&gt;In 2006 I created a &lt;a href=&quot;http://photos-a.ak.facebook.com/photos-ak-sf2p/v49/236/39/24408547/n24408547_30746800_6913.jpg&quot;&gt;stormtrooper&lt;/a&gt;. Last year was &lt;a href=&quot;http://www.homestarrunner.com/ween_stencils.html&quot;&gt;HomestarRunner&lt;/a&gt;. This year however, I paid homage to the one and the only, &lt;a href=&quot;http://www.youtube.com/watch?v=8hm3E2cGQE4&quot;&gt;Octocat&lt;/a&gt;:&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;a href=&quot;http://flickr.com/photos/qrush/2960047774/&quot;&gt;&lt;img class=&quot;aligncenter&quot; title=&quot;Octocat!&quot; src=&quot;http://farm4.static.flickr.com/3050/2960047774_6e39a980dc.jpg?v=0&quot; alt=&quot;&quot; width=&quot;500&quot; height=&quot;375&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This of course is the logo of one of my favorite sites, &lt;a href=&quot;http://github.com&quot;&gt;GitHub&lt;/a&gt;. We&amp;#8217;re having our Halloween party this weekend so I made this guy a little early this year.&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;a href=&quot;http://flickr.com/photos/qrush/2960048602/&quot;&gt;&lt;img class=&quot;aligncenter&quot; title=&quot;Octocat 3 GitHub&quot; src=&quot;http://farm4.static.flickr.com/3250/2960048602_c23942eda0.jpg&quot; alt=&quot;&quot; width=&quot;500&quot; height=&quot;375&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you&amp;#8217;re curious, you can see the &lt;a href=&quot;http://flickr.com/qrush&quot;&gt;creation process on my new Flickr account &lt;/a&gt;(their upload and photo managing interface is kickass!). If you&amp;#8217;d like the stencil I used, just leave a comment or email me. Happy Halloween!&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;a href=&quot;http://flickr.com/photos/qrush/2959191819/&quot;&gt;&lt;img class=&quot;aligncenter&quot; src=&quot;http://farm4.static.flickr.com/3272/2959191819_3797a3c385.jpg&quot; alt=&quot;Fork it.&quot; width=&quot;375&quot; height=&quot;500&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Where do you get Ruby news from?</title>
+   <link href="http://tom.preston-werner.com/solution/2008/10/19/where-do-you-get-ruby-news-from.html"/>
+   <updated>2008-10-19T00:00:00+04:00</updated>
+   <id>http://tom.preston-werner.com/solution/2008/10/19/where-do-you-get-ruby-news-from</id>
+   <content type="html">&lt;p&gt;I&amp;#8217;m wondering where other fellow Ruby and Rails hackers get their Ruby-related news fix from. For some reason I just feel continually disconnected from the community at large and I just want to make sure I&amp;#8217;m taking advantage of the resources out there. So here&amp;#8217;s my news sources:&lt;/p&gt;
+&lt;ol&gt;
+	&lt;li&gt;Ruby.Reddit (&lt;a href=&quot;http://reddit.com/r/ruby&quot;&gt;http://reddit.com/r/ruby&lt;/a&gt;): This seems to be one of the most active sources, and usually the commentors are fantastic. It&amp;#8217;s community-driven news at its best, but sometimes it&amp;#8217;s a little slow compared to the other subreddits. What I like most about it is that the community is relatively small, so if you post a story it usually sticks on the page for a few days.&lt;/li&gt;
+	&lt;li&gt;RubyFlow (&lt;a href=&quot;http://rubyflow.com&quot;&gt;http://rubyflow.com&lt;/a&gt;): I just got into RubyFlow recently, and it seems more like the community well than anything. You can throw a coin in and wish for some visitors to your blog, but you&amp;#8217;re usually lost in the mix. It&amp;#8217;s a very interesting concept though, and it&amp;#8217;s definitely fun to see big names in the Ruby community on the list.&lt;/li&gt;
+	&lt;li&gt;Ruby.Alltop (&lt;a href=&quot;http://ruby.alltop.com&quot;&gt;http://ruby.alltop.com&lt;/a&gt;): Alltop is awesome for getting an overall sense of where the community is right now. It&amp;#8217;s Guy Kawasaki&amp;#8217;s &amp;#8216;magazine rack&amp;#8217; of latest Ruby stories&amp;#8230;essentially a &lt;span class=&quot;caps&quot;&gt;RSS&lt;/span&gt; aggregator. I&amp;#8217;ve discovered quite a few blogs I didn&amp;#8217;t know about and now keep track of through it. One of my goals with this blog is to get on there someday! :)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I suppose my secondary news sources would be Freenode&amp;#8217;s various Ruby channels (mostly #rubyonrails) and the Rails mailing list, but I don&amp;#8217;t check those as often. I&amp;#8217;ve also heard about a &lt;a href=&quot;http://caboo.se&quot;&gt;secret channel&lt;/a&gt;, but who knows if I&amp;#8217;ll ever get in there. Those also don&amp;#8217;t have a handy &lt;span class=&quot;caps&quot;&gt;RSS&lt;/span&gt; feed, so I tend not to check them as often. So, where do you get news about the Ruby community from?&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Calculating Age in Rails</title>
+   <link href="http://tom.preston-werner.com/solution/2008/10/13/calculating-age-in-rails.html"/>
+   <updated>2008-10-13T00:00:00+04:00</updated>
+   <id>http://tom.preston-werner.com/solution/2008/10/13/calculating-age-in-rails</id>
+   <content type="html">&lt;p&gt;You&amp;#8217;d think that this would be easy, but for some reason it wasn&amp;#8217;t, at least for me. Let&amp;#8217;s say you keep track of a User&amp;#8217;s birthday with a date field. Great! Let&amp;#8217;s show the user&amp;#8217;s age.&lt;/p&gt;
+&lt;p&gt;Liquid error: No such file or directory &amp;#8211; pygmentize -l ruby -f html -O encoding=utf-8&lt;/p&gt;
+&lt;p&gt;Done! Right? &lt;span class=&quot;caps&quot;&gt;WRONG&lt;/span&gt;. Worked fine for some users, until one of my coworkers asked me&amp;#8230;hey, you&amp;#8217;re not 21 yet&amp;#8230;how&amp;#8217;d you magically gain a year on your profile? Crap. Obviously this will work for everyone&amp;#8217;s whose birthday is &lt;span class=&quot;caps&quot;&gt;BEFORE&lt;/span&gt; &lt;code&gt;Date.today&lt;/code&gt;, but not after.&lt;/p&gt;
+&lt;p&gt;So, we need a more exact method of calculating the age:&lt;br /&gt;
+Liquid error: No such file or directory &amp;#8211; pygmentize -l ruby -f html -O encoding=utf-8&lt;/p&gt;
+&lt;p&gt;So what this method does instead is use the &lt;code&gt;Rational&lt;/code&gt; value given by subtracting two &lt;code&gt;Date&lt;/code&gt;s, and divides it by the number of days in a year. Since that number is still a &lt;code&gt;Rational&lt;/code&gt;, calling &lt;code&gt;floor&lt;/code&gt; on it will round it down to the nearest &lt;code&gt;Fixnum&lt;/code&gt;, giving us a (slightly more) precise account of this user&amp;#8217;s age. &lt;strong&gt;&lt;span class=&quot;caps&quot;&gt;EDIT&lt;/span&gt;: But this is still inaccurate!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Yeah, I thought it was easy too. Perhaps this shows that I need to test my app a little more thoroughly! It also would be nice to save the age in an instance level variable, but right now I don&amp;#8217;t use the age more than once on a page so it doesn&amp;#8217;t matter.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span class=&quot;caps&quot;&gt;EDIT&lt;/span&gt;&lt;/strong&gt;: It looks like my method is still not sufficient for leap years! The comments have posted &lt;span class=&quot;caps&quot;&gt;MANY&lt;/span&gt; great solutions. My method is fine for a general estimation, but the comments have many solutions for that deal with greater accuracy. I&amp;#8217;m honestly not sure which is best, so choose carefully when you&amp;#8217;re developing your app.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Loading custom code in Rails</title>
+   <link href="http://tom.preston-werner.com/solution/2008/09/22/loading-custom-code-in-rails.html"/>
+   <updated>2008-09-22T00:00:00+04:00</updated>
+   <id>http://tom.preston-werner.com/solution/2008/09/22/loading-custom-code-in-rails</id>
+   <content type="html">&lt;p&gt;This is a question I&amp;#8217;ve seen asked (including by myself) in #rubyonrails on Freenode quite a few times, and I figured I&amp;#8217;d settle it once and for all. There&amp;#8217;s a few different ways to get custom code loaded into your Rails app. The first solution to this is understanding how code gets loaded with Ruby in the first place, which I usually get confused with. Let&amp;#8217;s do a little recap about your different options that Ruby and Rails provides:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.ruby-doc.org/core/classes/Kernel.html#M005966&quot;&gt;load&lt;/a&gt;: &lt;/strong&gt;Loads and executes the Ruby program in the file &lt;em&gt;filename&lt;/em&gt;.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.ruby-doc.org/core/classes/Kernel.html#M005967&quot;&gt;require&lt;/a&gt;: &lt;/strong&gt;Ruby tries to load the library&lt;em&gt;&lt;/em&gt;, returning &lt;tt&gt;true&lt;/tt&gt; if successful.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://wiki.rubyonrails.org/rails/pages/RequireDependency&quot;&gt;require_dependency&lt;/a&gt;: &lt;/strong&gt;Reloads source files on each request when in development mode, so changes are reflected on the next request.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;require_or_load: &lt;/strong&gt;There doesn&amp;#8217;t seem to be much documentation on this, but it doesn&amp;#8217;t seem as safe and &lt;a href=&quot;http://github.com/rails/rails/tree/master/activesupport/CHANGELOG#L1123&quot;&gt;it may result in your code being loaded twice&lt;/a&gt;. Review the code &lt;a href=&quot;http://github.com/rails/rails/tree/master/activesupport/lib/active_support/dependencies.rb#L228-264&quot;&gt;here&lt;/a&gt; before you use it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So, the most ideal keyword to use is &lt;strong&gt;require_dependency&lt;/strong&gt;, since it will reload code during development mode when you make changes. Otherwise, you&amp;#8217;ll have to constantly restart your development server/console, and that just sucks. Plus, it&amp;#8217;ll work perfectly in production mode and only load the files once.&lt;/p&gt;
+&lt;p&gt;So, where&amp;#8217;s the best place to put the files with your custom code? Well, there&amp;#8217;s a few folders that are on the Rails load path in the first place: &lt;strong&gt;app, lib, vendor and mock&lt;/strong&gt; &lt;strong&gt;paths&lt;/strong&gt; (&lt;a href=&quot;http://github.com/rails/rails/tree/master/railties/lib/initializer.rb#L607-609&quot;&gt;source&lt;/a&gt;) you need to add different folders to the load path, that&amp;#8217;s more than possible. In your config/environment.rb, add whatever folder you want in the config.load_paths variable. For instance,&lt;/p&gt;
+&lt;p&gt;Liquid error: No such file or directory &amp;#8211; pygmentize -l ruby -f html -O encoding=utf-8&lt;/p&gt;
+&lt;p&gt;This will load the custom directory (RAILS_ROOT/custom) to the load path so you can use those files. The problem with files you put in these directories is that they may be in the load path, but you&amp;#8217;ll have to require the custom files you want in each class that you&amp;#8217;ll want to use them. The solution to this is to get the file required for the entire Rails environment, which is a lot easier than you&amp;#8217;d think.&lt;/p&gt;
+&lt;p&gt;Let&amp;#8217;s say we want to load some extensions to String for your app. Being a forward thinking developer, you&amp;#8217;ve created a new folder in lib, called core_ext, where you can put other ruby files in the future if you need to. So in lib/core_ext/string.rb you&amp;#8217;ve dumped for example:&lt;/p&gt;
+&lt;p&gt;Liquid error: No such file or directory &amp;#8211; pygmentize -l ruby -f html -O encoding=utf-8&lt;/p&gt;
+&lt;p&gt;The folder config/initializers contains files that run once when your Rails environment is getting set up. Create a new file in that folder and this will run through your custom folder and make sure that the files are required properly.&lt;/p&gt;
+&lt;p&gt;Liquid error: No such file or directory &amp;#8211; pygmentize -l ruby -f html -O encoding=utf-8&lt;/p&gt;
+&lt;p&gt;So now, you can call &lt;code&gt;require_core_ext&lt;/code&gt; in whatever class you want, and it will reload all of your custom code if you&amp;#8217;re in development mode or if you&amp;#8217;re in production, it will only load your custom classes when the file is first loaded. Now you can call &lt;code&gt;String#slugify&lt;/code&gt; all you want, and if you make changes to the method in lib/core_ext it will be reflected when you refresh the page.&lt;/p&gt;
+&lt;p&gt;If you&amp;#8217;ve got any other examples of how you bring in custom code, let me know, as I&amp;#8217;d love to find out.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Switching to Rails</title>
+   <link href="http://tom.preston-werner.com/solution/2008/09/18/switching-to-rails.html"/>
+   <updated>2008-09-18T00:00:00+04:00</updated>
+   <id>http://tom.preston-werner.com/solution/2008/09/18/switching-to-rails</id>
+   <content type="html">&lt;p&gt;For a while now I&amp;#8217;ve been &lt;span style=&quot;text-decoration: line-through;&quot;&gt;obsessed&lt;/span&gt; working with Ruby on Rails. Rails has caused me to switch from doing .&lt;span class=&quot;caps&quot;&gt;NET&lt;/span&gt;/&lt;span class=&quot;caps&quot;&gt;ASP&lt;/span&gt;.&lt;span class=&quot;caps&quot;&gt;NET&lt;/span&gt; development on my desktop PC using Windows XP to owning a Mac Mini and putting Ubuntu on Dell laptop. Obviously, this is a huge change, and I&amp;#8217;m going to explain why I&amp;#8217;ve switched.&lt;/p&gt;
+&lt;h3&gt;Rails is a combination of software engineering principles and web programming best practices.&lt;/h3&gt;
+&lt;p&gt;In this respect Rails is a dream: Active Record. RESTful architecture. Built-in xml/json/etc web services. &lt;span class=&quot;caps&quot;&gt;TDD&lt;/span&gt;/&lt;span class=&quot;caps&quot;&gt;BDD&lt;/span&gt; practices. I could go on and on, but all that matters is &lt;strong&gt;writing Rails applications is an enjoyable&lt;/strong&gt; &lt;strong&gt;and fun process&lt;/strong&gt;. You&amp;#8217;re not writing &lt;a href=&quot;http://www.php.net/&quot;&gt;scripts for pages&lt;/a&gt;, not having to worry about &lt;a href=&quot;http://asp.net&quot;&gt;the nuts and bolts&lt;/a&gt; of creating a site, or &lt;a href=&quot;http://java.sun.com/products/ejb/&quot;&gt;dealing with painful &lt;span class=&quot;caps&quot;&gt;XML&lt;/span&gt; files&lt;/a&gt;. Convention over configuration is a real path to productivity, and it&amp;#8217;s going to take the other competing systems a long time to catch up to the headway that Rails is making on a daily basis. Rails isn&amp;#8217;t the solution to everything, and &lt;a href=&quot;http://www.zeitgeist.com/wp-content/uploads/2008/06/failwhale.png&quot;&gt;it certainly has had it share of growing pains&lt;/a&gt;, but it&amp;#8217;s being proven again and again as the most efficient way to create data-driven web applications that are very reliable and follow web standards.&lt;/p&gt;
+&lt;h3&gt;Tools on *nix based systems are a lot better for Rails development.&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://java.sys-con.com/node/313594&quot;&gt;&lt;span class=&quot;caps&quot;&gt;DHH&lt;/span&gt; puts it best&lt;/a&gt;:&lt;br /&gt;
+&lt;p style=&quot;padding-left: 30px;&quot;&gt;&lt;em&gt;The stigma of being a Web programmer still using Windows will increase.&lt;/em&gt;&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;For me, it&amp;#8217;s not that much of a stigma, but more of a practical issue. The power of the Unix command line combined with tools like Textmate makes development on &lt;span class=&quot;caps&quot;&gt;OSX&lt;/span&gt; and Linux machines for Rails a &lt;span class=&quot;caps&quot;&gt;LOT&lt;/span&gt; easier. The tools on the Windows side are there, but they&amp;#8217;re usually not as powerful and not as easy to set up. Cygwin is piss slow. Most of the non-Visual Studio text editors suck. The command line sucks, and &lt;a href=&quot;http://litanyagainstfear.com/blog/2008/03/20/pimping-the-windows-command-line/&quot;&gt;I tried really hard to make it not suck&lt;/a&gt;. &lt;a href=&quot;http://blog.mmediasys.com/2008/03/06/is-windows-a-supported-platform-for-ruby-i-guess-not/&quot;&gt; Even Ruby is slower&lt;/a&gt;! All of this pain goes away on &lt;span class=&quot;caps&quot;&gt;OSX&lt;/span&gt;/Ubuntu. Rails would be a lot different if it started on Windows, and I wonder if it would really be the same platform. For now though, I&amp;#8217;m loving the productivity boost that I&amp;#8217;m experencing and trying out different operating systems, and it serves my needs well.&lt;/p&gt;
+&lt;h3&gt;Bleak future of .&lt;span class=&quot;caps&quot;&gt;NET&lt;/span&gt; development.&lt;/h3&gt;
+&lt;p&gt;This one will probably get me flamed the most. It&amp;#8217;s not that I don&amp;#8217;t like .&lt;span class=&quot;caps&quot;&gt;NET&lt;/span&gt;, it&amp;#8217;s just that I couldn&amp;#8217;t see myself using it any more professionally. I&amp;#8217;m really not a fan of VB.&lt;span class=&quot;caps&quot;&gt;NET&lt;/span&gt;, especially compared to Ruby. It&amp;#8217;s a cruft filled language that &lt;a href=&quot;http://www.panopticoncentral.net/archive/2007/11/14/22589.aspx&quot;&gt;makes me feel like Mort when writing it.&lt;/a&gt; Great things are possible with the language, but the result is so unreadable and ugly that I don&amp;#8217;t feel it&amp;#8217;s worth it anymore to use, especially if I can choose not to. C# on the other hand I love and always will, especially over Java.&lt;/p&gt;
+&lt;p&gt;What scares me more about .&lt;span class=&quot;caps&quot;&gt;NET&lt;/span&gt; is where&amp;#8217;s it&amp;#8217;s going: Silverlight and &lt;span class=&quot;caps&quot;&gt;WPF&lt;/span&gt;. &lt;span class=&quot;caps&quot;&gt;WPF&lt;/span&gt; is supposed to be an awesome new platform that makes it easier for both programmers and designers to collaborate and create great applications.&lt;strong&gt; Seriously though, where are the great &lt;span class=&quot;caps&quot;&gt;WPF&lt;/span&gt; applications? &lt;/strong&gt;Why haven&amp;#8217;t we heard as much about them, as say, the newest iPhone apps? I could say the same for Silverlight. Oh wait, the Olympics. ooh, Yahoo Messenger! Whatever. Nothing is going to kill Flash&amp;#8217;s market share.&lt;/p&gt;
+&lt;p&gt;I&amp;#8217;m sure that things have changed since I was heavy into (bleeding edge) .&lt;span class=&quot;caps&quot;&gt;NET&lt;/span&gt; development 6-9 months ago, but still there seems to be no killer app for &lt;span class=&quot;caps&quot;&gt;WPF&lt;/span&gt; or Silverlight yet. Until that happens they&amp;#8217;ll just suck like everything else. I&amp;#8217;d love to be proven wrong on this point, so if you know of one please show me.&lt;/p&gt;
+&lt;p&gt;If you&amp;#8217;ve switched away from Windows or even if you&amp;#8217;ve become a Rubyist/Pythonista in recent times, let me know what your experiences have been. For now on my blog posts will hopefully be a bit more frequent, and will chronicle various quirks and fun things I&amp;#8217;ve found during my Rails journeys.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Why I love Twitter</title>
+   <link href="http://tom.preston-werner.com/news/2008/03/25/why-i-love-twitter.html"/>
+   <updated>2008-03-25T00:00:00+03:00</updated>
+   <id>http://tom.preston-werner.com/news/2008/03/25/why-i-love-twitter</id>
+   <content type="html">&lt;p&gt;I&amp;#8217;ve become quite a &lt;a href=&quot;http://twitter.com/qrush&quot;&gt;twitterholic&lt;/a&gt; the past few days. In fact, let&amp;#8217;s &lt;a href=&quot;http://tweetstats.com/graphs/qrush&quot;&gt;check the stats&lt;/a&gt;. Yeah, I&amp;#8217;ve been pretty much addicted the past few days. Why? Well, there&amp;#8217;s a few things I love about Twitter:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Twitter is short, sweet, and easy to use.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The concept is simple: 140 characters to tell the world what you&amp;#8217;re doing. I don&amp;#8217;t think you can get more simple than that. No complex forms, no huge commitments, just a simple request, and your simple answer. It has a wonderful web interface, and the settings allow you completely customize your page&amp;#8217;s background along with colors for fonts. It&amp;#8217;s just a breeze to use and easy to look at, which is a welcome change compared to Facebook or MySpace.&lt;!--more--&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;It&amp;#8217;s an awesome way to network with highly connected bloggers.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I think &lt;a href=&quot;http://scobleizer.com/2008/03/23/the-secret-to-twitter/&quot;&gt;Scoble puts it best&lt;/a&gt;:&lt;br /&gt;
+&lt;blockquote&gt;You&amp;#8217;re communicating to the world that you&amp;#8217;d like to be listened to (golden rule: treat people how you&amp;#8217;d like to be treated).&lt;/blockquote&gt;&lt;/p&gt;
+&lt;p&gt;Twitter is becoming the heart of the &lt;a href=&quot;http://imgs.xkcd.com/comics/interblag.png&quot;&gt;Interblag&lt;/a&gt;. It&amp;#8217;s what bloggers are doing when they&amp;#8217;re &lt;span class=&quot;caps&quot;&gt;NOT&lt;/span&gt; blogging. Obviously yes, we all have our jobs and commitments, but Twitter is a way to connect with those people between their blog, vlogs, or however they communicate with the internet at large. It&amp;#8217;s a way for those who are connected to quickly poll, grow, and comment with their audience. The value to bloggers to be active on Twitter is absolutely critical: these are the people who you &lt;span class=&quot;caps&quot;&gt;WANT&lt;/span&gt; to be reading your blog. They&amp;#8217;re the people that will link your blog to others, they know where to share it and who to share it with. They&amp;#8217;re all here folks. Come and find them.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;It&amp;#8217;s a great way to keep in touch with friends.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I think &lt;a href=&quot;http://www.youtube.com/watch?v=ddO9idmax0o&quot;&gt;Twitter in Plain English&lt;/a&gt; hits the nail on head: Twitter is a way to converse with friends in a way that isn&amp;#8217;t that important to email them, but doesn&amp;#8217;t necessarily demands their instant attention. Of course now, you can use Jabber/&lt;span class=&quot;caps&quot;&gt;XMPP&lt;/span&gt; to interface with Twitter. Anyway, I find it to be a neat way to keeping in touch with people I know in the real world online that isn&amp;#8217;t exactly bugging them over &lt;span class=&quot;caps&quot;&gt;AIM&lt;/span&gt; or Facebook.  Also, if you&amp;#8217;re concerned about random people like me following your every move, you can make your page private and only allow those you approve to watch your updates.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;It&amp;#8217;s just fun to use!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;What really gets me with this are the &lt;a href=&quot;http://iconfactory.com/software/twitterrific&quot;&gt;fantastic&lt;/a&gt; &lt;a href=&quot;http://code.google.com/p/wittytwitter/&quot;&gt;clients&lt;/a&gt; &lt;a href=&quot;http://www.kosertech.com/blog/?page_id=5&quot;&gt;that&lt;/a&gt; &lt;a href=&quot;http://www.tinytwitter.com/&quot;&gt;seem&lt;/a&gt; &lt;a href=&quot;http://pockettweets.com/&quot;&gt;to&lt;/a&gt; &lt;a href=&quot;http://twitterfeed.com/&quot;&gt;be&lt;/a&gt; &lt;a href=&quot;http://itweet.net/web/indexApp.php&quot;&gt;populating&lt;/a&gt; &lt;a href=&quot;http://apps.npike.net/MobileTwitter/&quot;&gt;the&lt;/a&gt; &lt;a href=&quot;http://www.twitbin.com/&quot;&gt;net&lt;/a&gt;.  The Twitter &lt;span class=&quot;caps&quot;&gt;API&lt;/span&gt; is readily accessible and easy to implement, and that&amp;#8217;s extremely important as it seems that most people use twitter through outside clients or through text messaging rather than their web interface. My personal favorite at the moment is &lt;a href=&quot;http://www.twhirl.org&quot;&gt;Twhirl&lt;/a&gt;, which is an Adobe &lt;span class=&quot;caps&quot;&gt;AIR&lt;/span&gt; client. It&amp;#8217;s got a neat, clean interface and colors are customizable, so I&amp;#8217;m having fun with it. I rarely have to go to the website anymore, the &lt;span class=&quot;caps&quot;&gt;API&lt;/span&gt; is so open that the majority of the functionality is accessible through outside clients.&lt;/ol&gt;&lt;/p&gt;
+&lt;p&gt;So, why haven&amp;#8217;t you created a &lt;a href=&quot;http://www.twitter.com&quot;&gt;Twitter&lt;/a&gt; account yet? I guarantee you that it&amp;#8217;ll do nothing but help you get your blog known, and connect with others who are on the same quest. Feel free to &lt;a href=&quot;http://twitter.com/qrush&quot;&gt;follow me&lt;/a&gt; as well, I&amp;#8217;ll make sure to follow you.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Turning off the Firehose</title>
+   <link href="http://tom.preston-werner.com/news/2008/03/16/turning-off-the-firehose.html"/>
+   <updated>2008-03-16T00:00:00+03:00</updated>
+   <id>http://tom.preston-werner.com/news/2008/03/16/turning-off-the-firehose</id>
+   <content type="html">&lt;p&gt;I recently came across &lt;a href=&quot;http://www.philonoist.net/2008/03/14/im-done-with-reddit/&quot;&gt;this post&lt;/a&gt; about a user who decided he had enough of the user-generated news community, &lt;a href=&quot;http://www.reddit.com&quot;&gt;Reddit&lt;/a&gt;. I&amp;#8217;ve been a Reddit user for a quite some time now, and I&amp;#8217;ve done my share of down voting Ron Paul stories as well submitting silly pictures that have made it onto the front page. Lately though, it&amp;#8217;s become more than a habit to check this site.  &lt;!--more--&gt;I have a very compulsive personality, and I tend to find some sort of deep and intensive joy in small, minute improvements and changes. I know this is the reason why over 70 days of my life were wasted on World of Warcraft, and I&amp;#8217;m pretty sure it&amp;#8217;s the reason why I find programming so fun. Most people would be frustrated by missing a semi-colon and be absolutely stumped by the quest for perfection that compilers demand, but to me it&amp;#8217;s another challenge, another hurdle I know I can overcome. It&amp;#8217;s also the reason why some days I&amp;#8217;d refresh Reddit every 5 to 10 minutes to see if my karma had changed.&lt;/p&gt;
+&lt;p&gt;Reddit has been sucking up way too much of my time during the day, and I&amp;#8217;ve decided to put an end to it. All I did was block it through my hosts file to redirect to 127.0.0.1, which works out well since during my work time it directs me to the website that I&amp;#8217;m developing.&lt;/p&gt;
+&lt;p&gt;So, I&amp;#8217;m turning off the firehose. I will probably end up blocking Digg and Slashdot as well, and I need to set up Google Reader for my favorite blogs. Yeah, this means I&amp;#8217;ll sacrifice that information intake that my brain is used to, but I feel that time could be used to read the several books I have lying around my room, be it Code Complete or the Mythical Man-Month. My guitar is also gathering plenty of dust, and I have a few side projects that I could be working on as well. Here&amp;#8217;s to less distractions!  Do you have distractions that you could probably do without?&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Digg Labs: Flash doesn&#8217;t suck all the time.</title>
+   <link href="http://tom.preston-werner.com/news/2007/10/31/digg-labs-flash-doesnt-suck-all-the-time.html"/>
+   <updated>2007-10-31T00:00:00+03:00</updated>
+   <id>http://tom.preston-werner.com/news/2007/10/31/digg-labs-flash-doesnt-suck-all-the-time</id>
+   <content type="html">&lt;p&gt;Don&amp;#8217;t get me wrong. I&amp;#8217;m not an expert on Flash. I haven&amp;#8217;t even made anything special in flash. Yeah, I can tween a circle and bounce it around the stage, and that&amp;#8217;s the extent of my Flash knowledge. One thing I do know about it: if you want to drive traffic from Google searches, you&amp;#8217;re better off not using it. Some bloggers even claim &lt;a href=&quot;http://www.seoresearcher.com/seo-flash-is-evil-five-big-reasons-not-to-use-flash.htm&quot; target=&quot;_blank&quot;&gt;its use to be evil&lt;/a&gt;.  Now I&amp;#8217;m sure there&amp;#8217;s a lot of Adobe fans are ready and willing to tear me a new one by now with arguments about how Flex and &lt;span class=&quot;caps&quot;&gt;AIR&lt;/span&gt; will change the face of the interweb, but it&amp;#8217;s my opinion and always will be that your website&amp;#8217;s &lt;span class=&quot;caps&quot;&gt;MAIN&lt;/span&gt; content should &lt;span class=&quot;caps&quot;&gt;NEVER&lt;/span&gt; be in Flash. Let&amp;#8217;s look at the letters you type into that address bar of your browser at least once every day: &lt;a href=&quot;http://en.wikipedia.org/wiki/Http&quot; target=&quot;_blank&quot;&gt;&lt;span class=&quot;caps&quot;&gt;HTTP&lt;/span&gt;&lt;/a&gt;. Hyper. Text. Not animations, or effects, but text. Until that protocol changes I doubt Flash will ever be used as a serious web design platform.&lt;/p&gt;
+&lt;p&gt;&lt;!--more--&gt;&lt;/p&gt;
+&lt;p&gt;Once again, don&amp;#8217;t get me wrong. Flash has its uses. In fact, it&amp;#8217;s completely changed how we use the web. &lt;a href=&quot;http://www.newgrounds.com&quot; target=&quot;_blank&quot;&gt;Newgrounds &lt;/a&gt;and &lt;a href=&quot;http://www.youtube.com&quot; target=&quot;_blank&quot;&gt;YouTube&lt;/a&gt; immediately spring to mind, as they spawned entire communities and one could say even industries. Flash even has practical uses within sites, such as &lt;a href=&quot;http://swfupload.mammon.se/&quot; target=&quot;_blank&quot;&gt;SWFUpload&lt;/a&gt; or various visualization tools that are used &lt;a href=&quot;http://www.google.com/analytics/features.html&quot;&gt;even inside of Google&amp;#8217;s own pages&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The real magic of Flash is combining its content together with publicly available APIs and doing what Flash does best, even better than Java in some respects: being platform independent. &lt;a href=&quot;http://labs.digg.com&quot; target=&quot;_blank&quot;&gt;Digg Labs&lt;/a&gt; is a perfect example of this, and their contests are a testament to the real future of Flash and its real use on the internet. Digg Labs is the perfect mash-up: content generated by users and displayed in a (semi) useful, interactive, and fun way. Now, you can even get them to be your screensaver on Windows or &lt;span class=&quot;caps&quot;&gt;OSX&lt;/span&gt;. I tried for a long while to turn some of the Digg Labs .swf files into screensavers before, but it&amp;#8217;s quite a nightmare without the right tools, and all the right data from the Digg servers.&lt;/p&gt;
+&lt;p&gt;What&amp;#8217;s so special about Digg Labs creations is that unlike other visualizations of just raw data, be it traffic to your website or your network speed shown to you on a speedometer, you can actually interact with it. You can see the user who just dugg that story, and you can go check it out for yourself. Yes, it may be flooded with an overwhelming amount of Ron Paul stories at the moment, but at least it&amp;#8217;s not the HD-&lt;span class=&quot;caps&quot;&gt;DVD&lt;/span&gt; encryption key, or even worse.&lt;/p&gt;
+&lt;p&gt;Other websites out there really need to look into Flash for this purpose. This is a unique and fun way to engage your community while providing an actual useful way to access your site&amp;#8217;s data. Be it Reddit, which I would literally love to see an exact clone of Digg Labs for (or even both together in one app&amp;#8230;Blasphemy!), or Facebook, or any Web 2.0 site, they could really use some Flash visualization/interaction apps that can run on your desktop via a screensaver, Flash executable, or &lt;span class=&quot;caps&quot;&gt;AIR&lt;/span&gt;. Imagine pictures from your friends on Facebook showing up in real time on your desktop or Del.icio.us links pouring in under a certain tag in a nice animated fashion.  All of the buzz about &lt;a href=&quot;http://www.techcrunch.com/2007/10/30/details-revealed-google-opensocial-to-be-common-apis-for-building-social-apps/&quot;&gt;Google&amp;#8217;s Open Social&lt;/a&gt; and bringing out more APIs into the public for use makes this the perfect environment for more Flash goodness like Digg Labs to happen.&lt;/p&gt;
+&lt;p&gt;So yeah, Flash doesn&amp;#8217;t suck all the time. Its niche on the internet continues to expand, but some part of me hopes I&amp;#8217;ll never have to learn more than how to move that red circle around the stage.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Getting baselined</title>
+   <link href="http://tom.preston-werner.com/stories/2007/08/11/getting-baselined.html"/>
+   <updated>2007-08-11T00:00:00+04:00</updated>
+   <id>http://tom.preston-werner.com/stories/2007/08/11/getting-baselined</id>
+   <content type="html">&lt;p&gt;Yes! I did it, it took a few hours but finally the old layout has been updated with a baseline (and partly a grid). It looks a lot better. &lt;a href=&quot;/images/old.jpg&quot;&gt;Image of previous style and layout&lt;/a&gt;.  Main difficulty was to realize that the &lt;em&gt;em&lt;/em&gt; is a relative unit depending on whatever base font size you set &lt;strong&gt;in an absolute unit&lt;/strong&gt;. (&lt;em&gt;_&lt;/em&gt;)&lt;/p&gt;
+
+&lt;p&gt;Time for some linkage:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;http://24ways.org/2006/compose-to-a-vertical-rhythm&quot;&gt;Compose to a Vertical Rhythm by Richard Rutter&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.alistapart.com/articles/settingtypeontheweb&quot;&gt;Setting Type on the Web to a Baseline Grid
+by Wilson Miner&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;A long time ago, I read those tutorials. Today, I just woke up.  The inspiration came from a recent development: &lt;a href=&quot;http://code.google.com/p/blueprintcss/&quot;&gt;a CSS framework&lt;/a&gt;.  To experience the beauty of having a baseline try &lt;a href=&quot;http://robgoodlatte.com/2007/07/31/syncotype-your-baselines/&quot;&gt;syncotype&lt;/a&gt; and, for this site, set the line-height to 24px.   Syncotype rocks!&lt;/p&gt;
+
+&lt;p&gt;I will be playing with the style these days as there are some minor areas that need attention like: list spacing, form controls spacing, color scheme ...and that header. (Â¬_Â¬)&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Accessibility and why should I care</title>
+   <link href="http://tom.preston-werner.com/links/2006/08/16/accessibility-and-why-should-i-care.html"/>
+   <updated>2006-08-16T00:00:00+04:00</updated>
+   <id>http://tom.preston-werner.com/links/2006/08/16/accessibility-and-why-should-i-care</id>
+   <content type="html">&lt;p&gt;I decided to make this site accessible.   &lt;a href=&quot;http://diveintoaccessibility.org/&quot;&gt;Wonderful resource&lt;/a&gt; for this matter.  In the beginning I said: &quot;I don't care if not everybody can read my website&quot;.  So selfish, and incomprehensive. You have to put yourself in the shoes of others to understand.  Of course, for most people it would be safer not to encounter this site. (&lt;sup&gt;_&lt;sup&gt;)&lt;/sup&gt;&lt;/sup&gt; But this is great as an exercise. I clearly see myself using accessibility in the near future. o.o&quot;&lt;/p&gt;
+
+&lt;h2&gt;&lt;a href=&quot;http://www.alistapart.com/stories/doctype/&quot;&gt;Doctype&lt;/a&gt;&lt;/h2&gt;
+
+
+&lt;p&gt;WP uses XHTML 1.0 Transitional.
+&lt;code&gt;
+&amp;lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&amp;gt;
+&lt;/code&gt;
+&lt;code&gt;
+&amp;lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.1//EN&quot;   &quot;http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd&quot;&amp;gt;
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2&gt;&lt;a href=&quot;http://www.loc.gov/standards/iso639-2/englangn.html&quot;&gt;Language&lt;/a&gt;&lt;/h2&gt;
+
+
+&lt;p&gt;I mostly use english (en), and spanish (es).
+&lt;code&gt;
+For XHTML 1.0 Strict
+&amp;lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en&quot; xml:lang=&quot;en&quot;&amp;gt;
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+For XHTML 1.1
+&amp;lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;en&quot;&amp;gt;
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2&gt;Meaningful page titles.&lt;/h2&gt;
+
+
+&lt;p&gt;WP accomplishes this fine.&lt;/p&gt;
+
+&lt;h2&gt;Providing additional navigation aids.&lt;/h2&gt;
+
+
+&lt;p&gt;In WordPress this is implemented by a plugin.  From the ones listed at the &lt;a href=&quot;http://wordpress.org/support/topic/39661?replies=9&quot;&gt;WP forum&lt;/a&gt;, and the &lt;a href=&quot;http://trac.wordpress.org/ticket/1523&quot;&gt;trac ticket&lt;/a&gt;; the most appealing to me is &lt;a href=&quot;http://wordpress.org/support/topic/39661?replies=9&quot;&gt;META Relationship Links&lt;/a&gt;. You can &lt;a href=&quot;http://guff.szub.net/downloads/meta-relationship-links.zip&quot;&gt;dowload it&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Presenting your main content first.&lt;/h2&gt;
+
+
+&lt;p&gt;Hehe, with CSS, this is truly easy!! And since my navigation div is using absolute positioning: no worries!&lt;/p&gt;
+
+&lt;p&gt;To be continued...&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>The Web Development Process</title>
+   <link href="http://tom.preston-werner.com/community/2006/08/10/the-web-development-process.html"/>
+   <updated>2006-08-10T00:00:00+04:00</updated>
+   <id>http://tom.preston-werner.com/community/2006/08/10/the-web-development-process</id>
+   <content type="html">&lt;p&gt;Without doubt, taking a website from zero to a successful one is yet another adventure in the experience catalog of a web developer.  The key for failure or success lies in the beginning of the project. The plan created to build a website, whether a redesign or from scratch, and the actions you take to implement it, are known as the &lt;em&gt;web development process&lt;/em&gt;  (from now on WDP).&lt;/p&gt;
+
+&lt;p&gt;In turn, an excellent WDP is the combination of common sense and accurate creativity. Developing for the web is not rocket science, however, visionary creativity will be always in high demand.  Web development has technical aspects: either 0 or 1 (using a database or xml), and subjective like: information architecture, graphic design, usability, and a big ETC.!&lt;/p&gt;
+
+&lt;p&gt;I want to mess with it. ^_^ &lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;Allright, after a moderated research about the WDP on the internet:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.happycog.com/contact/contact.zip&quot;&gt;happycog's project planner&lt;/a&gt; (2005).&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.gotomedia.com/resources.html&quot;&gt;gotomedia resources&lt;/a&gt; Specially Web Design Workflow. (2000)&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://alistapart.com/articles/balloon&quot;&gt;The Problem, the Balloon, and the Four Bedroom House&lt;/a&gt; (2004)&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://alistapart.com/articles/Process&quot;&gt;Process, Methodology, Life Cycle, Oh My!&lt;/a&gt; (2001)&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://webdesignfromscratch.com/process.cfm&quot;&gt;Design process&lt;/a&gt; (?)&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.macronimous.com/resources/web_development_life_cycle.asp&quot;&gt;Web Site Development Process - The life-cycle steps&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+
+
+&lt;p&gt;&lt;strong&gt;If you graph the numbers of any system, patterns emerge&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;An approach to understanding the WDP could be stating the different stages of it, and the activities or disciplines that are prominent at each phase.  But why just repeat the information gathered if we can go throught it with a real example, especially with not a stupid example, but a trascendental, life challenging, impressive project?&lt;/p&gt;
+
+&lt;h2&gt;Zero: First contact&lt;/h2&gt;
+
+
+&lt;p&gt;A client contacts you for a project. How to make that happen? Well, after developing a bunch of sites using an impeccable WDP, let's just say: cilents will come naturally.&lt;/p&gt;
+
+&lt;h2&gt;First: Understand&lt;/h2&gt;
+
+
+
+
+&lt;h2&gt;Second: Make a proposal official&lt;/h2&gt;
+
+
+
+
+&lt;h2&gt;Third: Implement&lt;/h2&gt;
+
+
+
+
+&lt;h2&gt;Fin&lt;/h2&gt;
+
+
+&lt;p&gt;Summarizing: a WDP is like any process if we take this basic consideration: set a goal, decide how/when you are going to accomplish it, and make it happen.  Essentially, setting up objectives and then have a control mechanism to assess if they have been realized, is the way to measure progress. Progress is synonym of success, and success is good for your health.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ 
+</feed>

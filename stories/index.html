@@ -1,0 +1,30 @@
+---
+layout: default
+#title: Анонимные Алкоголики Нижний Новгород
+aa_ru: Анонимные Алкоголики
+aa_nn_ru: Анонимные Алкоголики Нижний Новгород
+aa_nn_email_ru: aannovru@gmail.com
+aa_nn_phone_ru: "+79601979248"
+aa_motto_ru: Выздоровление Единство Служение
+aa_12_steps_ru: 12 Шагов
+menu_home_ru: Главная
+menu_solution_ru: 12 Шагов
+menu_community_ru: Как нас найти
+menu_stories_ru: Наши истории
+menu_links_ru: Ссылки
+menu_news_ru: Новости
+private:
+---
+
+{% assign posts_in_category = site.categories.stories %}
+{% assign category = 'stories' %}
+{% assign category_ru = page.menu_stories_ru %}
+
+<div id="home">
+  {% include show_posts_in_category.html %}  
+
+  {% assign tag = 'Имя секции' %}  
+  {% include show_section_name.html %}
+  {% include find_by_category.html %}
+</div>
+<!-- vim: set sts=2 sw=2 et: --> 

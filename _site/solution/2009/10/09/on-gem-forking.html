@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<!-- <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us"> -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru-ru" lang="ru-ru"> 
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <title>Анонимные Алкоголики Нижний Новгород</title>
+   <meta name="author" content="Tom Preston-Werner" />
+   <link href="http://feeds.feedburner.com/tom-preston-werner" rel="alternate" title="Tom Preston-Werner" type="application/atom+xml" />
+   <link rel="shortcut icon" href="/favicon.ico" />
+
+
+   <!-- syntax highlighting CSS -->
+   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+
+   <!-- Homepage CSS -->
+   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+
+   <!-- Typekit -->
+   <!--<script type="text/javascript" src="http://use.typekit.com/jpd0pfm.js"></script>
+   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>-->
+</head>
+<body>
+
+<!-- ClickTale Top part -->
+<script type="text/javascript">
+  var WRInitTime=(new Date()).getTime();
+</script>
+<!-- ClickTale end of Top part -->
+
+<div class="site">
+  <h1 class="header"><a href="/">Анонимные Алкоголики Нижний Новгород</a></h1>
+  <div id="aa_motto_parent_div">      
+    <div id="aa_motto_img_div">  
+      <a href="/"><img id="aa_motto_img" src="/images/aa-logo-en.gif"
+          alt="Выздоровление Единство Служение" />
+      </a>    
+    </div>    
+    <div id="aa_motto_child_div" >
+      <p>
+        <a id="aa_motto_link_no_underline" class="aa_motto_link_no_underline" href="/solution">    
+          Выздоровление Единство Служение
+        </a>
+        ♦ 
+        <a id="aa_motto_link_no_underline" class="aa_motto_link_no_underline" href="/solution">    
+          12 Шагов
+        </a>
+        <br />
+        +79601979248 <br />
+        <a href="mailto:aannovru@gmail.com">aannovru@gmail.com</a>        
+      </p>
+    </div>
+  </div>
+
+  <div class="title" id="aa_menu_div">
+    <!--<a href="/">Анонимные Алкоголики</a>-->
+    <a class="extra" href="/">Главная</a>
+    <a class="extra" href="/solution">12 Шагов</a>
+    <a class="extra" href="/community">Как нас найти</a>
+    <a class="extra" href="/stories">Наши истории</a>
+    <a class="extra" href="/links">Ссылки</a>
+  </div>
+
+  
+    
+   
+
+
+<div id="post">
+  
+    <p>
+        <a href="/solution">→12 Шагов</a>
+    
+        
+          <br />
+          <span class="post_tags">Метки:&nbsp;</span>
+          
+            <a class="post_tags_underline" href="/solution/index.html#метка1">
+              <u>метка1</u>
+            </a>
+            &nbsp;&nbsp;
+          
+            <a class="post_tags_underline" href="/solution/index.html#метка2">
+              <u>метка2</u>
+            </a>
+            &nbsp;&nbsp;
+                
+        
+    </p>    
+  
+
+    
+  <h1>On Gem Forking</h1>
+  <p class="meta">
+    09.10.2009
+    <a href="">(ссылка)</a>   
+  </p>
+
+  <p style="text-align:center;"><img src="http://cloud.github.com/downloads/qrush/litanyagainstfear/fork2.JPG" alt="" /></p>
+<p>So, <a href="http://github.com/blog/515-gem-building-is-defunct">GitHub has recommended Gemcutter</a> as an alternative to hosting gems on GitHub. Of course, there seems to be an outcry, for three main reasons that I can see:</p>
+<p>1) Effort must be made to move documentation and install instructions<br />
+2) Gem forking is not possible with the new site<br />
+3) GitHub gave no warning on this</p>
+<p>As for #1, you&#8217;ve got a year to update your user base and get gems off GitHub. I&#8217;d assume that any actively maintained project has figured Gemcutter out by then. And for #3, at least we&#8217;ve got a new service that works and can meet the same needs.</p>
+<p>Regarding RubyGem forking, I&#8217;d like to state that this statement is <strong>false</strong>. Gemcutter accepts built gems, so you simply need to mimic the actions that GitHub&#8217;s gem builder did: Open your .gemspec up, append your username to the gem name, and save. <code>gem build</code>, <code>gem push</code>, and done.</p>
+<p>I think an important distinction must be made here: <strong>gem forking != scm forking</strong>. GitHub made it easy for anyone to automatically push modifications to gems, but there&#8217;s a bigger picture to think of here. Hopefully at some point, the changes you made will be brought back into the mainline gem. As <a href="http://daviddollar.org/">David Dollar</a> so eloquently puts it:</p>
+<blockquote>
+<p>I think the general idea is that gem forks should be a huge special case. I&#8217;m somewhat of the mind personally that making gem forks too &#8216;easy&#8217; causes a great deal of unnecessary fragmentation in the community. It seems reasonable to me, that if your project is going to depend on a gem fork, that the dependency resolution not be automatic, and your installation instructions can tell the user how to get the forked dependency.</p>
+<p>If a fork is going to be long-term, or a true alternative, it should probably be reregistered under a new name as a different project.</p>
+</blockquote>
+<p>Like I stated above, &#8216;gem forking&#8217; is still supported just because of the nature of how Gemcutter works. I felt there needed to be a longer term solution for this in general, since now the community has grown used to it. This <a href="http://wiki.github.com/qrush/gemcutter/fork-support">lively discussion</a> ensued, and after some deliberation we&#8217;re going to use subdomains in order to solve the problem.</p>
+<p>The idea is this: you&#8217;ll be able to register your own subdomain on gemcutter.org, such as <code>qrush.gemcutter.org</code>, and we&#8217;ll give you a completely blank index to push to. Hopefully you&#8217;ll be able to add others like the <a href="http://gemcutter.org/pages/gem_docs#owner">gem owner</a> system works now. I feel this feature needs to be used in the following ways:</p>
+<p>1) Subdomain use should be infrequent. It&#8217;s for trial/forked gems that shouldn&#8217;t be relied on for production.<br />
+2) Use prerelease versions for development snapshots (version numbers like 1.0.0pre, <code>gem install yourgem --prerelease</code>)<br />
+3) Don&#8217;t add someone&#8217;s subdomain as a source, unless you can completely trust anything they toss there. (like, your own for example)<br />
+4) Consider gemcutter.org/rubygems.org as the main, canonical repo that you can trust.<br />
+5) Start looking into <a href="http://blog.segment7.net/articles/2009/02/04/a-rubygems-github-proposal">gem signing/cert</a> since it&#8217;s <strong>the</strong> way we can really trust gems</p>
+<p>Of course, none of this subdomains stuff works yet, but it seems like the best way forward. It&#8217;s also spawning new, awesome ideas like <a href="http://github.com/qrush/gemcutter/issues#issue/91">password protected, private subdomains</a>. If you&#8217;re interested in contributing to the project, please <a href="http://github.com/qrush/gemcutter">fork away</a> or hop in #gemcutter on Freenode to see what&#8217;s happening.</p>
+<p>This is <strong>our</strong> gem host now, let&#8217;s make it awesome.</p>
+</div>
+
+<!--<div id="related">
+  <h2>Related Posts</h2>
+  <ul class="posts">
+    
+      <li><span>16.01.2011</span> &raquo; <a href="/news/2011/01/16/id-00005.html">I've just written a helper new_post.rb</a></li>
+    
+      <li><span>16.01.2011</span> &raquo; <a href="/solution/2011/01/16/id-00004.html">Молитва Нашей Шаговой Группы</a></li>
+    
+      <li><span>16.01.2011</span> &raquo; <a href="/news/2011/01/16/id-00003.html">Switching to Rails. This an Example of a Post. (markdown)</a></li>
+    
+  </ul>
+</div>-->
+<!-- vim: set sts=2 sw=2 et: --> 
+
+  
+  <div class="footer">
+    <div class="contact">
+      <p>
+        Анонимные Алкоголики Нижний Новгород<br />
+        +79601979248<br />
+        <a href="mailto:aannovru@gmail.com">aannovru@gmail.com</a>        
+      </p>
+    </div>
+    <!--<div class="contact">
+      <p>
+        <br />
+        <a href="http://twitter.com/mojombo/">twitter.com/mojombo</a><br />
+        <a href="http://flickr.com/photos/mojombo/">flickr.com/photos/mojombo</a>
+      </p>
+    </div>-->
+    <div class="rss">
+      <a href="http://feeds.feedburner.com/tom-preston-werner">
+        <img src="/images/rss.png" alt="Subscribe to RSS Feed" />
+      </a>
+    </div>
+  </div>
+</div>
+
+<!--<a href="http://github.com/mojombo"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>-->
+
+<!-- ClickTale Bottom part -->
+<!--<div id="ClickTaleDiv" style="display: none;"></div>
+<script type="text/javascript">
+if(document.location.protocol!='https:')
+  document.write(unescape("%3Cscript%20src='http://s.clicktale.net/WRb.js'%20type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+if(typeof ClickTale=='function') ClickTale(206,0.3,"www03");
+</script>-->
+<!-- ClickTale end of Bottom part -->
+
+<!-- Google Analytics -->
+<!--<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-6016902-1");
+pageTracker._trackPageview();
+</script>-->
+<!-- Google Analytics end -->
+
+</body>
+</html>
+<!-- vim: set sts=2 sw=2 et: --> 
