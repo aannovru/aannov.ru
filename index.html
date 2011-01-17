@@ -12,7 +12,7 @@ menu_solution_ru: 12 Шагов
 menu_community_ru: Как нас найти
 menu_stories_ru: Наши истории
 menu_links_ru: Ссылки
-menu_news_ru: Новости
+menu_news_ru: Новости / Объявления
 private:
 ---
 
@@ -33,10 +33,11 @@ private:
   {% assign truncatewords = 'true' %}
   {% endcomment %}
   -->
+  {% assign category_ru = page.menu_news_ru %}
   {% include find_by_news_category.html %}
 
   {% if site.categories.news.size > 3 %}
-    {% assign category_name_ru = 'Все' %}
+    {% assign alternative_category_ru = 'Показать все' %}
     {% include show_category_name.html %}
   {% endif %}         
                     

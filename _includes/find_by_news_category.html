@@ -1,6 +1,5 @@
 {% assign category = 'news' %}
 {% if site.categories.news.size > 0 %}
-  {% capture category_name_ru %}{{ page.menu_news_ru }}&nbsp;/&nbsp;Объявления{% endcapture %}
   {% include show_category_name.html %}
 {% endif %}
 
