@@ -1,0 +1,9 @@
+<p>
+  {% if category_name_ru %}
+    <a href="/{{category}}">→&nbsp;{{ category_name_ru }}</a>
+  {% else %}
+    <a href="/{{category}}">→&nbsp;{{ category_ru }}</a>
+  {% endif %}
+  &nbsp;&gt;&nbsp;
+  <a href="/{{ category }}/index.html#{{tag}}">→&nbsp;{{tag}}</a>
+</p>
