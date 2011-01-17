@@ -4,13 +4,28 @@
  <title>Tom Preston-Werner</title>
  <link href="http://tom.preston-werner.com/atom.xml" rel="self"/>
  <link href="http://tom.preston-werner.com/"/>
- <updated>2011-01-16T23:50:06+03:00</updated>
+ <updated>2011-01-17T15:20:00+03:00</updated>
  <id>http://tom.preston-werner.com/</id>
  <author>
    <name>Tom Preston-Werner</name>
    <email>tom@mojombo.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Зарегистрированы домены для сайта Анонимных Алкоголиков Нижнего Новгорода</title>
+   <link href="http://tom.preston-werner.com/news/2011/01/17/id-00006.html"/>
+   <updated>2011-01-17T00:00:00+03:00</updated>
+   <id>http://tom.preston-werner.com/news/2011/01/17/id-00006</id>
+   <content type="html">&lt;p&gt;Зарегистрированы домены для сайта Анонимных Алкоголиков Нижнего Новгорода&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Зона &quot;.ru&quot;: &lt;a href=&quot;http://aannov.ru#&quot;&gt;aannov.ru&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Зона &quot;.рф&quot;: &lt;a href=&quot;http://aannov.ru#&quot;&gt;ааннов.рф&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>I've just written a helper new_post.rb</title>

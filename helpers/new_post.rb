@@ -3,7 +3,8 @@
 ROOT_DIR_RELATIVE_PATH = '../'
 
 def chdir_to_root_dir
-  Dir.chdir File.join(Dir.pwd, ROOT_DIR_RELATIVE_PATH)
+  Dir.chdir File.join(File.expand_path(File.dirname(__FILE__)),
+                      ROOT_DIR_RELATIVE_PATH)
 end
 
 # script's entry point

@@ -15,7 +15,8 @@ FILES = %w(
 )
 
 def chdir_to_root_dir
-  Dir.chdir File.join(Dir.pwd, ROOT_DIR_RELATIVE_PATH)
+  Dir.chdir File.join(File.expand_path(File.dirname(__FILE__)),
+                      ROOT_DIR_RELATIVE_PATH)
 end
 
 def patch_file defines_contents, filename

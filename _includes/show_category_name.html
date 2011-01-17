@@ -1,2 +1,8 @@
-<p><a href="/{{category}}">→{{ category_ru }}</a></p>
+<p>
+  {% if category_name_ru %}
+    <a href="/{{category}}">→&nbsp;{{ category_name_ru }}</a>
+  {% else %}
+    <a href="/{{category}}">→&nbsp;{{ category_ru }}</a>
+  {% endif %}
+</p>
 <!-- vim: set sts=2 sw=2 et: --> 

@@ -25,10 +25,10 @@ private:
     опытом, силами и надеждами, чтобы решить свою общую проблему и помочь
     другим <a href="/solution">избавиться от алкоголизма.</a> 
   </p>
-  {% assign tag = 'абв' %}
-  {% assign category = 'news' %}
   <!--
   {% comment %}
+  {% assign tag = 'абв' %}
+  {% assign category = 'news' %}
   {% assign show_author = 'true' %}
   {% assign truncatewords = 'true' %}
   {% endcomment %}
@@ -36,7 +36,8 @@ private:
   {% include find_by_news_category.html %}
 
   {% if site.categories.news.size > 3 %}
-    <a href="/news">→ Все новости</a>
+    {% assign category_name_ru = 'Все' %}
+    {% include show_category_name.html %}
   {% endif %}         
                     
   <!--

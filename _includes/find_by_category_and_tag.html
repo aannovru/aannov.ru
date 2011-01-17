@@ -1,15 +1,7 @@
-<p>    
-  {% if show_breadcrumbs == 'true' category_ru and category and tag %}
-    &nbsp;&nbsp;
-    <a href="/{{ category }}">→{{ category_ru }}</a> &gt;
-    <a href="/{{ category }}/index.html#{{tag}}">→{{tag}}</a>
-    <!--
-    <a href="http://www.google.com/search?q={{ tag }}+site%3Ablog.favrik.com">
-    {{ tag }}
-    -->
-    </a>
-  {% endif %}  
-</p>
+{% if show_breadcrumbs == 'true' category_ru and category and tag %}
+  {% include show_category_and_tag_name.html %}  
+{% endif %}  
+
 <ul class="posts">
   {% for post in site.posts %}
     {% if post.categories contains category  and post.tags contains tag %} 

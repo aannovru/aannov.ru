@@ -1,8 +1,7 @@
-<p>    
-  {% if show_breadcrumbs == 'true' category_ru and category %}
-    <a href="/{{ category }}">→{{ category_ru }}</a> &gt;
-  {% endif %}  
-</p>
+{% if show_breadcrumbs == 'true' category_ru and category %}
+  {% include show_section_name.html %}
+{% endif %}  
+
 <ul class="posts">
   {% for post in site.posts %}
     {% if post.categories contains category %} 

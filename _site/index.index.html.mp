@@ -62,6 +62,11 @@
 
  
 <article class="post">
+    <!--<time>17 Jan 2011</time>-->
+    <h2><a rel="bookmark" href="/news/2011/01/17/id-00006.html">Зарегистрированы домены для сайта Анонимных Алкоголиков Нижнего Новгорода</a></h2>
+</article>
+
+<article class="post">
     <!--<time>16 Jan 2011</time>-->
     <h2><a rel="bookmark" href="/news/2011/01/16/id-00005.html">I've just written a helper new_post.rb</a></h2>
 </article>
