@@ -4,7 +4,7 @@
  <title>Tom Preston-Werner</title>
  <link href="http://tom.preston-werner.com/atom.xml" rel="self"/>
  <link href="http://tom.preston-werner.com/"/>
- <updated>2011-01-17T15:20:00+03:00</updated>
+ <updated>2011-01-17T16:00:24+03:00</updated>
  <id>http://tom.preston-werner.com/</id>
  <author>
    <name>Tom Preston-Werner</name>
@@ -20,8 +20,8 @@
    <content type="html">&lt;p&gt;Зарегистрированы домены для сайта Анонимных Алкоголиков Нижнего Новгорода&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Зона &quot;.ru&quot;: &lt;a href=&quot;http://aannov.ru#&quot;&gt;aannov.ru&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Зона &quot;.рф&quot;: &lt;a href=&quot;http://aannov.ru#&quot;&gt;ааннов.рф&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Зона &quot;.ru&quot;: &lt;a href=&quot;http://aannov.ru&quot;&gt;aannov.ru&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Зона &quot;.рф&quot;: &lt;a href=&quot;http://%D0%B0%D0%B0%D0%BD%D0%BD%D0%BE%D0%B2.%D1%80%D1%84&quot;&gt;ааннов.рф&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </content>
