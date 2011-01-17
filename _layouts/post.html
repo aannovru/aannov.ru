@@ -40,7 +40,6 @@ post_link_ru: ссылка
         {% include show_category_name.html %}
     
         {% if page.tags.size > 0 %}
-          <br />
           <span class="post_tags">Метки:&nbsp;</span>
           {% for tag in page.tags %}
             <a class="post_tags_underline" href="/{{page.category}}/index.html#{{tag}}">
