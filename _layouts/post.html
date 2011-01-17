@@ -36,7 +36,7 @@ post_link_ru: ссылка
 <div id="post">
   {% if category_ru and category_ru != 'nil' %}
     <p>
-        <a href="/{{ page.category}}">→{{ category_ru}}</a>
+        {% include show_category_name.html %}
     
         {% if page.tags.size > 0 %}
           <br />
