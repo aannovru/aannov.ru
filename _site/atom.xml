@@ -4,13 +4,29 @@
  <title>Tom Preston-Werner</title>
  <link href="http://tom.preston-werner.com/atom.xml" rel="self"/>
  <link href="http://tom.preston-werner.com/"/>
- <updated>2011-01-18T14:36:09+03:00</updated>
+ <updated>2011-01-18T16:56:02+03:00</updated>
  <id>http://tom.preston-werner.com/</id>
  <author>
    <name>Tom Preston-Werner</name>
    <email>tom@mojombo.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Что такое Анонимные Алкоголики (АА)?</title>
+   <link href="http://tom.preston-werner.com/solution/2011/01/18/id-00009.html"/>
+   <updated>2011-01-18T00:00:00+03:00</updated>
+   <id>http://tom.preston-werner.com/solution/2011/01/18/id-00009</id>
+   <content type="html">&lt;p&gt;Анонимные Алкоголики (АА) - это Всемирное &lt;a href=&quot;/community&quot;&gt;Содружество&lt;/a&gt;, объединяющее мужчин и женщин, которые делятся друг с другом своим опытом, силами и надеждами, чтобы решить свою общую проблему и помочь другим &lt;a href=&quot;/solution&quot;&gt;избавиться от алкоголизма&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Единственное условие для членства в АА - это желание бросить пить. Члены АА не платят ни вступительных, ни членских взносов. Мы содержим себя сами благодаря нашим добровольным пожертвованиям.&lt;/li&gt;
+&lt;li&gt;АА не связано ни с какой сектой, вероисповеданием, политическим направлением, организацией или учреждением; стремится не вступать в полемику по каким бы то ни было вопросам, не поддерживает и не выступает против чьих бы то ни было интересов.&lt;/li&gt;
+&lt;li&gt;Наша главная цель - оставаться трезвыми и помочь другим алкоголикам обрести здоровый, трезвый образ жизни.&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Молитва о Душевном Покое</title>
@@ -35,6 +51,14 @@
 тех, кому я хотел помочь, полагаясь на Силу Твою, Твою Любовь и понимание
 предначертанного Тобой пути. Да исполнится Воля Твоя во веки веков!&lt;/p&gt;
 </content>
+ </entry>
+ 
+ <entry>
+   <title>Адреса групп в Нижнем Новгороде и области</title>
+   <link href="http://tom.preston-werner.com/groups.html"/>
+   <updated>2011-01-18T00:00:00+03:00</updated>
+   <id>http://tom.preston-werner.com/groups</id>
+   <content type="html">&lt;p&gt;blah&lt;/p&gt;</content>
  </entry>
  
  <entry>

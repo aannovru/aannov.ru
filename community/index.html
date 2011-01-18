@@ -3,7 +3,7 @@ layout: default
 aa_ru: Анонимные Алкоголики
 aa_nn_ru: Анонимные Алкоголики Нижний Новгород
 aa_nn_email_ru: aannovru@gmail.com
-aa_nn_phone_ru: "+79601979248"
+aa_nn_phone_ru: 8 960 197 92 48
 aa_motto_ru: Выздоровление Единство Служение
 aa_12_steps_ru: 12 Шагов
 menu_home_ru: Главная
@@ -21,10 +21,22 @@ title: Как нас найти - Анонимные Алкоголики Ниж
 {% assign category_ru = page.menu_community_ru %}
 
 <div id="home">
-  {% include show_posts_in_category.html %}  
+  {% include show_category_name.html %}
 
-  {% assign tag = 'Новичку' %}  
+  <p>
+    <strong>По телефону</strong><br />
+    <strong>{{ page.aa_nn_phone_ru }}</strong><br />
+    (с Вами поговорит алкоголик, который не пьёт) 
+  <p>
+
+  <p>
+    <strong>Электронная почта</strong><br />
+    <a href="mailto:{{ page.aa_nn_email_ru }}"> {{ page.aa_nn_email_ru }} </a>
+  <p>
+
+  {% assign tag = 'Группы' %}
+  {% assign show_date = false %}  
   {% include show_section_name.html %}
-  {% include find_by_category.html %}
+  {% include find_by_category_and_tag.html %}
 </div>
 <!-- vim: set sts=2 sw=2 et: --> 

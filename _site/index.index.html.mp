@@ -55,12 +55,22 @@
  
 <article class="post">
     <!--<time>18 Jan 2011</time>-->
+    <h2><a rel="bookmark" href="/solution/2011/01/18/id-00009.html">Что такое Анонимные Алкоголики (АА)?</a></h2>
+</article>
+
+<article class="post">
+    <!--<time>18 Jan 2011</time>-->
     <h2><a rel="bookmark" href="/solution/2011/01/18/id-00008.html">Молитва о Душевном Покое</a></h2>
 </article>
 
 <article class="post">
     <!--<time>18 Jan 2011</time>-->
     <h2><a rel="bookmark" href="/solution/2011/01/18/id-00007.html">Молитва 3-ого Шага</a></h2>
+</article>
+
+<article class="post">
+    <!--<time>18 Jan 2011</time>-->
+    <h2><a rel="bookmark" href="/groups.html">Адреса групп в Нижнем Новгороде и области</a></h2>
 </article>
 
 <article class="post">

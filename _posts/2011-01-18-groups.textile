@@ -1,0 +1,11 @@
+---
+title: Адреса групп в Нижнем Новгороде и области
+layout: post
+category: community
+tags: [ Группы ]
+author: _миша
+show_date: false
+permalink: /groups.html
+---
+
+blah

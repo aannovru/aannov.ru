@@ -18,12 +18,19 @@ when /news/i
   'news'
 when /solution/i
   'solution'
+when '.'
+  '.'
 else
   # show last_id and exit
   nil
 end
 
 puts "category = #{category}"
+post_extension = "md"
+post_extension = ARGV[1].dup if ARGV[1]
+# remove leading '.' 
+post_extension.slice!(0) if post_extension[0] == '.'
+puts "post_extension = #{post_extension}"
 
 # change dir to the site's root dir
 chdir_to_root_dir
@@ -41,10 +48,11 @@ last_id = last_id + 1
 puts "last_id = #{last_id}"
 exit unless category
 
-filename = Time.now.strftime("%Y-%m-%d-id-") +  "%05d" % last_id + ".md"
+filename = Time.now.strftime("%Y-%m-%d-id-") +  "%05d" % last_id +
+           "." + post_extension
 puts "filename = #{filename}"
 
-fullpath = File.join(Dir.pwd, '_posts', category, filename)
+fullpath = File.expand_path(File.join(Dir.pwd, '_posts', category, filename))
 puts "fullpath = #{fullpath}"
 
 # ---
@@ -61,6 +69,7 @@ File.open(fullpath, 'w') do |f|
   f.puts "category: #{category}"
   f.puts "tags: [  ]"
   f.puts "author:"
+  f.puts "show_date:"
   f.puts "---"
   f.puts
   f.puts

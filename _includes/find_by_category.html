@@ -6,7 +6,10 @@
   {% for post in site.posts %}
     {% if post.categories contains category %} 
       <li>
-        <span>{{ post.date | date:"%d.%m.%Y" }}</span> &raquo;
+        {% unless show_date == false %}        
+          <span>{{ post.date | date:"%d.%m.%Y" }}</span>
+        {% endunless %}
+        &raquo;
         <a href="{{ post.url }}">{{ post.title }}</a>
         <br />
 
