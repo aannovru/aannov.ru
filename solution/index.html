@@ -1,6 +1,5 @@
 ---
 layout: default
-#title: Анонимные Алкоголики Нижний Новгород
 aa_ru: Анонимные Алкоголики
 aa_nn_ru: Анонимные Алкоголики Нижний Новгород
 aa_nn_email_ru: aannovru@gmail.com
@@ -14,6 +13,7 @@ menu_stories_ru: Наши истории
 menu_links_ru: Ссылки
 menu_news_ru: Новости / Объявления
 private:
+title: 12 Шагов - Анонимные Алкоголики Нижний Новгород
 ---
 
 {% assign posts_in_category = site.categories.solution %}
@@ -28,6 +28,17 @@ private:
   -->
   {% include show_category_name.html %}
   
+  <ul class="home">    
+    <li>      
+      {% assign tag = 'Новичку' %}
+      {% include show_link_to_section_name.html %}
+    </li>
+    <li>      
+      {% assign tag = 'Молитвы' %}
+      {% include show_link_to_section_name.html %}
+    </li>
+  </ul>
+
   {% assign tag = 'Новичку' %}
   {% include show_section_name.html %}
   {% include find_by_category_and_tag.html %}

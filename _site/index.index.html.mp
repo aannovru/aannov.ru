@@ -2,8 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru-ru" lang="ru-ru"> 
 <head>
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-   <title></title>
+   <title>Анонимные Алкоголики Нижний Новгород</title>
    <meta name="author" content="Анонимные Алкоголики Нижний Новгород" />
+   <meta name="description"
+         content="Алкоголизм - выход есть! Анонимные Алкоголики Нижний Новгород. Адреса групп, контактные телефоны, новости и статьи." />
+   <meta name="keywords" content="алкоголизм, нижний новгород, анонимные алкоголики, адреса групп аа, адреса собраний аа, aa, аа, 12 шагов, сообщество аа, содружество аа" /> 
    <link href="http://feeds.feedburner.com/aannovru" rel="alternate" 
          title="Анонимные Алкоголики Нижний Новгород" type="application/atom+xml" />
    <link rel="shortcut icon" href="/favicon.ico" />
@@ -52,6 +55,11 @@
  
 <article class="post">
     <!--<time>18 Jan 2011</time>-->
+    <h2><a rel="bookmark" href="/solution/2011/01/18/id-00008.html">Молитва о Душевном Покое</a></h2>
+</article>
+
+<article class="post">
+    <!--<time>18 Jan 2011</time>-->
     <h2><a rel="bookmark" href="/solution/2011/01/18/id-00007.html">Молитва 3-ого Шага</a></h2>
 </article>
 
@@ -62,17 +70,7 @@
 
 <article class="post">
     <!--<time>16 Jan 2011</time>-->
-    <h2><a rel="bookmark" href="/news/2011/01/16/id-00005.html">I've just written a helper new_post.rb</a></h2>
-</article>
-
-<article class="post">
-    <!--<time>16 Jan 2011</time>-->
     <h2><a rel="bookmark" href="/solution/2011/01/16/id-00004.html">Молитва Нашей Шаговой Группы</a></h2>
-</article>
-
-<article class="post">
-    <!--<time>16 Jan 2011</time>-->
-    <h2><a rel="bookmark" href="/news/2011/01/16/id-00003.html">Switching to Rails. This an Example of a Post. (markdown)</a></h2>
 </article>
 
 <article class="post">
@@ -111,31 +109,6 @@
 </article>
 
 <article class="post">
-    <!--<time>19 May 2009</time>-->
-    <h2><a rel="bookmark" href="/news/2009/05/19/the-git-parable.html">The Git Parable</a></h2>
-</article>
-
-<article class="post">
-    <!--<time>26 Apr 2009</time>-->
-    <h2><a rel="bookmark" href="/news/2009/04/26/barcamp-boston-4-roundup.html">BarCamp Boston 4 Roundup</a></h2>
-</article>
-
-<article class="post">
-    <!--<time>11 Dec 2008</time>-->
-    <h2><a rel="bookmark" href="/news/2008/12/11/if-you-only-could-follow-10-people-on-twitter.html">If you only could follow 10 people on Twitter...</a></h2>
-</article>
-
-<article class="post">
-    <!--<time>26 Oct 2008</time>-->
-    <h2><a rel="bookmark" href="/news/2008/10/26/github-rebase-1.html">GitHub Rebase qqqq qqqqqqqqqqqqq qqqqqqqqqqq qqqqqqq qqqqqqq qqqqqqqqqq qqqqq qq qqqqqqqqqq qqqqq</a></h2>
-</article>
-
-<article class="post">
-    <!--<time>20 Oct 2008</time>-->
-    <h2><a rel="bookmark" href="/news/2008/10/20/pumpkin-carving-2008.html">Pumpkin Carving 2008</a></h2>
-</article>
-
-<article class="post">
     <!--<time>19 Oct 2008</time>-->
     <h2><a rel="bookmark" href="/solution/2008/10/19/where-do-you-get-ruby-news-from.html">Where do you get Ruby news from?</a></h2>
 </article>
@@ -153,21 +126,6 @@
 <article class="post">
     <!--<time>18 Sep 2008</time>-->
     <h2><a rel="bookmark" href="/solution/2008/09/18/switching-to-rails.html">Switching to Rails</a></h2>
-</article>
-
-<article class="post">
-    <!--<time>25 Mar 2008</time>-->
-    <h2><a rel="bookmark" href="/news/2008/03/25/why-i-love-twitter.html">Why I love Twitter</a></h2>
-</article>
-
-<article class="post">
-    <!--<time>16 Mar 2008</time>-->
-    <h2><a rel="bookmark" href="/news/2008/03/16/turning-off-the-firehose.html">Turning off the Firehose</a></h2>
-</article>
-
-<article class="post">
-    <!--<time>31 Oct 2007</time>-->
-    <h2><a rel="bookmark" href="/news/2007/10/31/digg-labs-flash-doesnt-suck-all-the-time.html">Digg Labs: Flash doesn&#8217;t suck all the time.</a></h2>
 </article>
 
 <article class="post">

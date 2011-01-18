@@ -57,6 +57,12 @@ table {
 /*
 /*****************************************************************************/
 
+/* MP: */
+.home {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
 ul.posts {
   list-style-type: none;
   margin-bottom: 1em;
