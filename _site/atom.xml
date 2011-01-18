@@ -4,7 +4,7 @@
  <title>Tom Preston-Werner</title>
  <link href="http://tom.preston-werner.com/atom.xml" rel="self"/>
  <link href="http://tom.preston-werner.com/"/>
- <updated>2011-01-18T10:26:34+03:00</updated>
+ <updated>2011-01-17T22:45:49+03:00</updated>
  <id>http://tom.preston-werner.com/</id>
  <author>
    <name>Tom Preston-Werner</name>
@@ -371,6 +371,93 @@ not having to worry about &lt;a href=&quot;http://asp.net&quot;&gt;the nuts and 
 &lt;/ul&gt;
 &lt;p&gt;And boom, we have a read-only site that continues to serve gems. Rack rules.&lt;/p&gt;
 &lt;p style=&quot;text-align:center;&quot;&gt;&lt;img src=&quot;http://6.media.tumblr.com/tumblr_kobz0jtHsN1qzln4lo1_400.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Gem Bundler is the Future</title>
+   <link href="http://tom.preston-werner.com/2009/10/14/gem-bundler-is-the-future.html"/>
+   <updated>2009-10-14T00:00:00+04:00</updated>
+   <id>http://tom.preston-werner.com/2009/10/14/gem-bundler-is-the-future</id>
+   <content type="html">&lt;p style=&quot;text-align:center;&quot;&gt;&lt;a href=&quot;http://www.flickr.com/photos/mrcam/206628748/&quot;&gt;&lt;img src=&quot;http://farm1.static.flickr.com/59/206628748_8f2594a16b_m.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you haven&amp;#8217;t checked out &lt;a href=&quot;http://twitter.com/wycats&quot;&gt;Yehuda Katz&amp;#8217;s&lt;/a&gt; and &lt;a href=&quot;http://twitter.com/carllerche&quot;&gt;Carl Lerche&amp;#8217;s&lt;/a&gt; gem bundler yet, &lt;a href=&quot;http://github.com/wycats/bundler&quot;&gt;now is the time&lt;/a&gt;. This project replaces the horribly broken dependency resolution in Rails and what we all know and use as &lt;code&gt;config.gem&lt;/code&gt;&amp;#8216;s. Ever seen &lt;code&gt;can&amp;#8217;t activate $gemname ($gemversion = runtime)&lt;/code&gt;? Or maybe my favorite, when it can&amp;#8217;t even figure out what gem can&amp;#8217;t be activated. If so, read on, bundler&amp;#8217;s about to make your life a lot easier.&lt;/p&gt;
+&lt;p&gt;Yehuda has a great roundup of what can be done (and has been done with the bundler) &lt;a href=&quot;http://yehudakatz.com/2009/07/08/rails-bundling-revisited/&quot;&gt;on his blog&lt;/a&gt;. This is going to be a part of Rails 3, so you&amp;#8217;re going to have to run into this sooner or later. I was getting frustrated with managing gem dependencies in &lt;a href=&quot;http://github.com/qrush/gemcutter&quot;&gt;Gemcutter&lt;/a&gt;, so now it&amp;#8217;s bundled up and ready as a decent example of the bundler in action.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Enter the bundler&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;#8217;m using the edge gem built from their repo, and I suggest you do as well. Hopefully soon they&amp;#8217;ll push it to that &lt;a href=&quot;http://gemcutter.org&quot;&gt;new gem hosting site&lt;/a&gt; I&amp;#8217;ve heard so much about.&lt;/p&gt;
+&lt;pre&gt;
+git clone git://github.com/wycats/bundler
+cd bundler
+sudo rake install
+&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;The Gemfile&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Now we&amp;#8217;re ready to make a &lt;code&gt;Gemfile&lt;/code&gt;. This is basically a specification of what gems should be included in your app. Here&amp;#8217;s Gemcutter&amp;#8217;s:&lt;/p&gt;
+&lt;p&gt;Liquid error: No such file or directory &amp;#8211; pygmentize -l ruby -f html -O encoding=utf-8&lt;/p&gt;
+&lt;p&gt;Some notes here:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;By default the gem host is &lt;code&gt;gems.rubyforge.org&lt;/code&gt;, so I&amp;#8217;ve cleared the sources to use gemcutter.org instead.&lt;/li&gt;
+	&lt;li&gt;You can easily specify gems for a given environment and multiple gems with &lt;code&gt;only&lt;/code&gt; and pass it a symbol for the environment name. Thank goodness.&lt;/li&gt;
+	&lt;li&gt;The default bundle path is &lt;code&gt;vendor/gems&lt;/code&gt;. This won&amp;#8217;t work for Rails since it assumes way too much about this directory, so we switch it to &lt;code&gt;vendor/bundler_gems&lt;/code&gt;. &lt;strong&gt;Note:&lt;/strong&gt; Yehuda has told me that this will work as normal once Rails 3 is closer/done.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Bundle up!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Now we&amp;#8217;re ready to run &lt;code&gt;gem bundle&lt;/code&gt;. This pulls down the gems from the given sources along with any dependencies. This basically creates a virtual RubyGems environment right inside of your &lt;code&gt;vendor&lt;/code&gt; directory. (I&amp;#8217;m cutting some out since the log is so long)&lt;/p&gt;
+&lt;pre&gt;
+$ gem bundle
+Calculating dependencies...
+Updating source: http://gems.github.com
+Updating source: http://gemcutter.org
+Downloading actionmailer-2.3.4.gem
+Downloading actionpack-2.3.4.gem
+...
+Downloading xml-simple-1.0.12.gem
+Installing rr (0.10.4)
+Installing fakeweb (1.2.6)
+...
+Installing nokogiri (1.3.3)
+Building native extensions.  This could take a while...
+Done.
+&lt;/pre&gt;
+&lt;p&gt;So now in your &lt;code&gt;vendor/bundler_gems&lt;/code&gt; directory, we&amp;#8217;ve got the &lt;code&gt;.gem&lt;/code&gt; files pulled down in &lt;code&gt;cache&lt;/code&gt;, unpacked in the &lt;code&gt;gems&lt;/code&gt; directory, and the gem specifications are unloaded into &lt;code&gt;specifications&lt;/code&gt;. Bundler also makes its own &lt;code&gt;environment.rb&lt;/code&gt; for loading the dependencies.&lt;/p&gt;
+&lt;pre&gt;
+vendor
+|-- bundler_gems
+|   |-- cache
+|   |   |-- actionmailer-2.3.4.gem
+|   |   |-- actionpack-2.3.4.gem
+|   |   |-- ...
+|   |   `-- xml-simple-1.0.12.gem
+|   |-- doc
+|   |-- environment.rb
+|   |-- gems
+|   |   |-- actionmailer-2.3.4
+|   |   |-- actionpack-2.3.4
+|   |   |-- ...
+|   |   `-- xml-simple-1.0.12
+|   `-- specifications
+|       |-- actionmailer-2.3.4.gemspec
+|       |-- actionpack-2.3.4.gemspec
+|       |-- ...
+|       `-- xml-simple-1.0.12.gemspec
+`-- plugins
+&lt;/pre&gt;
+&lt;p&gt;Bundler will also dump gem executables in your &lt;code&gt;Rails.root/bin&lt;/code&gt; directory. This means you can then use &lt;code&gt;bin/rake&lt;/code&gt;, for example. Running &lt;code&gt;rake&lt;/code&gt; as normal should still work though. As for your version control, it&amp;#8217;s recommended to check in the &lt;code&gt;.gem&lt;/code&gt;&amp;#8217;s only, then run &lt;code&gt;gem bundle&lt;/code&gt; to unpack/install them. This goes both for new developers and getting code deployed.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Loading the Environment&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Now the issue is to load up the bundled environment instead of the system installed one. Start by creating a &lt;code&gt;config/preinitializer.rb&lt;/code&gt;, which is loaded first before &lt;code&gt;config/environment.rb&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;Liquid error: No such file or directory &amp;#8211; pygmentize -l ruby -f html -O encoding=utf-8&lt;/p&gt;
+&lt;p&gt;Then, in each &lt;code&gt;config/environments/*.rb&lt;/code&gt; file:&lt;/p&gt;
+&lt;p&gt;Liquid error: No such file or directory &amp;#8211; pygmentize -l ruby -f html -O encoding=utf-8&lt;/p&gt;
+&lt;p&gt;This basically does a &lt;code&gt;require&lt;/code&gt; for every gem listed in your Gemfile and their associated dependencies. That should be it! Your app should (hopefully) boot and now you should run your tests to ensure your application is still working right.&lt;/p&gt;
+&lt;p&gt;If you want to see this all in action &lt;a href=&quot;http://github.com/qrush/gemcutter&quot;&gt;clone Gemcutter&lt;/a&gt; and follow the &lt;a href=&quot;http://wiki.github.com/qrush/gemcutter/contribution-guidelines&quot;&gt;contribution guidelines for getting up and running&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Issues&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;So, I had a few roadblocks with the bundler, and I don&amp;#8217;t think it would be fair to not mention them.&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The documentation sucks. I&amp;#8217;m hoping this will improve before Rails 3 is ready (whenever that is). Maybe a Rails guide would be appropriate, and I&amp;#8217;ll definitely help start it.&lt;/li&gt;
+	&lt;li&gt;Gemcutter&amp;#8217;s on Heroku, so it&amp;#8217;s necessary to check in a lot of the vendored code (in fact, all of the development/production dependencies). New contributors just have to run &lt;code&gt;gem bundle -u&lt;/code&gt; to get the test dependencies.&lt;/li&gt;
+	&lt;li&gt;In my staging environment I had to use &lt;code&gt;Bundler.require_env &quot;production&quot;&lt;/code&gt;. Pretty self-explanatory but I missed it at first.&lt;/li&gt;
+	&lt;li&gt;Shoulda macros just stopped working, since it assumes the location of gems in &lt;code&gt;vendor/gems&lt;/code&gt; or &lt;code&gt;vendor/plugins&lt;/code&gt;. I had to include this in &lt;code&gt;test/test_helper.rb&lt;/code&gt; to make it happy:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Liquid error: No such file or directory &amp;#8211; pygmentize -l ruby -f html -O encoding=utf-8&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Wrapup&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This guide went over how to use Bundler today, with a Rails 2.3.4 app. According to Yehuda, this eventually will be packaged in Rails 3, so the commands will be baked into Rails&amp;#8230;so something like &lt;code&gt;script/bundle&lt;/code&gt;. The nice thing is that you can use the bundler with any Ruby project, so this is good to know in general.&lt;/p&gt;
+&lt;p&gt;The bundler is really the future of gem dependency management. If you&amp;#8217;re sick of fighting with &lt;code&gt;config.gem&lt;/code&gt;&amp;#8216;s or are starting a new app it would be well worth your time to start looking at it. If you&amp;#8217;re having trouble with the bundler (or success stories!) feel free to comment here or hop in &lt;code&gt;#carlhuda&lt;/code&gt; on &lt;code&gt;irc.freenode.net&lt;/code&gt;. Check it out on &lt;a href=&quot;http://github.com/wycats/bundler&quot;&gt;GitHub&lt;/a&gt; if you haven&amp;#8217;t yet.&lt;/p&gt;</content>
  </entry>
  
  <entry>
