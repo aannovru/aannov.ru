@@ -96,11 +96,6 @@
 </article>
 
 <article class="post">
-    <!--<time>14 Oct 2009</time>-->
-    <h2><a rel="bookmark" href="/2009/10/14/gem-bundler-is-the-future.html">Gem Bundler is the Future</a></h2>
-</article>
-
-<article class="post">
     <!--<time>09 Oct 2009</time>-->
     <h2><a rel="bookmark" href="/solution/2009/10/09/on-gem-forking.html">On Gem Forking</a></h2>
 </article>
