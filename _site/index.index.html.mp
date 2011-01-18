@@ -51,6 +51,11 @@
 
  
 <article class="post">
+    <!--<time>18 Jan 2011</time>-->
+    <h2><a rel="bookmark" href="/solution/2011/01/18/id-00007.html">Молитва 3-ого Шага</a></h2>
+</article>
+
+<article class="post">
     <!--<time>17 Jan 2011</time>-->
     <h2><a rel="bookmark" href="/news/2011/01/17/id-00006.html">Зарегистрированы домены для сайта Анонимных Алкоголиков Нижнего Новгорода</a></h2>
 </article>
