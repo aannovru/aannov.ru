@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>Tom Preston-Werner</title>
- <link href="http://tom.preston-werner.com/atom.xml" rel="self"/>
- <link href="http://tom.preston-werner.com/"/>
- <updated>2011-01-24T09:32:47+03:00</updated>
- <id>http://tom.preston-werner.com/</id>
+ <title>Анонимные Алкоголики Нижний Новгород</title>
+ <link href="http://aannov.ru/atom.xml" rel="self"/>
+ <link href="http://aannov.ru/"/>
+ <updated>2011-01-24T09:54:43+03:00</updated>
+ <id>http://aannov.ru</id>
  <author>
-   <name>Tom Preston-Werner</name>
-   <email>tom@mojombo.com</email>
+   <name>Анонимные Алкоголики Нижний Новгород</name>
+   <email>aannovru@gmail.com</email>
  </author>
 
  
  <entry>
    <title>Что такое Анонимные Алкоголики (АА)?</title>
-   <link href="http://tom.preston-werner.com/solution/2011/01/18/id-00009.html"/>
+   <link href="http://aannov.ru/solution/2011/01/18/id-00009.html"/>
    <updated>2011-01-18T00:00:00+03:00</updated>
-   <id>http://tom.preston-werner.com/solution/2011/01/18/id-00009</id>
+   <id>http://aannov.ru/solution/2011/01/18/id-00009</id>
    <content type="html">&lt;p&gt;Анонимные Алкоголики (АА) - это Всемирное &lt;a href=&quot;/community&quot;&gt;Содружество&lt;/a&gt;, объединяющее мужчин и женщин, которые делятся друг с другом своим опытом, силами и надеждами, чтобы решить свою общую проблему и помочь другим &lt;a href=&quot;/solution&quot;&gt;избавиться от алкоголизма&lt;/a&gt;.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -30,9 +30,9 @@
  
  <entry>
    <title>Молитва о Душевном Покое</title>
-   <link href="http://tom.preston-werner.com/solution/2011/01/18/id-00008.html"/>
+   <link href="http://aannov.ru/solution/2011/01/18/id-00008.html"/>
    <updated>2011-01-18T00:00:00+03:00</updated>
-   <id>http://tom.preston-werner.com/solution/2011/01/18/id-00008</id>
+   <id>http://aannov.ru/solution/2011/01/18/id-00008</id>
    <content type="html">&lt;p&gt;Боже, дай мне разум и душевный покой&lt;br /&gt;
 принять то, что я не в силах изменить,&lt;br /&gt;
 мужество изменить то, что могу,&lt;br /&gt;
@@ -42,9 +42,9 @@
  
  <entry>
    <title>Молитва 3-ого Шага</title>
-   <link href="http://tom.preston-werner.com/solution/2011/01/18/id-00007.html"/>
+   <link href="http://aannov.ru/solution/2011/01/18/id-00007.html"/>
    <updated>2011-01-18T00:00:00+03:00</updated>
-   <id>http://tom.preston-werner.com/solution/2011/01/18/id-00007</id>
+   <id>http://aannov.ru/solution/2011/01/18/id-00007</id>
    <content type="html">&lt;p&gt;Господи, я предаю себя Тебе, чтобы создавать и творить при моём участии, как
 Тебе угодно. Освободи меня от пут себялюбия, чтобы я лучше мог выполнять Твою
 волю. Удали то, что тяготит меня, чтобы эта победа была свидетельством для
@@ -55,9 +55,9 @@
  
  <entry>
    <title>Адреса групп в Нижнем Новгороде и области</title>
-   <link href="http://tom.preston-werner.com/groups.html"/>
+   <link href="http://aannov.ru/groups.html"/>
    <updated>2011-01-18T00:00:00+03:00</updated>
-   <id>http://tom.preston-werner.com/groups</id>
+   <id>http://aannov.ru/groups</id>
    <content type="html">&lt;p&gt;&lt;strong&gt;Анонимные Алкоголики&lt;/strong&gt;. &lt;strong&gt;Группа Продлённого Дня&lt;/strong&gt;&lt;br /&gt;
 Район: Автозаводский&lt;br /&gt;
 Адрес: ул. Дьяконова, 37, ГНП, здание поликлиники 1-ый этаж ком. отдыха    &lt;br /&gt;
@@ -82,9 +82,9 @@
  
  <entry>
    <title>Зарегистрированы домены для сайта Анонимных Алкоголиков Нижнего Новгорода</title>
-   <link href="http://tom.preston-werner.com/news/2011/01/17/id-00006.html"/>
+   <link href="http://aannov.ru/news/2011/01/17/id-00006.html"/>
    <updated>2011-01-17T00:00:00+03:00</updated>
-   <id>http://tom.preston-werner.com/news/2011/01/17/id-00006</id>
+   <id>http://aannov.ru/news/2011/01/17/id-00006</id>
    <content type="html">&lt;p&gt;Зарегистрированы домены для сайта Анонимных Алкоголиков Нижнего Новгорода&lt;/p&gt;
 
 &lt;ul&gt;
@@ -97,9 +97,9 @@
  
  <entry>
    <title>Молитва Нашей Шаговой Группы</title>
-   <link href="http://tom.preston-werner.com/solution/2011/01/16/id-00004.html"/>
+   <link href="http://aannov.ru/solution/2011/01/16/id-00004.html"/>
    <updated>2011-01-16T00:00:00+03:00</updated>
-   <id>http://tom.preston-werner.com/solution/2011/01/16/id-00004</id>
+   <id>http://aannov.ru/solution/2011/01/16/id-00004</id>
    <content type="html">&lt;p&gt;Мы берёмся за руки и вместе можем сделать то,&lt;br /&gt;
 Что в одиночку нам не под силу.&lt;br /&gt;
 Прошло чувство отчаянья.&lt;br /&gt;
